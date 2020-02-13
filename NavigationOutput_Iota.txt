@@ -1,0 +1,126 @@
+Last login: Wed Feb 12 11:57:04 on ttys000
+maclab-128:~ huber021$ pwd
+/Users/huber021
+maclab-128:~ huber021$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public
+maclab-128:~ huber021$ cd /usr/bin
+maclab-128:bin huber021$ pwd
+/usr/bin
+maclab-128:bin huber021$ ls
+2to3-				c++filt				db_stat				g++				ipcount5.18			localedef			newaliases			pod2usage			sandbox-exec			svnsync				uulog
+2to3-2.7			c2ph				db_upgrade			gatherheaderdoc			ipcrm				locate				newgrp				pod2usage5.18			say				svnversion			uuname
+AssetCacheLocatorUtil		c2ph5.18			db_verify			gcc				ipcs				lockstat			newproc.d			podchecker			sc_usage			sw_vers				uupick
+AssetCacheManagerUtil		c89				dbicadmin			gcore				ippfind				log				nfsstat				podchecker5.18			scandeps.pl			swift				uustat
+AssetCacheTetheratorUtil	c99				dbicadmin5.18			gcov				ipptool				logger				nice				podselect			scandeps5.18.pl			swiftc				uuto
+BuildStrings			caffeinate			dbilogstrip			gdiffmk				iprofiler			login				nl				podselect5.18			schemagen			symbols				uux
+CpMac				cal				dbilogstrip5.18			gem				iptab				logname				nm				policytool			scp				symbolscache			vi
+DeRez				calendar			dbiprof				gen_bridge_metadata		iptab5.18			look				nmedit				post-grohtml			screen				syscallbypid.d			view
+GetFileInfo			cancel				dbiprof5.18			gencat				irb				lookbib				nohup				power_report.sh			script				syscallbyproc.d			vim
+IOAccelMemory			cap_mkdb			dbiproxy			genstrings			jar				lorder				notifyutil			powermetrics			sdef				syscallbysysc.d			vimdiff
+MergePef			captoinfo			dbiproxy5.18			getconf				jarsigner			lp				nroff				pp				sdiff				sysdiagnose			vimtutor
+MvMac				cc				dc				getopt				java				lpoptions			nscurl				pp5.18				sdp				syslog				vis
+ResMerger			cd				debinhex.pl			getopts				javac				lpq				nslookup			ppdc				sdx				systriage			vm_stat
+Rez				certtool			debinhex5.18.pl			git				javadoc				lpr				nsupdate			ppdhtml				security			tab2space			vmmap
+RezDet				checknr				defaults			git-cvsserver			javah				lprm				objdump				ppdi				sed				tabs				vmmap32
+RezWack				chflags				delv				git-receive-pack		javap				lpstat				ocspcheck			ppdmerge			seeksize.d			tail				w
+SafeEjectGPU			chfn				desdp				git-shell			javapackager			lsappinfo			od				ppdpo				segedit				tailspin			wait
+SetFile				chgrp				diagnose-fu			git-upload-archive		javaws				lsbom				odutil				pr				seq				talk				wall
+SplitForks			chpass				diff				git-upload-pack			jcmd				lskq				open				pre-grohtml			serialver			tar				wc
+UnRezWack			chsh				diff3				gm4				jconsole			lsm				opendiff			priclass.d			servertool			taskinfo			wdutil
+a2p				cksum				diffstat			gnumake				jcontrol			lsmp				opensnoop			pridist.d			setregion			tbl				what
+a2p5.18				clang				dig				gperf				jdb				lsvfs				openssl				printenv			setuids.d			tbtdiagnose			whatis
+actool				clang++				dirname				grep				jdeps				lwp-download			orbd				printf				sfltool				tccutil				whereis
+addftinfo			clear				dispqlen.d			grn				jhat				lwp-download5.18		osacompile			procsystime			sftp				tclsh				which
+afclip				cmp				ditto				grodvi				jhsdb				lwp-dump			osadecompile			productbuild			shar				tclsh8.5			who
+afconvert			cmpdylib			dmc				groff				jimage				lwp-dump5.18			osalang				productsign			shasum				tee				whoami
+afhash				codesign			dns-sd				groffer				jinfo				lwp-mirror			osascript			profiles			shasum5.18			texi2dvi			whois
+afida				codesign_allocate		drutil				grog				jjs				lwp-mirror5.18			otool				prove				shlock				texi2pdf			wish
+afinfo				col				dscacheutil			grolbp				jmap				lwp-request			pack200				prove5.18			showmount			texindex			wish8.5
+afmtodit			colcrt				dscl				grolj4				jmc				lwp-request5.18			package-stash-conflicts		psed				sigdist.d			textutil			write
+afplay				colldef				dserr				grops				jobs				m4				package-stash-conflicts5.18	psed5.18			sips				tfmtodit			wsgen
+afscexpand			colrm				dsexport			grotty				join				macbinary			pagesize			pstopdf				size				tftp				wsimport
+agentxtrap			column				dsimport			groups				jot				macerror			pagestuff			pstruct				slogin				thermal				xar
+agvtool				comm				dsmemberutil			gunzip				jps				macerror5.18			par.pl				pstruct5.18			smbutil				tic				xargs
+alias				command				dsymutil			gzcat				jrunscript			machine				par5.18.pl			ptar				smtpd.py			tidy				xattr
+applesingle			compress			dtruss				gzexe				jsadebugd			mail				parl				ptar5.18			smtpd2.7.py			tiff2icns			xattr-2.7
+appletviewer			compression_tool		du				gzip				jshell				mailq				parl5.18			ptardiff			snfsdefrag			tiffutil			xcode-select
+apply				config_data			dwarfdump			h2ph				json_pp				mailx				parldyn				ptardiff5.18			snmp-bridge-mib			time				xcodebuild
+apropos				config_data5.18			easy_install			h2ph5.18			json_pp5.18			make				parldyn5.18			ptargrep			snmpbulkget			timer_analyser.d		xcrun
+apt				corebrightnessdiag		easy_install-2.7		h2xs				jstack				makeinfo			passwd				ptargrep5.18			snmpbulkwalk			timerfires			xcscontrol
+ar				corelist			egrep				h2xs5.18			jstat				malloc_history			paste				pubsub				snmpconf			tkcon				xcsdiagnose
+arch				corelist5.18			emacs				hash				jstatd				malloc_history32		patch				pwhich				snmpdelta			tkmib				xed
+as				cpan				emacs-undumped			hdid				jvisualvm			man				pathchk				pwhich5.18			snmpdf				tkpp				xgettext.pl
+asa				cpan2dist			emacsclient			hdiutil				kcc				manpath				pathopens.d			pwpolicy			snmpget				tkpp5.18			xgettext5.18.pl
+asctl				cpan2dist5.18			enc2xs				hdxml2manxml			kdestroy			mcxquery			pbcopy				pydoc				snmpgetnext			tmdiagnose			xip
+assetutil			cpan5.18			enc2xs5.18			head				kextutil			mcxrefresh			pbpaste				pydoc2.7			snmpinform			tmutil				xjc
+at				cpanp				encode_keychange		headerdoc2html			keytool				mddiagnose			pcap-config			python				snmpnetstat			tnameserv			xml2-config
+atos				cpanp-run-perl			env				heap				kgetcred			mdfind				pcsctest			python-config			snmpset				toe				xml2man
+atq				cpanp-run-perl5.18		eqn				heap32				kill.d				mdimport			perl				python2.7			snmpstatus			top				xmlcatalog
+atrm				cpanp5.18			erb				hexdump				killall				mdls				perl5.18			python2.7-config		snmptable			tops				xmllint
+atsutil				cpio				errinfo				hidutil				kinit				mdutil				perlbug				pythonw				snmptest			topsyscall			xpath
+automator			cpp				etags				hiutil				klist				memory_pressure			perlbug5.18			pythonw2.7			snmptranslate			topsysproc			xpath5.18
+auval				cpu_profiler.d			ex				host				kpasswd				mesg				perldoc				qc2movie			snmptrap			touch				xslt-config
+auvaltool			cpuwalk.d			execsnoop			hostinfo			krb5-config			mib2c				perldoc5.18			qlmanage			snmpusm				tput				xsltproc
+avbdiagnose			crc32				expand				hotspot.d			kswitch				mib2c-update			perlivp				qtdefaults			snmpvacm			tr				xsubpp
+avbutil				crc325.18			expect				hpftodit			ktrace				mig				perlivp5.18			qtmodernizer			snmpwalk			trace				xsubpp5.18
+avconvert			creatbyproc.d			extcheck			hpmdiagnose			lam				mkbom				perlthanks			quota				sntp				traptoemail			xxd
+avmetareadwrite			crlrefresh			eyapp				htmltree			last				mkdep				perlthanks5.18			rails				soelim				treereg				yaa
+awk				crontab				eyapp5.18			htmltree5.18			lastcomm			mkfifo				pfbtops				rake				sort				treereg5.18			yacc
+banner				csdiagnose			false				ibtool				lastwords			mklocale			pgrep				ranlib				spfd				trimforce			yes
+base64				csgather			fc				iconutil			latency				mktemp				phar				rdoc				spfd5.18			troff				zcat
+basename			csplit				fddist				iconv				layerutil			mmroff				phar.phar			read				spfquery			true				zcmp
+bashbug				csreq				fdesetup			ictool				ld				mnthome				php				readlink			spfquery5.18			tset				zdiff
+batch				csrutil				fg				id				ldapadd				moo-outdated			php-config			rebase				splain				tsort				zegrep
+bc				ctags				fgrep				idle				ldapcompare			moo-outdated5.18		phpize				redo_prebinding			splain5.18			tty				zfgrep
+bg				ctf_insert			file				idle2.7				ldapdelete			moose-outdated			pic				refer				split				type				zforce
+biff				cu				filebyproc.d			idlj				ldapexop			moose-outdated5.18		pico				renice				sqlite3				ul				zgrep
+binhex				cups-config			filtercalltree			imptrace			ldapmodify			more				piconv				reset				ssh				ulimit				zip
+binhex.pl			cupstestdsc			find				indent				ldapmodrdn			mp2bug				piconv5.18			resolveLinks			ssh-add				umask				zipcloak
+binhex5.18.pl			cupstestppd			find2perl			indxbib				ldappasswd			msgs				pidpersec.d			rev				ssh-agent			unalias				zipdetails
+bioutil				curl				find2perl5.18			info				ldapsearch			nano				pkgbuild			ri				ssh-copy-id			uname				zipdetails5.18
+bison				curl-config			findrule			infocmp				ldapurl				nasm				pkill				rmic				ssh-keygen			uncompress			zipgrep
+bitesize.d			cut				findrule5.18			infokey				ldapwhoami			native2ascii			pl				rmid				ssh-keyscan			unexpand			zipinfo
+brctl				cvaffinity			finger				infotocap			leaks				nbdst				pl2pm				rmiregistry			stapler				unifdef				zipnote
+bsdtar				cvcp				fixproc				install				leaks32				nc				pl2pm5.18			rpcgen				stat				unifdefall			zipsplit
+bspatch				cvmkdir				flex				install-info			leave				ncal				plockstat			rs				stringdups			uniq				zless
+btmmdiagnose			cvmkfile			flex++				install_name_tool		less				ncctl				pluginkit			rsync				stringdups32			units				zmore
+bunzip2				dappprof			fmt				instmodsh			lessecho			ncdestroy			plutil				ruby				strings				unpack200			znew
+bzcat				dapptrace			fold				instmodsh5.18			lex				ncinit				pmset				rvictl				strip				unvis				zprint
+bzcmp				darwinup			fontrestore			instruments			libnetcfg			nclist				pod2html			rview				stty.pl				unzip
+bzdiff				db_archive			footprint			iofile.d			libnetcfg5.18			ncurses5.4-config		pod2html5.18			rvim				stty5.18.pl			unzipsfx
+bzegrep				db_checkpoint			format-sql			iofileb.d			libtool				ndisasm				pod2latex			rwbypid.d			su				update_dyld_shared_cache
+bzfgrep				db_codegen			format-sql5.18			iopattern			lipo				neqn				pod2latex5.18			rwbytype.d			sudo				uptime
+bzgrep				db_deadlock			from				iopending			lkbib				net-server			pod2man				rwsnoop				sum				usbkdp
+bzip2				db_dump				fs_usage			iosnoop				lldb				net-server5.18			pod2man5.18			s2p				svn				users
+bzip2recover			db_hotbackup			funzip				iotop				llvm-g++			net-snmp-cert			pod2readme			s2p5.18				svnadmin			uucp
+bzless				db_load				fuser				ip2cc				llvm-gcc			net-snmp-config			pod2readme5.18			safaridriver			svndumpfilter			uudecode
+bzmore				db_printlog			fwkdp				ip2cc5.18			loads.d				net-snmp-create-v3-user		pod2text			sample				svnlook				uuencode
+c++				db_recover			fwkpfv				ipcount				locale				nettop				pod2text5.18			sampleproc			svnserve			uuidgen
+maclab-128:bin huber021$ cd /usr/bin
+maclab-128:bin huber021$ pwd
+/usr/bin
+maclab-128:bin huber021$ cd /usr
+maclab-128:usr huber021$ pwd
+/usr
+maclab-128:usr huber021$ cd ..
+maclab-128:/ huber021$ pwd
+/
+maclab-128:/ huber021$ cd /usr
+maclab-128:usr huber021$ pwd
+/usr
+maclab-128:usr huber021$ cd ./bin
+maclab-128:bin huber021$ pwd
+/usr/bin
+maclab-128:bin huber021$ cd din
+-bash: cd: din: No such file or directory
+maclab-128:bin huber021$ cd bin
+-bash: cd: bin: No such file or directory
+maclab-128:bin huber021$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
+
