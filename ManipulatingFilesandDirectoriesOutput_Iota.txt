@@ -1,0 +1,139 @@
+Last login: Thu Feb 13 00:20:02 on ttys000
+Brents-MacBook-Pro:~ Brent34$ cd
+Brents-MacBook-Pro:~ Brent34$ mkdir playground
+Brents-MacBook-Pro:~ Brent34$ cd playground
+Brents-MacBook-Pro:playground Brent34$ mkdir dir1 dir2
+Brents-MacBook-Pro:playground Brent34$ cp /etc/passwd .
+Brents-MacBook-Pro:playground Brent34$ ls -l
+total 16
+drwxr-xr-x  2 Brent34  staff    64 Feb 15 15:59 dir1
+drwxr-xr-x  2 Brent34  staff    64 Feb 15 15:59 dir2
+-rw-r--r--  1 Brent34  staff  6804 Feb 15 15:59 passwd
+Brents-MacBook-Pro:playground Brent34$ cp -v /etc/passwd .
+/etc/passwd -> ./passwd
+Brents-MacBook-Pro:playground Brent34$ cp -i /etc/passwd .
+overwrite ./passwd? (y/n [n]) mv passwd fun
+not overwritten
+Brents-MacBook-Pro:playground Brent34$ mv fun dir1
+mv: rename fun to dir1/fun: No such file or directory
+Brents-MacBook-Pro:playground Brent34$ cp -i /etc/passwd .
+overwrite ./passwd? (y/n [n]) y
+Brents-MacBook-Pro:playground Brent34$ mv psswd fun
+mv: rename psswd to fun: No such file or directory
+Brents-MacBook-Pro:playground Brent34$ mv passwd fun
+Brents-MacBook-Pro:playground Brent34$ mv fun dir1
+Brents-MacBook-Pro:playground Brent34$ mv dir1/fun dir2
+Brents-MacBook-Pro:playground Brent34$ mv dir2/fun .
+Brents-MacBook-Pro:playground Brent34$ mv fun dir1
+Brents-MacBook-Pro:playground Brent34$ mv dir1 dir2
+Brents-MacBook-Pro:playground Brent34$ ls -l dir2
+total 0
+drwxr-xr-x  3 Brent34  staff  96 Feb 15 16:11 dir1
+Brents-MacBook-Pro:playground Brent34$ ls -l dir2/dir1
+total 16
+-rw-r--r--  1 Brent34  staff  6804 Feb 15 16:08 fun
+Brents-MacBook-Pro:playground Brent34$ mv dir2/dir1 .
+Brents-MacBook-Pro:playground Brent34$ mv ir1/fun .
+mv: rename ir1/fun to ./fun: No such file or directory
+Brents-MacBook-Pro:playground Brent34$ mv dir1/fun
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Brents-MacBook-Pro:playground Brent34$ ln fun fun-hard
+ln: fun: No such file or directory
+Brents-MacBook-Pro:playground Brent34$ ln fun fun-hard
+ln: fun: No such file or directory
+Brents-MacBook-Pro:playground Brent34$ ls -l
+total 0
+drwxr-xr-x  3 Brent34  staff  96 Feb 15 16:11 dir1
+drwxr-xr-x  2 Brent34  staff  64 Feb 15 16:11 dir2
+Brents-MacBook-Pro:playground Brent34$ mv fun dir1
+mv: fun: No such file or directory
+Brents-MacBook-Pro:playground Brent34$ mv dir2/fun .
+mv: rename dir2/fun to ./fun: No such file or directory
+Brents-MacBook-Pro:playground Brent34$ mv dir1/fun dir2
+Brents-MacBook-Pro:playground Brent34$ mv dir2/fun .
+Brents-MacBook-Pro:playground Brent34$ mv fun dir1
+Brents-MacBook-Pro:playground Brent34$ mv dir1 dir2
+Brents-MacBook-Pro:playground Brent34$ ls -l dir2
+total 0
+drwxr-xr-x  3 Brent34  staff  96 Feb 15 16:22 dir1
+Brents-MacBook-Pro:playground Brent34$ ls -l dir2/dir1
+total 16
+-rw-r--r--  1 Brent34  staff  6804 Feb 15 16:08 fun
+Brents-MacBook-Pro:playground Brent34$ mv dir2/dir1 .
+Brents-MacBook-Pro:playground Brent34$ mv dir1/fun .
+Brents-MacBook-Pro:playground Brent34$ ln fun fun-hard
+Brents-MacBook-Pro:playground Brent34$ ln fun dir1/fun-hard
+Brents-MacBook-Pro:playground Brent34$ ln fun dir2/fun-hard
+Brents-MacBook-Pro:playground Brent34$ ls -l
+total 32
+drwxr-xr-x  3 Brent34  staff    96 Feb 15 16:23 dir1
+drwxr-xr-x  3 Brent34  staff    96 Feb 15 16:23 dir2
+-rw-r--r--  4 Brent34  staff  6804 Feb 15 16:08 fun
+-rw-r--r--  4 Brent34  staff  6804 Feb 15 16:08 fun-hard
+Brents-MacBook-Pro:playground Brent34$ ls - li
+ls: -: No such file or directory
+ls: li: No such file or directory
+Brents-MacBook-Pro:playground Brent34$ ls -li
+total 32
+4320045123 drwxr-xr-x  3 Brent34  staff    96 Feb 15 16:23 dir1
+4320045124 drwxr-xr-x  3 Brent34  staff    96 Feb 15 16:23 dir2
+4320045233 -rw-r--r--  4 Brent34  staff  6804 Feb 15 16:08 fun
+4320045233 -rw-r--r--  4 Brent34  staff  6804 Feb 15 16:08 fun-hard
+Brents-MacBook-Pro:playground Brent34$ ln -s fun fun-sym
+Brents-MacBook-Pro:playground Brent34$ ln -s ../fun dir1/fun-sym
+Brents-MacBook-Pro:playground Brent34$ ln -s ../fun dir2/fun-sym
+Brents-MacBook-Pro:playground Brent34$ ls -l dir1
+total 16
+-rw-r--r--  4 Brent34  staff  6804 Feb 15 16:08 fun-hard
+lrwxr-xr-x  1 Brent34  staff     6 Feb 15 16:31 fun-sym -> ../fun
+Brents-MacBook-Pro:playground Brent34$ ln -s dir1 dir1-sym
+Brents-MacBook-Pro:playground Brent34$ ls -l
+total 32
+drwxr-xr-x  4 Brent34  staff   128 Feb 15 16:31 dir1
+lrwxr-xr-x  1 Brent34  staff     4 Feb 15 16:34 dir1-sym -> dir1
+drwxr-xr-x  4 Brent34  staff   128 Feb 15 16:32 dir2
+-rw-r--r--  4 Brent34  staff  6804 Feb 15 16:08 fun
+-rw-r--r--  4 Brent34  staff  6804 Feb 15 16:08 fun-hard
+lrwxr-xr-x  1 Brent34  staff     3 Feb 15 16:31 fun-sym -> fun
+Brents-MacBook-Pro:playground Brent34$ rm fun-hard
+Brents-MacBook-Pro:playground Brent34$ ls-l
+-bash: ls-l: command not found
+Brents-MacBook-Pro:playground Brent34$ ls -l
+total 16
+drwxr-xr-x  4 Brent34  staff   128 Feb 15 16:31 dir1
+lrwxr-xr-x  1 Brent34  staff     4 Feb 15 16:34 dir1-sym -> dir1
+drwxr-xr-x  4 Brent34  staff   128 Feb 15 16:32 dir2
+-rw-r--r--  3 Brent34  staff  6804 Feb 15 16:08 fun
+lrwxr-xr-x  1 Brent34  staff     3 Feb 15 16:31 fun-sym -> fun
+Brents-MacBook-Pro:playground Brent34$ rm -i fun
+remove fun? ls -l
+Brents-MacBook-Pro:playground Brent34$ rm -i fun
+remove fun? y
+Brents-MacBook-Pro:playground Brent34$ ls -l
+total 0
+drwxr-xr-x  4 Brent34  staff  128 Feb 15 16:31 dir1
+lrwxr-xr-x  1 Brent34  staff    4 Feb 15 16:34 dir1-sym -> dir1
+drwxr-xr-x  4 Brent34  staff  128 Feb 15 16:32 dir2
+lrwxr-xr-x  1 Brent34  staff    3 Feb 15 16:31 fun-sym -> fun
+Brents-MacBook-Pro:playground Brent34$ less fun-sym
+fun-sym: No such file or directory
+Brents-MacBook-Pro:playground Brent34$ rm fun-sym dir1-sym
+Brents-MacBook-Pro:playground Brent34$ ls-l
+-bash: ls-l: command not found
+Brents-MacBook-Pro:playground Brent34$ ls -l
+total 0
+drwxr-xr-x  4 Brent34  staff  128 Feb 15 16:31 dir1
+drwxr-xr-x  4 Brent34  staff  128 Feb 15 16:32 dir2
+Brents-MacBook-Pro:playground Brent34$ cd
+Brents-MacBook-Pro:~ Brent34$ rm -r playground
+Brents-MacBook-Pro:~ Brent34$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...32 completed.
+
+[Process completed]
+
