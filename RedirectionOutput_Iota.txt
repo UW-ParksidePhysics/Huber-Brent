@@ -1,0 +1,100 @@
+Last login: Sat Feb 15 16:48:15 on ttys000
+Brents-MacBook-Pro:~ Brent34$ ls -l /usr/bin > ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l ls-output.txt
+-rw-r--r--  1 Brent34  staff  63967 Feb 18 13:01 ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ less ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l /bin/usr > ls-output.txt
+ls: /bin/usr: No such file or directory
+Brents-MacBook-Pro:~ Brent34$ ls -l ls-output.txt
+-rw-r--r--  1 Brent34  staff  0 Feb 18 13:02 ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls-output.txt
+-bash: ls-output.txt: command not found
+Brents-MacBook-Pro:~ Brent34$ > ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l /usr/bin >> ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l /usr/bin >> ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l /usr/bin >> ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l /usr/bin >> ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l ls-output.txt
+-rw-r--r--  1 Brent34  staff  255868 Feb 18 13:06 ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l /bin/usr 2> ls-error.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l /bin/usr > ls-output.txt 2>&1
+Brents-MacBook-Pro:~ Brent34$ ls -l /bin/usr &> ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls -l /bin/usr &>> ls-output.txt
+-bash: syntax error near unexpected token `>'
+Brents-MacBook-Pro:~ Brent34$ ls -l /bin/usr 2> /dev/null
+Brents-MacBook-Pro:~ Brent34$ cat ls-output.txt
+ls: /bin/usr: No such file or directory
+Brents-MacBook-Pro:~ Brent34$ cat [file...]
+cat: [file...]: No such file or directory
+Brents-MacBook-Pro:~ Brent34$ cat
+The quick brown fox jumped over the lazy dog.
+The quick brown fox jumped over the lazy dog. Brents-MacBook-Pro:~ Brent34$ 
+Brents-MacBook-Pro:~ Brent34$ cat > lazy_dog.txt
+The quick brown fox jumped over the lazy dog.Brents-MacBook-Pro:~ Brent34$ 
+Brents-MacBook-Pro:~ Brent34$ cat lazy_dog.txt
+The quick brown fox jumped over the lazy dog.Brents-MacBook-Pro:~ Brent34$ 
+Brents-MacBook-Pro:~ Brent34$ cat < lazy_dog.txt
+The quick brown fox jumped over the lazy dog.Brents-MacBook-Pro:~ Brent34$ 
+Brents-MacBook-Pro:~ Brent34$ ls -l /usr/bin | less
+Brents-MacBook-Pro:~ Brent34$ ls /bin /usr/bin | sort | less
+Brents-MacBook-Pro:~ Brent34$ ls /bin /usr/bin | sort | uniq | less
+Brents-MacBook-Pro:~ Brent34$ ls /bin /usr/bin | sort | uniq -d | less
+Brents-MacBook-Pro:~ Brent34$ wc ls-output.txt
+       1       7      40 ls-output.txt
+Brents-MacBook-Pro:~ Brent34$ ls /bin /usr/bin | sort | uniq | wc -1
+wc: illegal option -- 1
+usage: wc [-clmw] [file ...]
+Brents-MacBook-Pro:~ Brent34$ ls /bin /usr/bin | sort | uniq | grep zip
+bunzip2
+bzip2
+bzip2recover
+funzip
+gunzip
+gzip
+unzip
+unzipsfx
+zip
+zipcloak
+zipdetails
+zipdetails5.18
+zipgrep
+zipinfo
+zipnote
+zipsplit
+Brents-MacBook-Pro:~ Brent34$ head -n 5 ls-output.txt
+ls: /bin/usr: No such file or directory
+Brents-MacBook-Pro:~ Brent34$ ls /usr/bin |tail -n 5
+zipsplit
+zless
+zmore
+znew
+zprint
+Brents-MacBook-Pro:~ Brent34$ tail -f /var/log/messages
+tail: /var/log/messages: No such file or directory
+Brents-MacBook-Pro:~ Brent34$ ls /usr/bin | tee ls.txt | grep zip
+bunzip2
+bzip2
+bzip2recover
+funzip
+gunzip
+gzip
+unzip
+unzipsfx
+zip
+zipcloak
+zipdetails
+zipdetails5.18
+zipgrep
+zipinfo
+zipnote
+zipsplit
+Brents-MacBook-Pro:~ Brent34$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+[Process completed]
+
