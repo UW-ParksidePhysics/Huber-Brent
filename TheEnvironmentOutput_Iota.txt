@@ -1,0 +1,112 @@
+Last login: Thu Feb 20 14:43:34 on ttys000
+maclab-124:~ parkerw$ printenv | less
+maclab-124:~ parkerw$ printenv USER
+parkerw
+maclab-124:~ parkerw$ set | less
+maclab-124:~ parkerw$ echo $HOME
+/Users/parkerw
+maclab-124:~ parkerw$ alias
+maclab-124:~ parkerw$ which vi
+/usr/bin/vi
+maclab-124:~ parkerw$ which vim
+/usr/bin/vim
+maclab-124:~ parkerw$ printenv | less
+maclab-124:~ parkerw$ set | less
+maclab-124:~ parkerw$ ls -a
+.			.CFUserTextEncoding	.bash_history		Desktop			Downloads		Movies			Pictures		PycharmProjects
+..			.Trash			.bash_sessions		Documents		Library			Music			Public
+maclab-124:~ parkerw$ ls /etc
+afpovertcp.cfg				dnsextd.conf				mail.rc					paths.d					rpc
+aliases					emond.d					man.conf				periodic				rtadvd.conf
+aliases.db				find.codes				manpaths				pf.anchors				security
+apache2					fstab.hd				manpaths.d				pf.conf					services
+asl					ftpusers				master.passwd				pf.os					shells
+asl.conf				gettytab				nanorc					php-fpm.conf.default			snmp
+auto_home				group					networks				php-fpm.d				ssh
+auto_master				hosts					newsyslog.conf				php.ini.default				ssl
+autofs.conf				hosts.equiv				newsyslog.d				postfix					sudo_lecture
+bashrc					irbrc					nfs.conf				ppp					sudoers
+bashrc_Apple_Terminal			kern_loader.conf			notify.conf				profile					sudoers.d
+com.apple.screensharing.agent.launchd	krb5.keytab				ntp.conf				protocols				syslog.conf
+csh.cshrc				localtime				ntp_opendirectory.conf			racoon					ttys
+csh.login				locate.rc				openldap				rc.common				wfs
+csh.logout				mach_init.d				pam.d					rc.netboot				xtab
+cups					mach_init_per_login_session.d		passwd					resolv.conf				zprofile
+defaults				mach_init_per_user.d			paths					rmtab					zshrc
+maclab-124:~ parkerw$ less /etc/profile
+maclab-124:~ parkerw$ less /etc/bashrc
+maclab-124:~ parkerw$ less /etc/bashrc
+maclab-124:~ parkerw$ foo="This is some "
+maclab-124:~ parkerw$ echo $foo
+This is some
+maclab-124:~ parkerw$ foo=$foo"text."
+maclab-124:~ parkerw$ echo $foo
+This is some text.
+maclab-124:~ parkerw$ foo=This is some
+-bash: is: command not found
+maclab-124:~ parkerw$ echo $foo
+This is some text.
+maclab-124:~ parkerw$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+maclab-124:~ parkerw$ PATH=$PATH:$HOME/bin
+maclab-124:~ parkerw$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/parkerw/bin
+maclab-124:~ parkerw$ mkdir bin
+maclab-124:~ parkerw$ ls bin/
+maclab-124:~ parkerw$ ls bin
+maclab-124:~ parkerw$ touch bin/dummy_executable
+maclab-124:~ parkerw$ ls bin
+dummy_executable
+maclab-124:~ parkerw$ ls bin/
+dummy_executable
+maclab-124:~ parkerw$ ls bin/dummy_executable 
+bin/dummy_executable
+maclab-124:~ parkerw$ chmod u+x bin/dummy_executable 
+maclab-124:~ parkerw$ dummy_executable 
+maclab-124:~ parkerw$ fkdjdfklajs
+-bash: fkdjdfklajs: command not found
+maclab-124:~ parkerw$ gedit some_file
+\-bash: gedit: command not found
+maclab-124:~ parkerw$ xed some_file
+
+^C
+maclab-124:~ parkerw$ open -a TextEdit some_file
+The file /Users/parkerw/some_file does not exist.
+maclab-124:~ parkerw$ cp .bashrc .bashrc.bak
+cp: .bashrc: No such file or directory
+maclab-124:~ parkerw$ nano .bashrc
+maclab-124:~ parkerw$ ls -d .* --colo=auto
+ls: --colo=auto: No such file or directory
+.			..			.CFUserTextEncoding	.Trash			.bash_history		.bash_sessions		.bashrc
+maclab-124:~ parkerw$ ls -d .* --color=auto
+ls: --color=auto: No such file or directory
+.			..			.CFUserTextEncoding	.Trash			.bash_history		.bash_sessions		.bashrc
+maclab-124:~ parkerw$ ls -d --color=auto .*
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-124:~ parkerw$ ls -d -G .*
+.                   ..                  .CFUserTextEncoding .Trash              .bash_history       .bash_sessions      .bashrc
+maclab-124:~ parkerw$ ls -d -g .*
+drwxr-xr-x+ 17 UWP\Domain Users  544 Feb 20 15:05 .
+drwxr-xr-x  25 admin             800 Feb 20 14:09 ..
+-r--------   1 UWP\Domain Users    7 Feb 20 14:09 .CFUserTextEncoding
+drwx------   2 UWP\Domain Users   64 Feb 20 14:10 .Trash
+-rw-------   1 UWP\Domain Users    0 Feb 20 14:45 .bash_history
+drwx------   6 UWP\Domain Users  192 Feb 20 14:45 .bash_sessions
+-rw-r--r--   1 UWP\Domain Users  135 Feb 20 15:05 .bashrc
+maclab-124:~ parkerw$ nano .bashrc
+maclab-124:~ parkerw$ nano .bashrc
+maclab-124:~ parkerw$ source .bashrc
+maclab-124:~ parkerw$ ll
+total 0
+drwx------+  3 parkerw  UWP\Domain Users    96 Feb 20 14:09 Desktop
+drwx------+  3 parkerw  UWP\Domain Users    96 Feb 20 14:09 Documents
+drwx------+  3 parkerw  UWP\Domain Users    96 Feb 20 14:09 Downloads
+drwx------@ 55 parkerw  UWP\Domain Users  1760 Feb 20 14:59 Library
+drwx------+  3 parkerw  UWP\Domain Users    96 Feb 20 14:09 Movies
+drwx------+  3 parkerw  UWP\Domain Users    96 Feb 20 14:09 Music
+drwx------+  3 parkerw  UWP\Domain Users    96 Feb 20 14:09 Pictures
+drwxr-xr-x+  4 parkerw  UWP\Domain Users   128 Feb 20 14:09 Public
+drwxr-xr-x   3 parkerw  UWP\Domain Users    96 Feb 20 14:44 PycharmProjects
+drwxr-xr-x   3 parkerw  UWP\Domain Users    96 Feb 20 14:56 bin
+maclab-124:~ parkerw$ 
