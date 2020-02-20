@@ -1,0 +1,52 @@
+Last login: Thu Feb 20 13:24:02 on ttys000
+Brents-MBP:~ Brent34$ file /etc/shadow
+/etc/shadow: cannot open `/etc/shadow' (No such file or directory)
+Brents-MBP:~ Brent34$ less /etc/shadow
+/etc/shadow: No such file or directory
+Brents-MBP:~ Brent34$ id
+uid=501(Brent34) gid=20(staff) groups=20(staff),701(com.apple.sharepoint.group.1),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),98(_lpadmin),33(_appstore),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh)
+Brents-MBP:~ Brent34$ > foo.txt
+Brents-MBP:~ Brent34$ ls -l foo.txt
+-rw-r--r--  1 Brent34  staff  0 Feb 20 13:25 foo.txt
+Brents-MBP:~ Brent34$ rm foo.txt
+Brents-MBP:~ Brent34$ umask 0000
+Brents-MBP:~ Brent34$ rm -foo.txt
+rm: illegal option -- o
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+Brents-MBP:~ Brent34$ umask
+0000
+Brents-MBP:~ Brent34$ > foo.txt
+Brents-MBP:~ Brent34$ ls -l foo.txt
+-rw-rw-rw-  1 Brent34  staff  0 Feb 20 13:26 foo.txt
+Brents-MBP:~ Brent34$ rm foo.txt; umask 0002
+Brents-MBP:~ Brent34$ su -c 'ls -l /root/*'
+su: illegal option -- c
+usage: su [-] [-flm] [login [args]]
+Brents-MBP:~ Brent34$ sudo backup_script
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+sudo: 3 incorrect password attempts
+Brents-MBP:~ Brent34$ sudo mkdir /usr/local/share/Music
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+sudo: 3 incorrect password attempts
+Brents-MBP:~ Brent34$ ls -ld /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+Brents-MBP:~ Brent34$ 
+Brents-MBP:~ Brent34$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+
+[Process completed]
+
