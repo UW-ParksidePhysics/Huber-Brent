@@ -1,0 +1,1520 @@
+Last login: Thu Feb 20 14:08:16 on console
+maclab-123:~ huber021$ ps
+  PID TTY           TIME CMD
+78570 ttys000    0:00.01 -bash
+maclab-123:~ huber021$ ps x
+  PID   TT  STAT      TIME COMMAND
+52936   ??  S      0:00.12 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+52937   ??  S      0:02.51 /usr/sbin/cfprefsd agent
+52976   ??  S      0:01.03 /usr/sbin/distnoted agent
+52988   ??  S      0:13.40 /usr/libexec/lsd
+53001   ??  S      0:00.37 /usr/libexec/languageassetd --firstLogin
+53003   ??  S      0:06.11 /usr/libexec/secinitd
+53023   ??  S      0:00.36 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/
+53104   ??  S      0:00.26 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/
+53245   ??  S      0:03.61 /usr/libexec/pkd
+53296   ??  S      0:00.15 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationX
+53322   ??  S      0:00.10 /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/Ma
+53392   ??  S      0:00.09 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/C
+53440   ??  S      0:00.21 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/C
+53508   ??  S      0:00.16 /System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacO
+53693   ??  S      0:00.34 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.ap
+78164   ??  S      0:00.38 /usr/libexec/UserEventAgent (Aqua)
+78168   ??  S      0:00.09 /usr/sbin/universalaccessd launchd -s
+78171   ??  S      0:00.15 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+78176   ??  S      0:01.06 /usr/libexec/trustd --agent
+78188   ??  S      0:00.11 /usr/libexec/secd
+78189   ??  S      0:00.17 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+78190   ??  S      0:00.28 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+78194   ??  S      0:00.23 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+78196   ??  S      0:00.15 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+78203   ??  S      0:00.12 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+78205   ??  S      0:00.16 /usr/libexec/nsurlsessiond
+78206   ??  S      0:00.10 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+78211   ??  S      0:00.05 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+78214   ??  S      0:00.06 /usr/libexec/rapportd
+78216   ??  S      0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/Cl
+78219   ??  S      0:00.18 /usr/sbin/usernoted
+78222   ??  S      0:00.58 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+78223   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/M
+78224   ??  S      0:00.14 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+78225   ??  S      0:00.58 /usr/libexec/nsurlstoraged
+78226   ??  S      0:00.19 /usr/libexec/sharingd
+78228   ??  S      0:00.07 /usr/libexec/fmfd
+78229   ??  S      0:00.04 /usr/libexec/pboard
+78230   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/M
+78231   ??  S      0:00.06 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+78232   ??  S      0:00.07 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents
+78233   ??  S      0:00.09 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/
+78235   ??  S      0:00.08 /System/Library/CoreServices/talagent
+78236   ??  S      0:00.69 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+78237   ??  S      0:00.11 /System/Library/CoreServices/sharedfilelistd
+78239   ??  Ss     0:00.01 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/M
+78242   ??  S      0:00.28 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+78245   ??  S      0:00.12 /System/Library/CoreServices/iconservicesagent
+78247   ??  S      0:00.09 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+78248   ??  S      0:00.03 /usr/libexec/networkserviceproxy
+78249   ??  S      0:00.43 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+78250   ??  S      0:00.54 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+78251   ??  S      0:00.01 /System/Library/CoreServices/APFSUserAgent
+78252   ??  S      0:00.03 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+78254   ??  S      0:00.06 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+78255   ??  Ss     0:00.15 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Conte
+78256   ??  S      0:00.06 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+78258   ??  Ss     0:00.05 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/M
+78259   ??  S      0:00.31 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+78260   ??  S      0:00.20 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/Mac
+78261   ??  S      0:00.06 /System/Library/CoreServices/mapspushd
+78262   ??  S      0:00.14 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+78264   ??  S      0:00.03 /System/Library/CoreServices/backgroundtaskmanagementagent
+78267   ??  S      0:01.37 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+78268   ??  S      0:00.04 /usr/libexec/swcd
+78269   ??  S      0:00.05 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+78270   ??  S      0:00.37 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+78284   ??  S      0:08.78 /Applications/Safari.app/Contents/MacOS/Safari -psn_0_9492749
+78286   ??  S      0:01.03 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+78287   ??  S      0:00.31 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+78288   ??  S      0:00.35 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+78292   ??  S      0:01.66 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+78294   ??  Ss     0:00.13 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacO
+78295   ??  Ss     0:00.16 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/PlugIns/ACCFinderSync.appex/Contents/MacOS/
+78298   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/Wi
+78300   ??  Ss     0:00.01 /System/Library/PrivateFrameworks/login.framework/Versions/A/XPCServices/LoginUserService.xpc/Contents/MacOS/L
+78301   ??  S      0:00.11 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+78302   ??  Ss     0:00.30 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/Ma
+78303   ??  Ss     0:00.69 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/Ma
+78310   ??  S      0:00.06 /usr/libexec/videosubscriptionsd
+78314   ??  S      0:00.02 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+78319   ??  S      0:00.02 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+78321   ??  SN     0:00.06 /usr/local/jamf/bin/jamfAgent
+78322   ??  S      0:00.04 /usr/libexec/dmd
+78324   ??  S      0:00.13 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+78325   ??  S      0:00.15 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+78326   ??  S      0:00.07 /System/Library/Image Capture/Support/icdd
+78329   ??  S      0:00.09 /Library/Application Support/Pharos/Notify.app/Contents/MacOS/Notify
+78330   ??  S      0:00.05 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+78331   ??  S      0:00.06 /usr/libexec/knowledge-agent
+78332   ??  S      0:00.05 /System/Library/CoreServices/cloudpaird
+78333   ??  S      0:04.94 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud --showwindow
+78334   ??  S      0:00.11 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagen
+78335   ??  S      0:00.05 /System/Library/CoreServices/diagnostics_agent
+78336   ??  S      0:00.09 /usr/libexec/adprivacyd
+78337   ??  S      0:00.45 /Library/Application Support/Malwarebytes/Malwarebytes Endpoint Agent/UserAgent.app/Contents/MacOS/UserAgent
+78339   ??  S      0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+78341   ??  S      0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+78348   ??  S      0:00.03 /System/Library/CoreServices/pbs
+78351   ??  S      0:00.04 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A
+78353   ??  S      0:01.21 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+78356   ??  Ss     0:00.13 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.d
+78361   ??  S      0:00.02 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+78366   ??  S      0:00.18 /Library/Application Support/Adobe/Adobe Desktop Common/IPCBox/AdobeIPCBroker.app/Contents/MacOS/AdobeIPCBroke
+78367   ??  S      0:00.01 SafeEjectGPUAgent
+78379   ??  Ss     0:00.68 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/Ma
+78380   ??  Ss     0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCom
+78382   ??  S      0:01.87 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/../Frameworks/Adobe CEF Hel
+78386   ??  Ss     0:00.04 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacO
+78388   ??  S      0:03.02 /Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/MacOS/Adobe Des
+78390   ??  S      0:00.25 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/Frameworks/AdobeCrashReporter.fra
+78393   ??  S      0:00.42 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/../Frameworks/Adobe CEF Hel
+78397   ??  S      0:00.24 /Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/Frameworks/Adob
+78400   ??  S      0:00.57 /Library/Application Support/Adobe/Creative Cloud Libraries/CCLibrary.app/Contents/MacOS/../libs/node /Library
+78422   ??  S      0:00.02 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
+78437   ??  S      0:02.79 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/../Frameworks/Adobe CEF Hel
+78441   ??  S      0:00.16 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/MacOS/Core Sync
+78442   ??  S      0:00.40 /Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/MacOS/../libs/Adobe
+78444   ??  S      0:00.28 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/Frameworks/AdobeCrashReporter.framework/Ver
+78480   ??  S      0:00.31 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlig
+78483   ??  S      0:00.07 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+78484   ??  S      0:00.09 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+78492   ??  S      0:00.12 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+78493   ??  S      0:00.04 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+78494   ??  S      0:00.02 /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+78501   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Content
+78502   ??  Ss     0:06.82 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/Ma
+78503   ??  Ss     0:00.14 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCom
+78504   ??  S      0:00.02 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_notify_agent
+78507   ??  S      0:00.04 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+78509   ??  S      0:00.23 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+78510   ??  Ss     0:00.03 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/C
+78511   ??  S      0:00.08 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+78513   ??  Ss     0:00.16 /System/Library/Frameworks/MediaLibrary.framework/Versions/A/XPCServices/com.apple.MediaLibraryService.xpc/Con
+78514   ??  S      0:00.05 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+78515   ??  S      0:00.06 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+78516   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.Transacti
+78517   ??  Ss     0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS
+78518   ??  S      0:00.38 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistant_service
+78520   ??  Ss     0:00.03 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/C
+78524   ??  S      0:00.03 /usr/libexec/siriknowledged
+78525   ??  Ss     0:00.02 /System/Library/PrivateFrameworks/FMClient.framework/Versions/A/XPCServices/FMIPClientXPCService.xpc/Contents/
+78531   ??  S      0:00.02 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+78552   ??  S      0:00.54 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+78553   ??  S      0:00.07 /usr/libexec/keyboardservicesd
+78557   ??  Ss     0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCom
+78559   ??  S      0:00.07 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78560   ??  S      0:00.14 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78561   ??  S      0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78562   ??  S      0:00.11 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78564   ??  S      0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78567   ??  Ss     0:00.22 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.Transacti
+78568   ??  S      0:02.51 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+78577   ??  S      0:00.06 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+78579   ??  Ss     0:00.07 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+78580   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78581   ??  S      0:00.04 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78582   ??  S      0:00.61 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78583   ??  S      0:00.06 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/
+78586   ??  Ss     0:00.07 /Applications/Safari.app/Contents/XPCServices/com.apple.Safari.SandboxBroker.xpc/Contents/MacOS/com.apple.Safa
+78587   ??  S      0:00.01 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+78588   ??  S      0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78589   ??  S      0:03.46 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_9660726
+78590   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/XprotectFramework.framework/Versions/A/XPCServices/XprotectService.xpc/Conte
+78591   ??  S      0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_sh
+78592   ??  S      0:00.05 /System/Library/CoreServices/ScopedBookmarkAgent
+78593   ??  S      0:00.05 /System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent
+78594   ??  S      0:00.06 /usr/libexec/silhouette
+78598   ??  S      0:00.02 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+78599   ??  S      0:00.30 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+78600   ??  Ss     0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCom
+78601   ??  Ss     0:00.08 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/Ma
+78603   ??  Ss     0:00.03 /System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCom
+78608   ??  S      0:00.30 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/atsd
+78569 s000  Ss     0:00.02 login -pf huber021
+78570 s000  S      0:00.01 -bash
+78675 s000  R+     0:00.00 ps x
+maclab-123:~ huber021$ man ps
+maclab-123:~ huber021$ ps aux
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver    50578   1.7  0.9  9720080 154972   ??  Ss   11Feb20  54:46.43 /System/Library/PrivateFrameworks/SkyLight.framework/Resou
+huber021         78437   0.4  0.8  4885344 132868   ??  S     2:08PM   0:03.20 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78382   0.4  0.4  4686840  61748   ??  S     2:08PM   0:02.17 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78568   0.3  0.7  5059812 120752   ??  R     2:09PM   0:05.51 /Applications/Utilities/Terminal.app/Contents/MacOS/Termin
+huber021         78325   0.1  0.2  4373964  32388   ??  S     2:08PM   0:00.16 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri 
+huber021         78600   0.0  0.1  4829320  15456   ??  Ss    2:10PM   0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+huber021         78599   0.0  0.1  4363688  21512   ??  S     2:10PM   0:00.30 /System/Library/PrivateFrameworks/AppStoreDaemon.framework
+huber021         78598   0.0  0.1  4319244   9628   ??  S     2:10PM   0:00.02 /System/Library/PrivateFrameworks/CoreFollowUp.framework/V
+huber021         78594   0.0  0.1  4357980  16048   ??  S     2:09PM   0:00.06 /usr/libexec/silhouette
+huber021         78593   0.0  0.1  4354804  12688   ??  S     2:09PM   0:00.05 /System/Library/PrivateFrameworks/UsageTracking.framework/
+huber021         78592   0.0  0.0  4357100   7676   ??  S     2:09PM   0:00.06 /System/Library/CoreServices/ScopedBookmarkAgent
+huber021         78591   0.0  0.1  4359176  14416   ??  S     2:09PM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78590   0.0  0.1  4361952  14832   ??  Ss    2:09PM   0:00.03 /System/Library/PrivateFrameworks/XprotectFramework.framew
+huber021         78589   0.0  0.6  5069348 107528   ??  S     2:09PM   0:03.65 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_96
+huber021         78588   0.0  0.1  4367368  14576   ??  S     2:09PM   0:00.10 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78587   0.0  0.0  4327764   6768   ??  S     2:09PM   0:00.01 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78586   0.0  0.2  4894424  33816   ??  Ss    2:09PM   0:00.07 /Applications/Safari.app/Contents/XPCServices/com.apple.Sa
+huber021         78583   0.0  0.1  4354724  19568   ??  S     2:09PM   0:00.06 /System/Library/PrivateFrameworks/IMDPersistence.framework
+huber021         78582   0.0  0.1  4367376  14644   ??  S     2:09PM   0:00.61 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78581   0.0  0.1  4333600  17200   ??  S     2:09PM   0:00.04 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78580   0.0  0.1  4341720  18572   ??  S     2:09PM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78579   0.0  0.2  4888892  31776   ??  Ss    2:09PM   0:00.07 /System/Library/CoreServices/Siri.app/Contents/XPCServices
+huber021         78577   0.0  0.2  4353856  28392   ??  S     2:09PM   0:00.06 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/
+huber021         78570   0.0  0.0  4306776   1636 s000  S     2:09PM   0:00.02 -bash
+root             78569   0.0  0.0  4327184   5944 s000  Ss    2:09PM   0:00.02 login -pf huber021
+huber021         78567   0.0  0.1  4362768  19076   ??  Ss    2:09PM   0:00.22 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78564   0.0  0.1  4368124  14096   ??  S     2:09PM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78562   0.0  0.1  4341728  20236   ??  S     2:09PM   0:00.11 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78561   0.0  0.1  4343344  19408   ??  S     2:09PM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78560   0.0  0.1  4341932  19816   ??  S     2:09PM   0:00.14 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78559   0.0  0.2  4358520  30000   ??  S     2:09PM   0:00.07 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78557   0.0  0.1  4835956  15448   ??  Ss    2:09PM   0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+huber021         78553   0.0  0.1  4363472  17552   ??  S     2:08PM   0:00.08 /usr/libexec/keyboardservicesd
+huber021         78552   0.0  0.3  4424712  48464   ??  S     2:08PM   0:00.54 /System/Library/Services/AppleSpell.service/Contents/MacOS
+bazze002         78550   0.0  0.1  4359988  10488   ??  S     2:08PM   0:00.13 /usr/libexec/trustd --agent
+hall0074         78549   0.0  0.1  4360512  11644   ??  S     2:08PM   0:00.13 /usr/libexec/trustd --agent
+might001         78548   0.0  0.1  4360448  11120   ??  S     2:08PM   0:00.13 /usr/libexec/trustd --agent
+luchs001         78547   0.0  0.1  4360252  10768   ??  S     2:08PM   0:00.11 /usr/libexec/trustd --agent
+bui00002         78546   0.0  0.1  4358008  10612   ??  S     2:08PM   0:00.12 /usr/libexec/trustd --agent
+huber021         78531   0.0  0.2  4318140  27144   ??  S     2:08PM   0:00.02 /System/Library/CoreServices/EscrowSecurityAlert.app/Conte
+huber021         78525   0.0  0.1  4354520  11804   ??  Ss    2:08PM   0:00.02 /System/Library/PrivateFrameworks/FMClient.framework/Versi
+huber021         78524   0.0  0.1  4354620  14336   ??  S     2:08PM   0:00.03 /usr/libexec/siriknowledged
+huber021         78520   0.0  0.1  4358672  11840   ??  Ss    2:08PM   0:00.03 /System/Library/Frameworks/iTunesLibrary.framework/Version
+huber021         78518   0.0  0.3  4370244  43388   ??  S     2:08PM   0:00.38 /System/Library/PrivateFrameworks/AssistantServices.framew
+huber021         78517   0.0  0.1  4318448   9236   ??  Ss    2:08PM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+huber021         78516   0.0  0.1  4333568  14776   ??  Ss    2:08PM   0:00.03 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78515   0.0  0.1  4377540  23356   ??  S     2:08PM   0:00.06 /System/Library/PrivateFrameworks/CommerceKit.framework/Re
+huber021         78514   0.0  0.1  4359708  18376   ??  S     2:08PM   0:00.05 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.fram
+huber021         78513   0.0  0.2  4386608  31576   ??  Ss    2:08PM   0:00.16 /System/Library/Frameworks/MediaLibrary.framework/Versions
+huber021         78511   0.0  0.1  4358220   9256   ??  S     2:08PM   0:00.08 /System/Library/Frameworks/AudioToolbox.framework/AudioCom
+huber021         78510   0.0  0.1  4358672  11836   ??  Ss    2:08PM   0:00.03 /System/Library/Frameworks/iTunesLibrary.framework/Version
+huber021         78509   0.0  0.1  4372016  24248   ??  S     2:08PM   0:00.23 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78507   0.0  0.1  4355028  17664   ??  S     2:08PM   0:00.04 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78504   0.0  0.1  4328468  12944   ??  S     2:08PM   0:00.02 /System/Library/CoreServices/Software Update.app/Contents/
+huber021         78503   0.0  0.1  4845160  16492   ??  Ss    2:08PM   0:00.14 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+huber021         78502   0.0  1.3 89775060 216544   ??  Ss    2:08PM   0:06.84 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+huber021         78501   0.0  0.1  4327384  15440   ??  Ss    2:08PM   0:00.03 /System/Library/PrivateFrameworks/AssistantServices.framew
+huber021         78494   0.0  0.0  4354076   7412   ??  S     2:08PM   0:00.02 /System/Library/PrivateFrameworks/QuickLookThumbnailing.fr
+huber021         78493   0.0  0.1  4359336  18124   ??  S     2:08PM   0:00.04 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78492   0.0  0.2  4404844  35040   ??  S     2:08PM   0:00.12 /System/Library/CoreServices/cloudphotosd.app/Contents/Mac
+huber021         78484   0.0  0.1  4358532   9444   ??  S     2:08PM   0:00.09 /System/Library/PrivateFrameworks/CacheDelete.framework/de
+huber021         78483   0.0  0.1  4374088  16500   ??  S     2:08PM   0:00.08 /System/Library/CoreServices/CoreLocationAgent.app/Content
+huber021         78480   0.0  0.3  4555352  57332   ??  S     2:08PM   0:00.31 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78444   0.0  0.1  4354904  10684   ??  S     2:08PM   0:00.33 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+huber021         78442   0.0  0.3  5009636  50840   ??  S     2:08PM   0:00.41 /Applications/Utilities/Adobe Creative Cloud Experience/CC
+huber021         78441   0.0  0.2  4959372  29156   ??  S     2:08PM   0:00.17 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+huber021         78422   0.0  0.0  4321728   6388   ??  S     2:08PM   0:00.02 /System/Library/Frameworks/ColorSync.framework/Support/col
+huber021         78400   0.0  0.4  5029068  58840   ??  S     2:08PM   0:00.58 /Library/Application Support/Adobe/Creative Cloud Librarie
+huber021         78397   0.0  0.1  4355428  10624   ??  S     2:08PM   0:00.28 /Library/Application Support/Adobe/Adobe Desktop Common/AD
+huber021         78393   0.0  0.5  4807656  80204   ??  S     2:08PM   0:00.43 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78390   0.0  0.1  4354904  10668   ??  S     2:08PM   0:00.29 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78388   0.0  1.0  5630948 162092   ??  S     2:08PM   0:03.05 /Library/Application Support/Adobe/Adobe Desktop Common/AD
+huber021         78386   0.0  0.0  4357708   8264   ??  Ss    2:08PM   0:00.04 /System/Library/Frameworks/VideoToolbox.framework/Versions
+huber021         78380   0.0  0.1  4845776  14992   ??  Ss    2:08PM   0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+huber021         78379   0.0  0.3 89418144  51100   ??  Ss    2:08PM   0:00.68 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+huber021         78367   0.0  0.1  4822288   9072   ??  S     2:08PM   0:00.01 SafeEjectGPUAgent
+huber021         78366   0.0  0.1  4377896  15704   ??  S     2:08PM   0:00.20 /Library/Application Support/Adobe/Adobe Desktop Common/IP
+huber021         78361   0.0  0.1  4356564  11060   ??  S     2:08PM   0:00.02 /System/Library/PrivateFrameworks/CallHistory.framework/Su
+huber021         78356   0.0  0.2  4886636  32180   ??  Ss    2:08PM   0:00.13 /System/Library/CoreServices/Dock.app/Contents/XPCServices
+huber021         78353   0.0  0.2  4380740  26244   ??  S     2:08PM   0:01.21 /System/Library/PrivateFrameworks/SafariSafeBrowsing.frame
+huber021         78351   0.0  0.0  4327796   6040   ??  S     2:08PM   0:00.04 /System/Library/Frameworks/ApplicationServices.framework/V
+huber021         78348   0.0  0.0  4361152   7956   ??  S     2:08PM   0:00.03 /System/Library/CoreServices/pbs
+huber021         78341   0.0  0.1  4320828  10700   ??  S     2:08PM   0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+huber021         78339   0.0  0.1  4328584  10896   ??  S     2:08PM   0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp
+huber021         78337   0.0  0.2  4410468  25948   ??  S     2:08PM   0:00.48 /Library/Application Support/Malwarebytes/Malwarebytes End
+huber021         78336   0.0  0.1  4364984  21724   ??  S     2:08PM   0:00.10 /usr/libexec/adprivacyd
+huber021         78335   0.0  0.1  4356832  17428   ??  S     2:08PM   0:00.05 /System/Library/CoreServices/diagnostics_agent
+huber021         78334   0.0  0.1  4377516  22784   ??  S     2:08PM   0:00.11 /System/Library/PrivateFrameworks/Noticeboard.framework/Ve
+huber021         78333   0.0  0.4  4720388  60496   ??  S     2:08PM   0:05.87 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78332   0.0  0.1  4355444  21128   ??  S     2:08PM   0:00.05 /System/Library/CoreServices/cloudpaird
+huber021         78331   0.0  0.1  4359328  16456   ??  S     2:08PM   0:00.06 /usr/libexec/knowledge-agent
+huber021         78330   0.0  0.1  4882060  15336   ??  S     2:08PM   0:00.06 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/M
+huber021         78329   0.0  0.1  4390416  18080   ??  S     2:08PM   0:00.09 /Library/Application Support/Pharos/Notify.app/Contents/Ma
+huber021         78326   0.0  0.1  4357300  16904   ??  S     2:08PM   0:00.07 /System/Library/Image Capture/Support/icdd
+huber021         78324   0.0  0.1  4359684  12728   ??  S     2:08PM   0:00.13 /System/Library/Frameworks/InputMethodKit.framework/Resour
+huber021         78322   0.0  0.1  4357276  18068   ??  S     2:08PM   0:00.04 /usr/libexec/dmd
+huber021         78321   0.0  0.1  4357128  11696   ??  SN    2:08PM   0:00.06 /usr/local/jamf/bin/jamfAgent
+huber021         78319   0.0  0.1  4353896  13468   ??  S     2:08PM   0:00.02 /System/Library/CoreServices/SocialPushAgent.app/Contents/
+huber021         78314   0.0  0.1  4327368  17068   ??  S     2:08PM   0:00.02 /System/Library/PrivateFrameworks/CoreSpeech.framework/cor
+huber021         78310   0.0  0.1  4355940  11260   ??  S     2:08PM   0:00.06 /usr/libexec/videosubscriptionsd
+huber021         78303   0.0  0.2  4384980  31900   ??  Ss    2:08PM   0:00.74 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+huber021         78302   0.0  0.3 89448444  53960   ??  Ss    2:08PM   0:00.30 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+huber021         78301   0.0  0.1  4378052  19900   ??  S     2:08PM   0:00.11 /System/Library/CoreServices/CoreServicesUIAgent.app/Conte
+huber021         78300   0.0  0.0  4327636   5096   ??  Ss    2:08PM   0:00.01 /System/Library/PrivateFrameworks/login.framework/Versions
+huber021         78298   0.0  0.1  4354300  13416   ??  Ss    2:08PM   0:00.03 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Ve
+huber021         78295   0.0  0.3  4418232  50588   ??  Ss    2:08PM   0:00.16 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+huber021         78294   0.0  0.1  4396268  22016   ??  Ss    2:08PM   0:00.13 /System/Library/Frameworks/VideoToolbox.framework/Versions
+huber021         78292   0.0  0.5  5847028  88588   ??  S     2:08PM   0:01.66 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/
+huber021         78288   0.0  0.3  4954396  54880   ??  S     2:08PM   0:00.35 /System/Library/CoreServices/Finder.app/Contents/MacOS/Fin
+huber021         78287   0.0  0.3  4922592  45684   ??  S     2:08PM   0:00.31 /System/Library/CoreServices/SystemUIServer.app/Contents/M
+huber021         78286   0.0  1.0  5042184 169648   ??  S     2:08PM   0:01.07 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+huber021         78284   0.0  0.7  6216784 109812   ??  S     2:08PM   0:08.78 /Applications/Safari.app/Contents/MacOS/Safari -psn_0_9492
+huber021         78270   0.0  0.2  4377748  36068   ??  S     2:08PM   0:00.37 /System/Library/PrivateFrameworks/AssistantServices.framew
+huber021         78269   0.0  0.1  4355032  17460   ??  S     2:08PM   0:00.05 /System/Library/PrivateFrameworks/CloudDocsDaemon.framewor
+huber021         78268   0.0  0.1  4357856   9020   ??  S     2:08PM   0:00.04 /usr/libexec/swcd
+huber021         78267   0.0  0.2  4369456  25836   ??  S     2:08PM   0:01.37 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78264   0.0  0.0  4357388   8092   ??  S     2:08PM   0:00.03 /System/Library/CoreServices/backgroundtaskmanagementagent
+huber021         78262   0.0  0.2  4362956  31296   ??  S     2:08PM   0:00.15 /System/Library/CoreServices/SafariSupport.bundle/Contents
+huber021         78261   0.0  0.1  4358292  18488   ??  S     2:08PM   0:00.06 /System/Library/CoreServices/mapspushd
+huber021         78260   0.0  0.1  4369160  19552   ??  S     2:08PM   0:00.20 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+huber021         78259   0.0  0.3  4415668  41976   ??  S     2:08PM   0:00.31 /System/Library/PrivateFrameworks/CoreSuggestions.framewor
+huber021         78258   0.0  0.1  4357852  13060   ??  Ss    2:08PM   0:00.05 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+huber021         78256   0.0  0.1  4360588   9952   ??  S     2:08PM   0:00.06 /System/Library/PrivateFrameworks/AuthKit.framework/Versio
+huber021         78255   0.0  0.2  4362480  33584   ??  Ss    2:08PM   0:00.15 /System/Library/PrivateFrameworks/CalendarNotification.fra
+huber021         78254   0.0  0.1  4371096  14800   ??  S     2:08PM   0:00.06 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/
+huber021         78252   0.0  0.1  4354604  18240   ??  S     2:08PM   0:00.03 /System/Library/PrivateFrameworks/FamilyCircle.framework/V
+huber021         78251   0.0  0.0  4319588   5784   ??  S     2:08PM   0:00.01 /System/Library/CoreServices/APFSUserAgent
+huber021         78250   0.0  0.2  4368684  26476   ??  S     2:08PM   0:00.54 /System/Library/PrivateFrameworks/CoreParsec.framework/par
+huber021         78249   0.0  0.2  4364884  39736   ??  S     2:08PM   0:00.43 /System/Library/PrivateFrameworks/CalendarAgent.framework/
+huber021         78248   0.0  0.1  4357844  12032   ??  S     2:08PM   0:00.03 /usr/libexec/networkserviceproxy
+huber021         78247   0.0  0.1  4331596  18336   ??  S     2:08PM   0:00.09 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78245   0.0  0.2  4390492  27416   ??  S     2:08PM   0:00.12 /System/Library/CoreServices/iconservicesagent
+huber021         78242   0.0  0.2  4364596  39356   ??  S     2:08PM   0:00.28 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+huber021         78239   0.0  0.0  4327160   5628   ??  Ss    2:08PM   0:00.01 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+huber021         78237   0.0  0.1  4358112   9548   ??  S     2:08PM   0:00.11 /System/Library/CoreServices/sharedfilelistd
+huber021         78236   0.0  0.1  4359660  12896   ??  S     2:08PM   0:00.69 /System/Library/Frameworks/ApplicationServices.framework/F
+huber021         78235   0.0  0.1  4381600  16296   ??  S     2:08PM   0:00.08 /System/Library/CoreServices/talagent
+huber021         78233   0.0  0.1  4360968  17668   ??  S     2:08PM   0:00.09 /System/Library/PrivateFrameworks/AOSKit.framework/Version
+huber021         78232   0.0  0.1  4357064  12396   ??  S     2:08PM   0:00.07 /System/Library/PrivateFrameworks/ViewBridge.framework/Ver
+huber021         78231   0.0  0.1  4356040  10848   ??  S     2:08PM   0:00.06 /System/Library/PrivateFrameworks/UserActivity.framework/A
+huber021         78230   0.0  0.1  4357852  12564   ??  Ss    2:08PM   0:00.04 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+huber021         78229   0.0  0.0  4328280   6444   ??  S     2:08PM   0:00.04 /usr/libexec/pboard
+huber021         78228   0.0  0.1  4355812  22960   ??  S     2:08PM   0:00.07 /usr/libexec/fmfd
+huber021         78226   0.0  0.2  4366240  34076   ??  S     2:08PM   0:00.20 /usr/libexec/sharingd
+huber021         78225   0.0  0.1  4365616  16512   ??  S     2:08PM   0:00.60 /usr/libexec/nsurlstoraged
+huber021         78224   0.0  0.2  4362040  34124   ??  S     2:08PM   0:00.14 /System/Library/PrivateFrameworks/MessagesKit.framework/Re
+huber021         78223   0.0  0.1  4357916  12776   ??  Ss    2:08PM   0:00.04 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+huber021         78222   0.0  0.4  4946560  72340   ??  S     2:08PM   0:00.58 /System/Library/CoreServices/NotificationCenter.app/Conten
+huber021         78219   0.0  0.1  4359360  17132   ??  S     2:08PM   0:00.18 /usr/sbin/usernoted
+huber021         78216   0.0  0.0  4327508   6308   ??  S     2:08PM   0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/R
+huber021         78214   0.0  0.1  4355452  19232   ??  S     2:08PM   0:00.06 /usr/libexec/rapportd
+huber021         78211   0.0  0.1  4327352  18268   ??  S     2:08PM   0:00.05 /System/Library/Frameworks/AddressBook.framework/Executabl
+huber021         78206   0.0  0.1  4357796  22936   ??  S     2:08PM   0:00.10 /System/Library/PrivateFrameworks/IMCore.framework/imagent
+huber021         78205   0.0  0.1  4360608  18636   ??  S     2:08PM   0:00.16 /usr/libexec/nsurlsessiond
+huber021         78203   0.0  0.1  4362244  10744   ??  S     2:08PM   0:00.12 /System/Library/PrivateFrameworks/TCC.framework/Resources/
+huber021         78196   0.0  0.1  4366628  19560   ??  S     2:08PM   0:00.15 /System/Library/PrivateFrameworks/IDS.framework/identityse
+huber021         78194   0.0  0.1  4358296   8936   ??  S     2:08PM   0:00.23 /System/Library/Frameworks/Accounts.framework/Versions/A/S
+huber021         78190   0.0  0.2  4373520  36080   ??  S     2:08PM   0:00.28 /System/Library/PrivateFrameworks/CloudKitDaemon.framework
+huber021         78189   0.0  0.2  4365204  32652   ??  S     2:08PM   0:00.17 /System/Library/PrivateFrameworks/TelephonyUtilities.frame
+huber021         78188   0.0  0.1  4358736  14908   ??  S     2:08PM   0:00.11 /usr/libexec/secd
+huber021         78176   0.0  0.2  4381296  28568   ??  S     2:08PM   0:01.07 /usr/libexec/trustd --agent
+huber021         78171   0.0  0.2  4367616  34144   ??  S     2:08PM   0:00.16 /System/Library/Frameworks/CoreTelephony.framework/Support
+huber021         78168   0.0  0.1  4370168  13512   ??  S     2:08PM   0:00.10 /usr/sbin/universalaccessd launchd -s
+huber021         78164   0.0  0.2  4359208  36332   ??  S     2:08PM   0:00.38 /usr/libexec/UserEventAgent (Aqua)
+_spotlight       77290   0.0  0.1  4340008  17140   ??  S    12:12PM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Framewor
+_spotlight       77249   0.0  0.1  4340008  17112   ??  S    12:12PM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Framewor
+_spotlight       77247   0.0  0.1  4340008  17248   ??  S    12:12PM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Framewor
+_spotlight       77246   0.0  0.1  4339936  19556   ??  S    12:12PM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Framewor
+root             77245   0.0  0.1  4355556  10864   ??  S    12:12PM   0:00.08 /System/Library/PrivateFrameworks/ViewBridge.framework/Ver
+root             77208   0.0  0.1  4355036  11240   ??  Ss   12:12PM   0:00.04 /System/Library/PrivateFrameworks/AmbientDisplay.framework
+huber021         77198   0.0  0.4  4442944  65852   ??  S    12:12PM   0:00.52 /System/Library/CoreServices/loginwindow.app/Contents/MacO
+root             77032   0.0  0.0  4354092   7392   ??  Ss   12:08PM   0:00.08 /usr/sbin/ocspd
+carta006         75009   0.0  0.1  4369648  13956   ??  S     8:02AM   0:00.38 /System/Library/CoreServices/CoreServicesUIAgent.app/Conte
+hall0074         74578   0.0  0.1  4370340  12504   ??  S     8:00AM   0:00.51 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+carta006         67136   0.0  0.1  4845128  12968   ??  Ss    2:43PM   0:00.38 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         67135   0.0  0.2 89312420  29808   ??  Ss    2:43PM   0:00.64 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         67134   0.0  0.0  4846748   8128   ??  Ss    2:42PM   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         67133   0.0  1.6 107180992 263140   ??  Ss    2:42PM   0:46.37 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         66817   0.0  0.2  4454540  41440   ??  S    Wed02PM   0:02.13 /System/Library/PrivateFrameworks/CoreSuggestions.framewor
+carta006         66813   0.0  0.5 89777472  75908   ??  Ss   Wed02PM   0:02.66 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         66810   0.0  0.0  4837532   7876   ??  Ss   Wed02PM   0:00.06 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         66805   0.0  0.5 89740900  84024   ??  Ss   Wed02PM   0:02.23 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         66804   0.0  0.1  4300780   9112   ??  Ss   Wed02PM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+root             66662   0.0  0.0  4301792   5136   ??  S    Wed02PM   0:00.01 /System/Library/CoreServices/loginwindow.app/Contents/Reso
+luchs001         65503   0.0  0.0  4327796   5840   ??  S    Wed12PM   0:00.15 /System/Library/Frameworks/ApplicationServices.framework/V
+luchs001         64128   0.0  0.1  4371156  17532   ??  S    Wed10AM   0:01.03 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+might001         62945   0.0  0.1  4329020   8908   ??  S    Wed09AM   0:00.05 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+might001         62902   0.0  0.0  4327796   5384   ??  S    Wed09AM   0:00.13 /System/Library/Frameworks/ApplicationServices.framework/V
+might001         62832   0.0  0.1  4371536  17164   ??  S    Wed09AM   0:00.97 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+carta006         56330   0.0  0.3  4881836  45016   ??  Ss   Tue07PM   0:03.00 /System/Library/CoreServices/Siri.app/Contents/XPCServices
+bui00002         56269   0.0  0.1  4355080   9608   ??  S    Tue06PM   0:00.07 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+bui00002         56236   0.0  0.1  4329020   8932   ??  S    Tue06PM   0:00.07 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+bui00002         56201   0.0  0.1  4319496  11644   ??  S    Tue06PM   0:00.08 /System/Library/PrivateFrameworks/CloudServices.framework/
+carta006         56200   0.0  0.3  4373652  44444   ??  S    Tue06PM   0:03.01 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri 
+bui00002         56195   0.0  0.1  4363864   9420   ??  S    Tue06PM   0:01.33 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+bui00002         56105   0.0  0.1  4354016  21584   ??  S    Tue06PM   0:00.12 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+bui00002         56060   0.0  0.1  4358304  12108   ??  S    Tue06PM   0:02.46 /usr/libexec/pkd
+bui00002         55934   0.0  0.0  4354528   5680   ??  S    Tue06PM   0:00.19 /System/Library/Frameworks/CoreServices.framework/Versions
+root             55904   0.0  0.1  4355256  16828   ??  Ss   Tue06PM   0:00.24 /usr/libexec/dmd
+carta006         55892   0.0  0.1  4369180  16172   ??  S    Tue06PM   0:01.33 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+carta006         55891   0.0  0.2  4367960  31964   ??  S    Tue06PM   0:07.88 /usr/libexec/sharingd
+carta006         55887   0.0  0.3  4953288  44124   ??  S    Tue06PM   0:01.99 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/
+bui00002         55872   0.0  0.1  4354680  16332   ??  S    Tue06PM   0:00.31 /System/Library/PrivateFrameworks/IMDPersistence.framework
+carta006         55867   0.0  0.1  4355032  15704   ??  S    Tue06PM   0:00.40 /System/Library/PrivateFrameworks/CloudDocsDaemon.framewor
+carta006         55854   0.0  0.1  4355228  15856   ??  S    Tue06PM   0:00.16 /usr/libexec/dmd
+carta006         55838   0.0  0.2  4396704  27476   ??  S    Tue06PM   0:02.47 /usr/libexec/studentd
+bui00002         55835   0.0  0.0  4363716   7956   ??  S    Tue06PM   0:05.53 /usr/libexec/secinitd
+bui00002         55834   0.0  0.0  4358996   7040   ??  S    Tue06PM   0:00.37 /usr/libexec/languageassetd --firstLogin
+bui00002         55819   0.0  0.1  4370180   9096   ??  S    Tue06PM   0:12.06 /usr/libexec/lsd
+bui00002         55815   0.0  0.0  4328420   1896   ??  S    Tue06PM   0:00.47 /usr/sbin/distnoted agent
+bui00002         55783   0.0  0.0  4327752   2704   ??  S    Tue06PM   0:01.34 /usr/sbin/cfprefsd agent
+bui00002         55782   0.0  0.1  4354008   9248   ??  S    Tue06PM   0:00.09 /System/Library/Frameworks/LocalAuthentication.framework/S
+huber021         53693   0.0  0.1  4365672  10032   ??  S    Tue02PM   0:00.34 /System/Library/Frameworks/ApplicationServices.framework/F
+huber021         53508   0.0  0.1  4456244  11140   ??  S    Tue02PM   0:00.16 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+huber021         53440   0.0  0.2  4356812  26108   ??  S    Tue02PM   0:00.21 /System/Library/PrivateFrameworks/SafariShared.framework/V
+huber021         53392   0.0  0.1  4355080   9840   ??  S    Tue02PM   0:00.09 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+huber021         53322   0.0  0.1  4319496  11668   ??  S    Tue02PM   0:00.10 /System/Library/PrivateFrameworks/CloudServices.framework/
+huber021         53296   0.0  0.1  4354016  22356   ??  S    Tue02PM   0:00.15 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+huber021         53245   0.0  0.1  4358468  14616   ??  S    Tue02PM   0:03.61 /usr/libexec/pkd
+huber021         53104   0.0  0.0  4354528   7360   ??  S    Tue02PM   0:00.26 /System/Library/Frameworks/CoreServices.framework/Versions
+huber021         53023   0.0  0.1  4354812  17472   ??  S    Tue02PM   0:00.36 /System/Library/PrivateFrameworks/IMDPersistence.framework
+huber021         53003   0.0  0.1  4363108  12784   ??  S    Tue02PM   0:06.11 /usr/libexec/secinitd
+huber021         53001   0.0  0.0  4358996   7028   ??  S    Tue02PM   0:00.37 /usr/libexec/languageassetd --firstLogin
+huber021         52988   0.0  0.1  4371876  12136   ??  S    Tue02PM   0:13.40 /usr/libexec/lsd
+huber021         52976   0.0  0.0  4328420   3512   ??  S    Tue02PM   0:01.03 /usr/sbin/distnoted agent
+huber021         52937   0.0  0.0  4327784   3568   ??  S    Tue02PM   0:02.51 /usr/sbin/cfprefsd agent
+huber021         52936   0.0  0.1  4354188  10388   ??  S    Tue02PM   0:00.12 /System/Library/Frameworks/LocalAuthentication.framework/S
+root             52611   0.0  0.2  4391200  36484   ??  Ss   Tue02PM   0:07.45 /usr/libexec/sandboxd
+might001         14780   0.0  0.1  4495676   9824   ??  S    Mon09AM   0:00.19 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+might001         14775   0.0  0.0  4327756   5072   ??  S    Mon09AM   0:00.11 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+might001         14746   0.0  0.1  4357676  24768   ??  S    Mon09AM   0:00.25 /System/Library/PrivateFrameworks/SafariShared.framework/V
+might001         14581   0.0  0.1  4355080   9600   ??  S    Mon09AM   0:00.13 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+might001         14456   0.0  0.1  4327688  11692   ??  S    Mon09AM   0:00.16 /System/Library/PrivateFrameworks/CloudServices.framework/
+might001         14453   0.0  0.1  4354252  21896   ??  S    Mon09AM   0:00.22 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+might001         14381   0.0  0.1  4359308  12308   ??  S    Mon09AM   0:06.02 /usr/libexec/pkd
+might001         14293   0.0  0.0  4354528   5688   ??  S    Mon09AM   0:00.24 /System/Library/Frameworks/CoreServices.framework/Versions
+carta006         14277   0.0  0.1  4327852  18632   ??  S    Mon09AM   0:01.99 /System/Library/PrivateFrameworks/ContactsAgent.framework/
+might001         14230   0.0  0.1  4354812  16344   ??  S    Mon09AM   0:00.52 /System/Library/PrivateFrameworks/IMDPersistence.framework
+might001         14210   0.0  0.0  4359300   7788   ??  S    Mon09AM   0:06.19 /usr/libexec/secinitd
+might001         14208   0.0  0.0  4357220   7068   ??  S    Mon09AM   0:00.42 /usr/libexec/languageassetd --firstLogin
+might001         14199   0.0  0.1  4370996   9544   ??  S    Mon09AM   0:14.49 /usr/libexec/lsd
+might001         14193   0.0  0.0  4328420   1964   ??  S    Mon09AM   0:01.38 /usr/sbin/distnoted agent
+might001         14136   0.0  0.0  4327780   2824   ??  S    Mon09AM   0:03.27 /usr/sbin/cfprefsd agent
+might001         14135   0.0  0.1  4354188   9896   ??  S    Mon09AM   0:00.16 /System/Library/Frameworks/LocalAuthentication.framework/S
+root             12851   0.0  0.0  4302476   4164   ??  Ss   Mon07AM   0:00.01 /usr/libexec/applessdstatistics
+root             12822   0.0  0.0  4294832    424   ??  SNs  Mon07AM   0:00.00 /usr/libexec/periodic-wrapper monthly
+_netbios         12134   0.0  0.0  4330376   1864   ??  SNs  Mon05AM   0:02.26 /usr/sbin/netbiosd
+hall0074         71476   0.0  0.0  4327796   1988   ??  S    13Feb20   0:00.58 /System/Library/Frameworks/ApplicationServices.framework/V
+carta006         71401   0.0  0.0  4327544    824   ??  S    13Feb20   0:00.03 /System/Library/PrivateFrameworks/CloudServices.framework/
+carta006         71396   0.0  0.0  4327200   1408   ??  S    13Feb20   0:00.36 /System/Library/PrivateFrameworks/MediaRemote.framework/Su
+carta006         71377   0.0  0.0  4367128   5124   ??  S    13Feb20   0:02.70 /System/Library/CoreServices/Keychain Circle Notification.
+carta006         71374   0.0  0.0  4327196   1212   ??  S    13Feb20   0:00.27 /System/Library/PrivateFrameworks/CoreCDP.framework/Versio
+carta006         71012   0.0  0.0  4327824   1636   ??  S    13Feb20   0:00.47 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/D
+carta006         70427   0.0  0.0  4356024   3692   ??  S    13Feb20   0:00.73 /System/Library/PrivateFrameworks/DistributedEvaluation.fr
+carta006         67389   0.0  0.0  4328276     72   ??  S    13Feb20   0:00.03 /usr/libexec/spindump_agent
+carta006         63848   0.0  0.0  4818504      8   ??  Ss   12Feb20   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63847   0.0  0.0  4837344      8   ??  Ss   12Feb20   0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63838   0.0  0.0 106165592   6832   ??  Ss   12Feb20   0:03.56 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         63837   0.0  0.1 89835452  11024   ??  Ss   12Feb20   0:08.62 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         63833   0.0  3.5 107081300 588384   ??  Ss   12Feb20   4:33.07 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         63669   0.0  0.0  4364536   4492   ??  Ss   12Feb20   0:01.88 /System/Library/PrivateFrameworks/SafariShared.framework/V
+carta006         63550   0.0  0.0  4320640    384   ??  S    12Feb20   0:00.03 /usr/libexec/USBAgent
+root             63544   0.0  0.0  4829244   5668   ??  Ss   12Feb20   0:00.10 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63538   0.0  0.0  4319632    160   ??  S    12Feb20   0:00.02 /System/Library/CoreServices/ReportCrash agent
+carta006         63399   0.0  0.0  4355420   1740   ??  S    12Feb20   0:01.45 /System/Library/CoreServices/ScopedBookmarkAgent
+carta006         63398   0.0  0.0  4845216      8   ??  Ss   12Feb20   0:00.21 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63395   0.0  0.2  5036636  29864   ??  S    12Feb20   0:06.93 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_39
+carta006         63393   0.0  0.0  4327856    948   ??  S    12Feb20   0:00.38 /System/Library/Frameworks/CoreServices.framework/Framewor
+carta006         63392   0.0  0.0  4882680   3780   ??  Ss   12Feb20   0:02.41 /Applications/Safari.app/Contents/XPCServices/com.apple.Sa
+carta006         63389   0.0  0.0  4327756   1300   ??  S    12Feb20   0:00.48 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+carta006         63388   0.0  0.0  4300780      8   ??  Ss   12Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+carta006         63247   0.0  0.0  4360040   1368   ??  S    12Feb20   0:00.91 /System/Library/PrivateFrameworks/ContactsDonation.framewo
+carta006         63245   0.0  0.0  4845268      8   ??  Ss   12Feb20   0:00.21 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63244   0.0  1.3  5142404 210136   ??  S    12Feb20   0:25.60 /Applications/Mail.app/Contents/MacOS/Mail
+carta006         63237   0.0  0.0  4363620   6576   ??  S    12Feb20   0:05.83 /usr/libexec/keyboardservicesd
+carta006         63236   0.0  0.2  4586440  26784   ??  S    12Feb20   0:02.88 /System/Library/Services/AppleSpell.service/Contents/MacOS
+carta006         63234   0.0  0.0  4837208      8   ??  Ss   12Feb20   0:00.19 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63225   0.0  0.0  4355220   1848   ??  Ss   12Feb20   0:00.64 /System/Library/PrivateFrameworks/AssistantServices.framew
+carta006         63221   0.0  0.0  4388480   1744   ??  S    12Feb20   0:02.11 /System/Library/Frameworks/ApplicationServices.framework/F
+carta006         63157   0.0  0.0  4327436    788   ??  S    12Feb20   0:00.05 /System/Library/PrivateFrameworks/CoreFollowUp.framework/V
+carta006         63156   0.0  0.0  4363860   4680   ??  S    12Feb20   0:05.27 /System/Library/PrivateFrameworks/AppStoreDaemon.framework
+carta006         63151   0.0  0.0  4355932   2036   ??  S    12Feb20   0:01.24 /usr/libexec/silhouette
+carta006         63150   0.0  0.0  4354804    984   ??  S    12Feb20   0:00.74 /System/Library/PrivateFrameworks/UsageTracking.framework/
+carta006         63143   0.0  0.0  4354768   3468   ??  S    12Feb20   0:01.15 /System/Library/PrivateFrameworks/IMDPersistence.framework
+carta006         63142   0.0  0.0  4353856   1348   ??  S    12Feb20   0:00.62 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/
+carta006         63141   0.0  0.0  4358040   1556   ??  Ss   12Feb20   0:00.57 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         63140   0.0  0.0  4370924   4452   ??  S    12Feb20   0:02.98 /System/Library/PrivateFrameworks/CommerceKit.framework/Re
+carta006         63139   0.0  0.0  4371064   7788   ??  S    12Feb20   0:05.11 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         63138   0.0  0.0  4355028   1480   ??  S    12Feb20   0:00.66 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         63135   0.0  0.0  4328468   3244   ??  S    12Feb20   0:00.54 /System/Library/CoreServices/Software Update.app/Contents/
+carta006         63123   0.0  0.0  4356188   3968   ??  S    12Feb20   1:11.85 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+carta006         63122   0.0  0.0  4327840    776   ??  S    12Feb20   0:00.54 /System/Library/Frameworks/ColorSync.framework/Support/col
+carta006         63120   0.0  0.1  5009372  12420   ??  S    12Feb20   0:11.63 /Applications/Utilities/Adobe Creative Cloud Experience/CC
+carta006         63119   0.0  0.0  4956388   5408   ??  S    12Feb20   0:14.25 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+carta006         63116   0.0  0.1  4867296  18248   ??  S    12Feb20   3:17.90 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63111   0.0  0.1  5031688  16928   ??  S    12Feb20   0:11.40 /Library/Application Support/Adobe/Creative Cloud Librarie
+carta006         63109   0.0  0.0  4355664   4068   ??  S    12Feb20   0:57.60 /Library/Application Support/Adobe/Adobe Desktop Common/AD
+carta006         63106   0.0  0.1  4812108  19016   ??  S    12Feb20   0:04.03 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63105   0.0  0.0  4356188   3660   ??  S    12Feb20   0:58.33 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63103   0.0  0.2  5669732  30032   ??  S    12Feb20   0:57.07 /Library/Application Support/Adobe/Adobe Desktop Common/AD
+carta006         63102   0.0  0.0  4355660    824   ??  Ss   12Feb20   0:00.63 /System/Library/Frameworks/VideoToolbox.framework/Versions
+carta006         63101   0.0  0.0  4663764   7628   ??  S    12Feb20   2:26.63 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63097   0.0  0.0  4373888   3916   ??  S    12Feb20   0:28.79 /Library/Application Support/Adobe/Adobe Desktop Common/IP
+carta006         63094   0.0  0.0  4329020   1080   ??  S    12Feb20   0:00.51 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+carta006         63093   0.0  0.0  4328584   1436   ??  S    12Feb20   0:00.58 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp
+carta006         63091   0.0  0.2  4403916  29332   ??  S    12Feb20   0:05.62 /Library/Application Support/Malwarebytes/Malwarebytes End
+carta006         63089   0.0  0.0  4376928   6728   ??  S    12Feb20   0:06.60 /System/Library/PrivateFrameworks/Noticeboard.framework/Ve
+carta006         63088   0.0  0.1  4735756  20396   ??  S    12Feb20   1:43.21 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63087   0.0  0.0  4355488   2896   ??  S    12Feb20   0:04.15 /System/Library/CoreServices/cloudpaird
+carta006         63086   0.0  0.0  4360704   5144   ??  S    12Feb20   0:03.02 /usr/libexec/knowledge-agent
+carta006         63085   0.0  0.0  4879076   3680   ??  S    12Feb20   0:03.57 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/M
+carta006         63084   0.0  0.0  4381796   4604   ??  S    12Feb20   0:03.06 /Library/Application Support/Pharos/Notify.app/Contents/Ma
+carta006         63081   0.0  0.0  4355252   4416   ??  S    12Feb20   0:00.75 /System/Library/Image Capture/Support/icdd
+carta006         63079   0.0  0.0  4361324   4440   ??  S    12Feb20   0:03.75 /System/Library/Frameworks/InputMethodKit.framework/Resour
+carta006         63077   0.0  0.0  4355080   2812   ??  SN   12Feb20   0:00.49 /usr/local/jamf/bin/jamfAgent
+carta006         63075   0.0  0.0  4353896   1052   ??  S    12Feb20   0:00.61 /System/Library/CoreServices/SocialPushAgent.app/Contents/
+carta006         63070   0.0  0.0  4327400   2456   ??  S    12Feb20   0:00.19 /System/Library/PrivateFrameworks/CoreSpeech.framework/cor
+carta006         63054   0.0  0.0  4354824   3648   ??  S    12Feb20   0:02.32 /System/Library/PrivateFrameworks/ProtectedCloudStorage.fr
+carta006         63040   0.0  0.0  4327356   1464   ??  S    12Feb20   0:00.58 /System/Library/CoreServices/EscrowSecurityAlert.app/Conte
+carta006         63037   0.0  0.0  4354520   1848   ??  Ss   12Feb20   0:00.67 /System/Library/PrivateFrameworks/FMClient.framework/Versi
+carta006         63036   0.0  0.0  4354620   2552   ??  S    12Feb20   0:00.76 /usr/libexec/siriknowledged
+carta006         63033   0.0  0.0  4356616   2532   ??  Ss   12Feb20   0:01.35 /System/Library/Frameworks/iTunesLibrary.framework/Version
+carta006         63031   0.0  0.0  4310256      8   ??  Ss   12Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+carta006         63030   0.0  0.1  4370084  14236   ??  S    12Feb20   0:07.61 /System/Library/PrivateFrameworks/AssistantServices.framew
+carta006         63026   0.0  0.0  4359896   3888   ??  S    12Feb20   0:00.93 /System/Library/Frameworks/AudioToolbox.framework/AudioCom
+carta006         63018   0.0  0.0  4690708   4852   ??  S    12Feb20   0:02.01 /System/Library/Frameworks/CoreServices.framework/Framewor
+carta006         63017   0.0  0.1  4535108  11272   ??  S    12Feb20   0:00.90 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+carta006         63015   0.0  0.0  4373196   1424   ??  S    12Feb20   0:04.71 /System/Library/PrivateFrameworks/Tourist.framework/Versio
+carta006         63014   0.0  0.0  4367208   8240   ??  S    12Feb20   0:04.00 /usr/libexec/adprivacyd
+carta006         62990   0.0  0.0  4359708   2496   ??  S    12Feb20   0:00.86 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.fram
+carta006         62988   0.0  0.0  4404524   6332   ??  Ss   12Feb20   0:02.06 /System/Library/Frameworks/MediaLibrary.framework/Versions
+carta006         62972   0.0  0.0  4354252   2412   ??  S    12Feb20   0:00.72 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+carta006         62962   0.0  0.0  4356616   2144   ??  Ss   12Feb20   0:01.32 /System/Library/Frameworks/iTunesLibrary.framework/Version
+carta006         62953   0.0  0.0  4354076   1576   ??  S    12Feb20   0:00.68 /System/Library/PrivateFrameworks/QuickLookThumbnailing.fr
+carta006         62952   0.0  0.0  4327384   1660   ??  Ss   12Feb20   0:00.68 /System/Library/PrivateFrameworks/AssistantServices.framew
+carta006         62951   0.0  0.0  4360976   2612   ??  S    12Feb20   0:00.75 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         62950   0.0  0.0  4354972   3880   ??  S    12Feb20   0:01.07 /System/Library/CoreServices/diagnostics_agent
+carta006         62949   0.0  0.0  4396672   5900   ??  S    12Feb20   0:06.38 /System/Library/CoreServices/cloudphotosd.app/Contents/Mac
+carta006         62929   0.0  0.0  4356132   5744   ??  S    12Feb20   0:01.50 /usr/libexec/videosubscriptionsd
+carta006         62927   0.0  0.0  4355080   1336   ??  S    12Feb20   0:00.60 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+carta006         62926   0.0  0.0  4839696    892   ??  S    12Feb20   0:00.02 SafeEjectGPUAgent
+carta006         62925   0.0  0.0  4328440   1428   ??  Ss   12Feb20   0:00.59 /System/Library/PrivateFrameworks/SafariShared.framework/V
+carta006         62921   0.0  0.2 106850176  26340   ??  Ss   12Feb20   1:10.20 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         62911   0.0  0.0  4356020   2388   ??  Ss   12Feb20   0:02.35 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+carta006         62910   0.0  0.0  4354516    952   ??  S    12Feb20   0:00.69 /System/Library/PrivateFrameworks/CallHistory.framework/Su
+carta006         62907   0.0  0.1  4888152   8728   ??  Ss   12Feb20   0:04.23 /System/Library/CoreServices/Dock.app/Contents/XPCServices
+carta006         62905   0.0  0.1  4383272  18948   ??  S    12Feb20   1:11.06 /System/Library/PrivateFrameworks/SafariSafeBrowsing.frame
+carta006         62904   0.0  0.0  4360300   4652   ??  S    12Feb20   0:03.67 /System/Library/PrivateFrameworks/CacheDelete.framework/de
+carta006         62899   0.0  0.0  4327636    976   ??  Ss   12Feb20   0:00.04 /System/Library/PrivateFrameworks/login.framework/Versions
+carta006         62898   0.0  0.0  4358604   2844   ??  S    12Feb20   0:00.62 /System/Library/CoreServices/pbs
+carta006         62897   0.0  0.0  4354300   2808   ??  Ss   12Feb20   0:05.21 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Ve
+carta006         62896   0.0  0.0  4374824   5484   ??  S    12Feb20   0:04.64 /System/Library/CoreServices/CoreLocationAgent.app/Content
+carta006         62891   0.0  0.0  4327796   1388   ??  S    12Feb20   0:00.82 /System/Library/Frameworks/ApplicationServices.framework/V
+carta006         62887   0.0  0.0  4845700      8   ??  Ss   12Feb20   0:00.13 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         62876   0.0  0.2  4397072  27388   ??  Ss   12Feb20   1:37.53 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         62874   0.0  0.0  4418320   3540   ??  Ss   12Feb20   0:04.25 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+carta006         62870   0.0  0.1  4389600  10504   ??  Ss   12Feb20   0:05.66 /System/Library/Frameworks/VideoToolbox.framework/Versions
+carta006         62867   0.0  0.0  4357964   3400   ??  S    12Feb20   0:00.91 /System/Library/PrivateFrameworks/SafariShared.framework/V
+carta006         62858   0.0  0.1  4949536  18528   ??  S    12Feb20   0:13.29 /System/Library/CoreServices/Finder.app/Contents/MacOS/Fin
+carta006         62857   0.0  0.2  4936968  37576   ??  S    12Feb20   0:42.93 /System/Library/CoreServices/SystemUIServer.app/Contents/M
+carta006         62856   0.0  0.8  5702880 130476   ??  S    12Feb20   0:59.39 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+carta006         62854   0.0  0.4  6510168  63884   ??  S    12Feb20   3:31.62 /Applications/Safari.app/Contents/MacOS/Safari -psn_0_3793
+carta006         62852   0.0  0.0  4369800   6624   ??  S    12Feb20   0:05.33 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         62835   0.0  0.0  4357356   8104   ??  S    12Feb20   0:02.35 /System/Library/CoreServices/mapspushd
+carta006         62834   0.0  0.0  4358536   2280   ??  S    12Feb20   0:02.51 /System/Library/PrivateFrameworks/AuthKit.framework/Versio
+carta006         62833   0.0  0.0  4360384   1644   ??  S    12Feb20   0:17.41 /System/Library/CoreServices/SafariSupport.bundle/Contents
+carta006         62831   0.0  0.0  4356548   2476   ??  S    12Feb20   0:01.45 /usr/libexec/swcd
+carta006         62827   0.0  0.1  4381624  12368   ??  S    12Feb20   0:06.64 /System/Library/PrivateFrameworks/AssistantServices.framew
+carta006         62824   0.0  0.0  4329024   2012   ??  S    12Feb20   0:00.71 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         62823   0.0  0.0  4359620   7808   ??  S    12Feb20   0:24.74 /usr/libexec/pkd
+carta006         62822   0.0  0.1  4369940  13292   ??  S    12Feb20   0:06.09 /System/Library/PrivateFrameworks/CoreParsec.framework/par
+carta006         62821   0.0  0.0  4367108   3844   ??  S    12Feb20   0:05.40 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/
+carta006         62819   0.0  0.1  4404088  12812   ??  S    12Feb20   0:02.06 /System/Library/CoreServices/iconservicesagent
+carta006         62817   0.0  0.0  4327780    880   ??  S    12Feb20   0:00.50 /System/Library/CoreServices/APFSUserAgent
+carta006         62816   0.0  0.0  4354604   1132   ??  S    12Feb20   0:00.63 /System/Library/PrivateFrameworks/FamilyCircle.framework/V
+carta006         62812   0.0  0.0  4360404   6188   ??  Ss   12Feb20   0:06.17 /System/Library/PrivateFrameworks/CalendarNotification.fra
+carta006         62810   0.0  0.0  4327160      8   ??  Ss   12Feb20   0:00.94 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+carta006         62809   0.0  0.0  4356020   5116   ??  Ss   12Feb20   0:02.31 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+carta006         62808   0.0  0.0  4361832   5300   ??  S    12Feb20   0:25.90 /usr/libexec/nsurlstoraged
+carta006         62807   0.0  0.0  4355856   2740   ??  S    12Feb20   0:01.41 /usr/libexec/fmfd
+carta006         62806   0.0  0.0  4356040   3388   ??  S    12Feb20   0:03.73 /System/Library/PrivateFrameworks/UserActivity.framework/A
+carta006         62804   0.0  0.0  4360036   5284   ??  S    12Feb20   0:01.58 /System/Library/PrivateFrameworks/MessagesKit.framework/Re
+carta006         62803   0.0  0.0  4356084   4996   ??  Ss   12Feb20   0:02.31 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+carta006         62802   0.0  0.1  4364072   9096   ??  S    12Feb20   0:07.44 /System/Library/PrivateFrameworks/CalendarAgent.framework/
+carta006         62801   0.0  0.0  4355796   1532   ??  S    12Feb20   0:01.04 /usr/libexec/networkserviceproxy
+carta006         62800   0.0  0.0  4355296   3108   ??  S    12Feb20   0:02.40 /System/Library/CoreServices/backgroundtaskmanagementagent
+carta006         62796   0.0  0.0  4357828   6348   ??  S    12Feb20   0:26.19 /System/Library/Frameworks/ApplicationServices.framework/F
+carta006         62795   0.0  0.0  4375240   3448   ??  S    12Feb20   0:04.84 /System/Library/CoreServices/talagent
+carta006         62794   0.0  0.1  4362708  10152   ??  S    12Feb20   0:07.51 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+carta006         62792   0.0  0.0  4354976   2824   ??  S    12Feb20   0:04.06 /System/Library/PrivateFrameworks/ViewBridge.framework/Ver
+carta006         62791   0.0  0.0  4328280    676   ??  S    12Feb20   0:00.09 /usr/libexec/pboard
+carta006         62789   0.0  0.2  4945224  40452   ??  S    12Feb20   0:10.47 /System/Library/CoreServices/NotificationCenter.app/Conten
+carta006         62786   0.0  0.0  4357312   5800   ??  S    12Feb20   0:02.83 /usr/sbin/usernoted
+carta006         62784   0.0  0.0  4327508   1476   ??  S    12Feb20   0:00.38 /System/Library/Frameworks/Security.framework/Versions/A/R
+carta006         62780   0.0  0.0  4355488   4584   ??  S    12Feb20   0:08.94 /usr/libexec/rapportd
+carta006         62774   0.0  0.0  4327352   2172   ??  S    12Feb20   0:01.03 /System/Library/Frameworks/AddressBook.framework/Executabl
+carta006         62772   0.0  0.0  4355408   1652   ??  S    12Feb20   0:01.30 /System/Library/PrivateFrameworks/IMDPersistence.framework
+carta006         62770   0.0  0.0  4361816   5772   ??  S    12Feb20   0:03.85 /usr/libexec/nsurlsessiond
+carta006         62769   0.0  0.0  4360276   4628   ??  S    12Feb20   0:02.27 /System/Library/PrivateFrameworks/TCC.framework/Resources/
+carta006         62768   0.0  0.0  4355792   5676   ??  S    12Feb20   0:02.69 /System/Library/PrivateFrameworks/IMCore.framework/imagent
+carta006         62764   0.0  0.0  4368284   7108   ??  S    12Feb20   0:08.29 /System/Library/Frameworks/Accounts.framework/Versions/A/S
+carta006         62762   0.0  0.0  4357240   4640   ??  S    12Feb20   0:04.85 /usr/libexec/secinitd
+carta006         62760   0.0  0.0  4356152   4136   ??  S    12Feb20   0:01.46 /System/Library/CoreServices/sharedfilelistd
+carta006         62759   0.0  0.0  4364624   6936   ??  S    12Feb20   0:04.79 /System/Library/PrivateFrameworks/IDS.framework/identityse
+carta006         62754   0.0  0.0  4363184   6220   ??  S    12Feb20   0:02.99 /System/Library/PrivateFrameworks/TelephonyUtilities.frame
+carta006         62751   0.0  0.1  4373820  11848   ??  S    12Feb20   0:05.62 /System/Library/PrivateFrameworks/CloudKitDaemon.framework
+carta006         62748   0.0  0.0  4358800   5976   ??  S    12Feb20   0:01.93 /usr/libexec/secd
+carta006         62737   0.0  0.1  4366572  11508   ??  S    12Feb20   0:28.52 /usr/libexec/trustd --agent
+carta006         62736   0.0  0.0  4359808   5728   ??  S    12Feb20   0:03.15 /usr/libexec/lsd
+carta006         62734   0.0  0.0  4367660   6152   ??  S    12Feb20   0:11.81 /System/Library/Frameworks/CoreTelephony.framework/Support
+carta006         62731   0.0  0.0  4328420   3172   ??  S    12Feb20   0:12.94 /usr/sbin/distnoted agent
+carta006         62726   0.0  0.0  4357172   7608   ??  S    12Feb20   0:20.60 /usr/libexec/UserEventAgent (Aqua)
+carta006         62696   0.0  0.0  4327740   2944   ??  S    12Feb20   0:38.49 /usr/sbin/cfprefsd agent
+carta006         62695   0.0  0.0  4354188   2604   ??  S    12Feb20   0:00.65 /System/Library/Frameworks/LocalAuthentication.framework/S
+carta006         61626   0.0  0.2  4466860  27488   ??  S    12Feb20   0:09.60 /System/Library/CoreServices/loginwindow.app/Contents/MacO
+_windowserver    61249   0.0  0.1  4845408  10172   ??  Ss   12Feb20   0:00.34 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+_gamecontrollerd 52339   0.0  0.0  4327912   1940   ??  Ss   11Feb20   0:06.32 /usr/libexec/gamecontrollerd
+hall0074         49712   0.0  0.0  4359136   5084   ??  S    11Feb20   0:02.78 /usr/libexec/secinitd
+luchs001         41476   0.0  0.0  4327756   1216   ??  S    10Feb20   0:00.56 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+luchs001         41475   0.0  0.0  4311280      8   ??  Ss   10Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+root             41087   0.0  0.0  4327772    928   ??  Ss   10Feb20   0:00.55 /usr/libexec/tailspind
+luchs001         40954   0.0  0.0  4442480   1524   ??  S    10Feb20   0:01.15 /System/Library/Frameworks/ApplicationServices.framework/F
+root             40764   0.0  0.0  4354864    872   ??  Ss   10Feb20   0:00.39 /Library/PrivilegedHelperTools/com.adobe.ARMDC.Communicato
+luchs001         40632   0.0  0.1  4536132  10132   ??  S    10Feb20   0:01.21 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+luchs001         40597   0.0  0.0  4354252   2196   ??  S    10Feb20   0:00.89 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+luchs001         40549   0.0  0.0  4329020   1400   ??  S    10Feb20   0:00.57 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+luchs001         40473   0.0  0.0  4355080   1848   ??  S    10Feb20   0:00.64 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+luchs001         40417   0.0  0.0  4357676   4708   ??  S    10Feb20   0:01.14 /System/Library/PrivateFrameworks/SafariShared.framework/V
+luchs001         40337   0.0  0.0  4358876   6264   ??  S    10Feb20   0:13.64 /usr/libexec/pkd
+luchs001         40301   0.0  0.0  4359764   6040   ??  S    10Feb20   0:05.37 /usr/libexec/secinitd
+luchs001         40296   0.0  0.0  4355364   3460   ??  S    10Feb20   0:01.68 /System/Library/PrivateFrameworks/IMDPersistence.framework
+luchs001         40278   0.0  0.0  4363452   6444   ??  S    10Feb20   0:03.69 /usr/libexec/lsd
+luchs001         40270   0.0  0.0  4328420   3432   ??  S    10Feb20   0:05.74 /usr/sbin/distnoted agent
+luchs001         40208   0.0  0.0  4328020   3328   ??  S    10Feb20   0:10.97 /usr/sbin/cfprefsd agent
+luchs001         40207   0.0  0.0  4354188   2760   ??  S    10Feb20   0:00.74 /System/Library/Frameworks/LocalAuthentication.framework/S
+root             25348   0.0  0.0  4330480   3860   ??  Ss    8Feb20   0:01.80 /usr/libexec/diskmanagementd
+root             25342   0.0  0.0  4357784   6632   ??  Ss    8Feb20   0:58.12 /System/Library/PrivateFrameworks/StorageKit.framework/Res
+root             18520   0.0  0.0  4318448      8   ??  Ss    8Feb20   0:00.01 /usr/sbin/aslmanager -s /var/log/eventmonitor
+root             15224   0.0  0.0  4365680   2416   ??  Ss    7Feb20   0:04.28 /Library/Application Support/Malwarebytes/Malwarebytes End
+root             10656   0.0  0.0  4294832      8   ??  SNs   7Feb20   0:00.01 /usr/libexec/periodic-wrapper weekly
+_usbmuxd          4922   0.0  0.0  4356976   1180   ??  Ss    6Feb20   0:01.01 /System/Library/PrivateFrameworks/MobileDevice.framework/V
+root              4795   0.0  0.0  4356172   3164   ??  Ss    6Feb20   0:02.03 /usr/libexec/secinitd
+root              4528   0.0  0.0  4303024    288   ??  SNs   6Feb20   0:00.02 /usr/libexec/periodic-wrapper daily
+bazze002          4215   0.0  0.0  4367720   1028   ??  S     6Feb20   0:01.92 /System/Library/Frameworks/ApplicationServices.framework/F
+bazze002          4170   0.0  0.0  4362720   1652   ??  S     6Feb20   0:04.54 /usr/libexec/secinitd
+admin             4086   0.0  0.0  4328396    568   ??  S     6Feb20   0:00.94 /usr/sbin/distnoted agent
+root              4012   0.0  0.0  4354928   1372   ??  Ss    6Feb20   0:02.00 /usr/libexec/xpcroleaccountd -launchd
+bazze002          3931   0.0  0.0  4327756    896   ??  S     6Feb20   0:00.75 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+bazze002          3620   0.0  0.0  4536132   3308   ??  S     6Feb20   0:01.40 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+bazze002          3578   0.0  0.0  4357676   1124   ??  S     6Feb20   0:01.33 /System/Library/PrivateFrameworks/SafariShared.framework/V
+bazze002          3525   0.0  0.0  4355080   1024   ??  S     6Feb20   0:00.83 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+bazze002          3494   0.0  0.0  4329020   1096   ??  S     6Feb20   0:00.74 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+bazze002          3461   0.0  0.0  4327688    884   ??  S     6Feb20   0:00.79 /System/Library/PrivateFrameworks/CloudServices.framework/
+bazze002          3460   0.0  0.0  4355744    960   ??  S     6Feb20   0:00.77 /System/Library/PrivateFrameworks/DistributedEvaluation.fr
+_fpsd             3455   0.0  0.0  4329060   1320   ??  Ss    6Feb20   0:01.99 /System/Library/PrivateFrameworks/CoreFP.framework/Version
+bazze002          3432   0.0  0.0  4354252    836   ??  S     6Feb20   0:00.98 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+root              3421   0.0  0.1  4387872  13952   ??  Ss    6Feb20   0:08.54 /System/Library/PrivateFrameworks/PackageKit.framework/Res
+bazze002          3341   0.0  0.0  4358480   3448   ??  S     6Feb20   0:08.91 /usr/libexec/pkd
+bazze002          3210   0.0  0.0  4354528    936   ??  S     6Feb20   0:01.02 /System/Library/Frameworks/CoreServices.framework/Versions
+bazze002          3145   0.0  0.0  4354856   1660   ??  S     6Feb20   0:02.14 /System/Library/PrivateFrameworks/IMDPersistence.framework
+bazze002          3127   0.0  0.0  4357220   1016   ??  S     6Feb20   0:01.09 /usr/libexec/languageassetd --firstLogin
+bazze002          3104   0.0  0.0  4368804   3376   ??  S     6Feb20   0:12.64 /usr/libexec/lsd
+bazze002          3098   0.0  0.0  4328420    808   ??  S     6Feb20   0:05.12 /usr/sbin/distnoted agent
+bazze002          3061   0.0  0.0  4327776   1808   ??  S     6Feb20   0:12.99 /usr/sbin/cfprefsd agent
+bazze002          3060   0.0  0.0  4354188    680   ??  S     6Feb20   0:00.92 /System/Library/Frameworks/LocalAuthentication.framework/S
+root              1698   0.0  0.0  4357632   1792   ??  Ss    6Feb20   0:03.05 /System/Library/PrivateFrameworks/AuthKit.framework/Versio
+root              1697   0.0  0.0  4357932   3580   ??  Ss    6Feb20   0:04.68 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1696   0.0  0.0  4357232   1580   ??  Ss    6Feb20   0:00.88 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1603   0.0  0.0  4365808   5196   ??  Ss    6Feb20   0:05.55 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1602   0.0  0.0  4329008   1412   ??  Ss    6Feb20   0:00.88 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1388   0.0  0.0  4354704    612   ??  Ss    6Feb20   0:00.84 /usr/libexec/tzd
+_applepay         1262   0.0  0.0  4355092   2160   ??  Ss    6Feb20   0:00.84 /usr/libexec/nfcd
+admin             1166   0.0  0.0  4358068   5284   ??  S     6Feb20   0:05.18 /usr/libexec/trustd --agent
+admin             1162   0.0  0.0  4362156   2376   ??  S     6Feb20   0:01.97 /usr/libexec/lsd
+admin             1161   0.0  0.0  4327640    908   ??  S     6Feb20   0:01.55 /usr/sbin/cfprefsd agent
+admin             1160   0.0  0.0  4355988   1152   ??  S     6Feb20   0:18.46 /System/Library/Frameworks/CoreServices.framework/Framewor
+_spotlight        1159   0.0  0.0  4356228   1140   ??  S     6Feb20   1:45.32 /System/Library/Frameworks/CoreServices.framework/Framewor
+root              1122   0.0  0.0  4355836   2672   ??  Ss    6Feb20   0:00.77 /usr/bin/sysdiagnose
+root              1086   0.0  0.0  4327824      8   ??  Ss    6Feb20   0:00.03 /System/Library/CoreServices/ReportCrash daemon
+root              1085   0.0  0.0  4301804      8   ??  Ss    6Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+root              1084   0.0  0.0  4435388    768   ??  Ss    6Feb20   0:01.05 /System/Library/Frameworks/ApplicationServices.framework/F
+root              1079   0.0  0.0  4360044   4792   ??  Ss    6Feb20   0:04.51 /usr/libexec/rtcreportingd
+root              1064   0.0  0.0  4353788   1340   ??  Ss    6Feb20   0:00.79 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1057   0.0  0.0  4377080   2588   ??  Ss    6Feb20   0:08.37 /System/Library/PrivateFrameworks/PackageKit.framework/Res
+_softwareupdate   1053   0.0  0.0  4355496   1060   ??  Ss    6Feb20   0:01.04 /System/Library/CoreServices/Software Update.app/Contents/
+_softwareupdate   1043   0.0  0.0  4328420    392   ??  S     6Feb20   0:01.14 /usr/sbin/distnoted agent
+_softwareupdate   1042   0.0  0.0  4294872    436   ??  S     6Feb20   0:01.52 /usr/sbin/cfprefsd agent
+_atsserver        1039   0.0  0.0  4356108   2724   ??  Ss    6Feb20   0:01.17 /System/Library/Frameworks/ApplicationServices.framework/F
+hall0074          1016   0.0  0.0  4354252   1740   ??  S     6Feb20   0:00.97 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+root               997   0.0  0.0  4329052    316   ??  Ss    6Feb20   0:00.08 /usr/libexec/mobileactivationd
+root               976   0.0  0.0  4502288   6004   ??  Ss    6Feb20   0:02.72 /usr/sbin/spindump
+hall0074           972   0.0  0.1  4575564   9036   ??  S     6Feb20   0:01.42 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+root               971   0.0  0.0  4361372   3948   ??  Ss    6Feb20   0:06.43 /usr/libexec/dprivacyd
+_spotlight         966   0.0  0.0  4328420    980   ??  S     6Feb20   0:01.40 /usr/sbin/distnoted agent
+hall0074           948   0.0  0.0  4327756   1052   ??  S     6Feb20   0:00.77 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+_assetcache        946   0.0  0.0  4357684   1816   ??  Ss    6Feb20   0:01.10 /usr/libexec/AssetCache/AssetCache
+_assetcache        945   0.0  0.0  4359332   1288   ??  Ss    6Feb20   0:04.93 /System/Library/PrivateFrameworks/AssetCacheServices.frame
+_spotlight         939   0.0  0.0  4358116   5896   ??  S     6Feb20   0:05.45 /usr/libexec/trustd --agent
+root               912   0.0  0.0  4362832   2228   ??  Ss    6Feb20   0:02.09 /System/Library/CoreServices/Software Update.app/Contents/
+_softwareupdate    910   0.0  0.4  4546980  69424   ??  Ss    6Feb20   3:58.11 /System/Library/CoreServices/Software Update.app/Contents/
+root               905   0.0  0.0  4355428   4688   ??  Ss    6Feb20   0:02.55 /Library/PrivilegedHelperTools/com.adobe.acc.installer.v2
+root               904   0.0  0.0  4400412   4648   ??  Ss    6Feb20   0:03.09 /System/Library/CoreServices/iconservicesagent runAsRoot
+hall0074           823   0.0  0.0  4355080   1548   ??  S     6Feb20   0:00.84 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+root               793   0.0  0.0  4363596   6732   ??  Ss    6Feb20   0:18.48 /System/Library/CoreServices/SubmitDiagInfo server-init
+hall0074           780   0.0  0.0  4329020   1088   ??  S     6Feb20   0:00.78 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+root               744   0.0  0.0  4332712   4068   ??  Ss    6Feb20   0:00.87 /usr/sbin/filecoordinationd
+hall0074           736   0.0  0.0  4357676   4700   ??  S     6Feb20   0:01.15 /System/Library/PrivateFrameworks/SafariShared.framework/V
+_datadetectors     716   0.0  0.1  4335280  11812   ??  Ss    6Feb20   0:06.26 /usr/libexec/DataDetectorsSourceAccess
+_fpsd              681   0.0  0.0  4331476   4828   ??  Ss    6Feb20   0:01.38 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+hall0074           676   0.0  0.0  4358964   6060   ??  S     6Feb20   0:07.10 /usr/libexec/pkd
+root               656   0.0  0.0  4327220   1980   ??  Ss    6Feb20   0:00.84 /System/Library/CoreServices/CrashReporterSupportHelper se
+hall0074           641   0.0  0.0  4355364   3004   ??  S     6Feb20   0:02.23 /System/Library/PrivateFrameworks/IMDPersistence.framework
+root               635   0.0  0.0  4355276   3236   ??  Ss    6Feb20   0:06.00 /usr/sbin/wirelessproxd
+root               633   0.0  0.0  4355160   3152   ??  Ss    6Feb20   0:19.89 /usr/sbin/WirelessRadioManagerd
+hall0074           600   0.0  0.0  4364396   5536   ??  S     6Feb20   0:03.60 /usr/libexec/lsd
+hall0074           591   0.0  0.0  4328420   3268   ??  S     6Feb20   0:03.83 /usr/sbin/distnoted agent
+root               571   0.0  0.0  4328852   1204   ??  Ss    6Feb20   0:00.51 /usr/libexec/securityd_service
+hall0074           548   0.0  0.0  4327776   2612   ??  S     6Feb20   0:08.11 /usr/sbin/cfprefsd agent
+hall0074           547   0.0  0.0  4354188   2708   ??  S     6Feb20   0:00.92 /System/Library/Frameworks/LocalAuthentication.framework/S
+root               536   0.0  0.0  4311592    528   ??  Ss    6Feb20   0:00.50 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+root               522   0.0  0.0  4327752   1884   ??  Ss    6Feb20   0:00.04 /System/Library/PrivateFrameworks/SystemAdministration.fra
+root               418   0.0  3.1  4958404 522764   ??  S<s   6Feb20   7:16.71 /Library/Application Support/Malwarebytes/Malwarebytes End
+root               407   0.0  0.0  4327744    584   ??  Ss    6Feb20   0:00.68 /System/Library/Frameworks/CoreMediaIO.framework/Versions/
+_analyticsd        406   0.0  0.0  4356388   3672   ??  Ss    6Feb20   0:08.58 /System/Library/PrivateFrameworks/CoreAnalytics.framework/
+root               402   0.0  0.0  4355716   1008   ??  S     6Feb20   0:01.17 /usr/sbin/systemstats --logger-helper /private/var/db/syst
+_captiveagent      382   0.0  0.0  4356136   2248   ??  Ss    6Feb20   0:03.35 /usr/libexec/captiveagent
+root               363   0.0  0.0  4327640   1532   ??  Ss    6Feb20   0:18.44 /usr/libexec/sysmond
+root               362   0.0  0.0  4294608    336   ??  Ss    6Feb20   0:00.04 /usr/libexec/smd
+root               337   0.0  0.0  4357140   3052   ??  Ss    6Feb20   0:02.19 /System/Library/CoreServices/sharedfilelistd
+root               318   0.0  0.0  4355172   1940   ??  Ss    6Feb20   0:02.04 /usr/libexec/findmydeviced
+root               315   0.0  0.0  4328420    808   ??  S     6Feb20   0:01.21 /usr/sbin/distnoted agent
+root               313   0.0  0.0  4358584   2592   ??  Ss    6Feb20   0:01.65 /usr/sbin/systemsoundserverd
+root               311   0.0  0.0  4327676      8   ??  Ss    6Feb20   0:00.02 /System/Library/PrivateFrameworks/AccountPolicy.framework/
+root               308   0.0  0.0  4327636   2288   ??  Ss    6Feb20   0:00.91 /System/Library/Frameworks/LocalAuthentication.framework/S
+root               307   0.0  0.0  4328464   1196   ??  Ss    6Feb20   0:00.06 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp
+root               306   0.0  0.0  4333980   4488   ??  Ss    6Feb20   0:03.19 /System/Library/PrivateFrameworks/PerformanceAnalysis.fram
+root               294   0.0  0.0  4319880      8   ??  Ss    6Feb20   0:00.02 /usr/libexec/bootinstalld
+root               287   0.0  0.0  4328012    400   ??  Ss    6Feb20   0:00.07 /usr/libexec/colorsyncd
+root               286   0.0  0.1  4368632  16940   ??  Ss    6Feb20   0:29.08 /System/Library/PrivateFrameworks/TCC.framework/Resources/
+root               285   0.0  0.0  4327244   1896   ??  Ss    6Feb20   0:00.87 /usr/libexec/colorsync.displayservices
+_coreaudiod        284   0.0  0.0  4319212      8   ??  Ss    6Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+root               283   0.0  0.0  4484656   1864   ??  Ss    6Feb20   0:00.69 /System/Library/Frameworks/OpenGL.framework/Versions/A/Lib
+root               282   0.0  0.0  4329128    652   ??  Ss    6Feb20   0:00.85 /System/Library/Frameworks/AudioToolbox.framework/AudioCom
+root               281   0.0  0.0  4329888   1328   ??  Ss    6Feb20   0:01.23 /System/Library/PrivateFrameworks/CoreSymbolication.framew
+_nsurlstoraged     279   0.0  0.0  4327884   1716   ??  Ss    6Feb20   0:02.61 /usr/libexec/nsurlstoraged --privileged
+root               254   0.0  0.7  5217024 120260   ??  Ss    6Feb20   3:06.52 /System/Library/Frameworks/CoreServices.framework/Framewor
+root               247   0.0  0.0  4302620    140   ??  Ss    6Feb20   0:00.25 /usr/libexec/thermald
+root               246   0.0  0.0  4303576    404   ??  Ss    6Feb20   0:01.25 /usr/libexec/watchdogd
+_cmiodalassistants   244   0.0  0.0  4385092   1632   ??  Ss    6Feb20   0:03.84 /System/Library/Frameworks/CoreMediaIO.framework/Resources
+root               243   0.0  0.0  4319540      8   ??  Ss    6Feb20   0:00.09 /usr/libexec/firmwarecheckers/ethcheck/ethcheck --integrit
+root               242   0.0  0.0  4354976    964   ??  Ss    6Feb20   0:06.40 /usr/libexec/usbd
+root               240   0.0  0.1  4369528  14684   ??  Ss    6Feb20  10:46.66 /usr/libexec/airportd
+root               239   0.0  0.0  4327196   1048   ??  Ss    6Feb20   0:00.64 /usr/libexec/apfsd
+root               238   0.0  0.0  4302664    476   ??  Ss    6Feb20   0:00.51 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/C
+root               237   0.0  0.0  4358416   1800   ??  Ss    6Feb20   0:02.67 /usr/sbin/cupsd -l
+root               235   0.0  0.0  4358756   6980   ??  Ss    6Feb20   0:31.43 /System/Library/PrivateFrameworks/WirelessDiagnostics.fram
+root               234   0.0  0.1  4401168  18888   ??  Ss    6Feb20  14:18.37 /usr/libexec/syspolicyd
+root               233   0.0  0.0  4330956   4392   ??  Ss    6Feb20   0:02.29 /System/Library/Frameworks/Security.framework/Versions/A/X
+root               231   0.0  0.0  4354984   1280   ??  Ss    6Feb20   0:08.43 /usr/sbin/mDNSResponderHelper
+_mdnsresponder     230   0.0  0.0  4358156   5180   ??  Ss    6Feb20   2:24.10 /usr/sbin/mDNSResponder
+root               228   0.0  0.0  4364892   6616   ??  Ss    6Feb20   0:04.12 /usr/libexec/lsd runAsRoot
+_networkd          224   0.0  0.0  4365932   7124   ??  Ss    6Feb20   1:24.89 /usr/libexec/symptomsd
+_nsurlsessiond     221   0.0  0.0  4366596   7616   ??  Ss    6Feb20   0:17.35 /usr/libexec/nsurlsessiond --privileged
+_coreaudiod        215   0.0  0.0  4354556   1088   ??  Ss    6Feb20   0:01.82 /System/Library/Frameworks/CoreAudio.framework/Versions/A/
+root               214   0.0  0.1  4367428  20340   ??  Ss    6Feb20   0:31.36 /usr/libexec/mobileassetd
+root               211   0.0  0.0  4360368   4124   ??  Ss    6Feb20   0:01.86 /usr/libexec/nehelper
+root               209   0.0  0.0  4361800   8100   ??  Ss    6Feb20   0:52.53 /System/Library/PrivateFrameworks/CoreDuetContext.framewor
+_coreaudiod        208   0.0  0.0  4337012   3760   ??  Ss    6Feb20   0:18.49 /usr/sbin/coreaudiod
+root               205   0.0  0.1  4367596  12900   ??  Ss    6Feb20   2:08.83 /usr/libexec/trustd
+root               203   0.0  0.0  4328016   1920   ??  Ss    6Feb20   0:00.64 aslmanager
+_ctkd              198   0.0  0.0  4328912    876   ??  Ss    6Feb20   0:00.04 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+root               190   0.0  0.0  4310300      8   ??  Ss    6Feb20   0:00.01 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCSe
+root               161   0.0  0.0  4417020   7932   ??  Ss    6Feb20   0:29.45 /System/Library/CoreServices/coreservicesd
+root               142   0.0  0.0  4358208   6412   ??  Ss    6Feb20   0:08.82 /System/Library/Frameworks/Security.framework/Versions/A/X
+root               135   0.0  0.0  4361440   6268   ??  Ss    6Feb20   0:07.93 /usr/libexec/amfid
+root               134   0.0  0.0  4328600   6872   ??  Ss    6Feb20   1:29.18 /usr/sbin/cfprefsd daemon
+_distnote          133   0.0  0.0  4328420   1856   ??  Ss    6Feb20   0:12.31 /usr/sbin/distnoted daemon
+root               132   0.0  0.0  4303348   2444   ??  Ss    6Feb20   2:27.66 /usr/sbin/notifyd
+root               131   0.0  0.0  4355524   3424   ??  Ss    6Feb20   0:11.49 /usr/libexec/AirPlayXPCHelper
+root               130   0.0  0.0  4355244   3368   ??  Ss    6Feb20   0:02.08 /usr/libexec/corebrightnessd --launchd
+_hidd              128   0.0  0.0  4330500   3144   ??  Ss    6Feb20   6:22.38 /usr/libexec/hidd
+root               127   0.0  0.0  4359364   4416   ??  Ss    6Feb20   0:28.99 /usr/sbin/bluetoothd
+root               125   0.0  0.0  4319436    276   ??  Ss    6Feb20   0:00.05 /usr/sbin/KernelEventAgent
+root               124   0.0  0.0  4361692   3104   ??  Ss    6Feb20   0:01.30 /System/Library/PrivateFrameworks/GenerationalStorage.fram
+root               123   0.0  0.0  4327312   2812   ??  Ss    6Feb20   0:00.91 /System/Library/CoreServices/logind
+root               119   0.0  0.0  4355860    936   ??  Ss    6Feb20   0:02.00 /System/Library/PrivateFrameworks/Heimdal.framework/Helper
+root               118   0.0  0.0  4359692   6144   ??  Ss    6Feb20   0:59.81 /usr/libexec/dasd
+_displaypolicyd    116   0.0  0.0  4330384    860   ??  Ss    6Feb20   0:00.74 /usr/libexec/displaypolicyd -k 1
+root               115   0.0  0.0  4327756    496   ??  Ss    6Feb20   0:01.49 autofsd
+_locationd         113   0.0  0.1  4362344   9884   ??  Ss    6Feb20   2:12.70 /usr/libexec/locationd
+root               110   0.0  0.1  4359788  12160   ??  Ss    6Feb20   1:32.22 /usr/sbin/securityd -i
+_timed             109   0.0  0.0  4354108   2904   ??  Ss    6Feb20   0:06.37 /usr/libexec/timed
+root               108   0.0  0.1  4363700  12712   ??  Ss    6Feb20   0:50.88 /System/Library/CoreServices/launchservicesd
+root               107   0.0  0.0  4355348   2180   ??  Ss    6Feb20   0:02.02 /System/Library/PrivateFrameworks/Noticeboard.framework/Ve
+root               105   0.0  0.1  4360072  10928   ??  Ss    6Feb20   0:34.64 /System/Library/PrivateFrameworks/ApplePushService.framewo
+root               104   0.0  0.1  4427572  17568   ??  Ss    6Feb20  13:48.88 /usr/libexec/opendirectoryd
+root               100   0.0  0.0  4361376   7880   ??  Ss    6Feb20   0:13.55 /usr/libexec/coreduetd
+root                99   0.0  0.0  4328732   3284   ??  Ss    6Feb20   0:01.26 /System/Library/CoreServices/backupd.bundle/Contents/Resou
+root                95   0.0  0.0  4353924   3576   ??  Ss    6Feb20   0:12.03 /usr/libexec/diskarbitrationd
+_iconservices       94   0.0  0.0  4355952   4668   ??  Ss    6Feb20   0:00.27 /System/Library/CoreServices/iconservicesd
+root                93   0.0  0.5  4593724  80540   ??  Ss    6Feb20   4:45.05 /System/Library/Frameworks/CoreServices.framework/Framewor
+root                87   0.0  0.0  4327344   1312   ??  Ss    6Feb20   0:00.06 /usr/libexec/keybagd -t 15
+root                86   0.0  0.3  4500464  52836   ??  Ss    6Feb20   2:00.71 /usr/libexec/logd
+root                83   0.0  0.0  4359228   2944   ??  Ss    6Feb20   0:07.30 /Library/Application Support/JAMF/Jamf.app/Contents/MacOS/
+root                82   0.0  0.0  4354384   3820   ??  Ss    6Feb20   0:47.46 /System/Library/CoreServices/powerd.bundle/powerd
+root                81   0.0  0.1  4368908  18416   ??  Ss    6Feb20   3:55.11 /usr/libexec/configd
+root                79   0.0  0.0  4361780   7216   ??  Ss    6Feb20   0:36.21 /usr/sbin/systemstats --daemon
+_appleevents        78   0.0  0.0  4357232   4064   ??  Ss    6Feb20   0:03.67 /System/Library/CoreServices/appleeventsd --server
+psnotify            77   0.0  0.0  4328644   1624   ??  Ss    6Feb20   0:00.57 /Library/Application Support/Pharos/Notify.app/Contents/Ma
+root                74   0.0  0.0  4359632   3968   ??  Ss    6Feb20   0:03.32 /System/Library/PrivateFrameworks/MediaRemote.framework/Su
+root                73   0.0  0.0  4368896   8176   ??  SNs   6Feb20   0:10.17 /usr/local/jamf/bin/jamf launchDaemon -monitorUsage
+root                71   0.0  0.1  4859328   8424   ??  Ss    6Feb20   1:17.68 /System/Library/Frameworks/CoreServices.framework/Versions
+root                70   0.0  0.1  4369864  18196   ??  Ss    6Feb20   0:31.24 /usr/libexec/kextd
+root                69   0.0  0.0  4311000    428   ??  Ss    6Feb20   0:04.94 /System/Library/PrivateFrameworks/Uninstall.framework/Reso
+root                66   0.0  0.0  4356768   5248   ??  Ss    6Feb20   0:16.83 /usr/libexec/UserEventAgent (System)
+root                65   0.0  0.0  4328340    916   ??  Ss    6Feb20   0:16.60 /usr/sbin/syslogd
+root             78689   0.0  0.0  4268752   1208 s000  R+    2:17PM   0:00.00 ps aux
+root                 1   0.0  0.2  4356404  31160   ??  Ss    6Feb20  13:17.20 /sbin/launchd
+huber021         78608   0.0  0.1  4382336   9300   ??  S     2:13PM   0:00.30 /System/Library/Frameworks/ApplicationServices.framework/F
+huber021         78603   0.0  0.1  4837436  13880   ??  Ss    2:10PM   0:00.03 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         78602   0.0  0.1  4340260  14360   ??  S     2:10PM   0:00.04 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78601   0.0  0.2 106091660  33284   ??  Ss    2:10PM   0:00.08 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+maclab-123:~ huber021$ top
+maclab-123:~ huber021$ xlogo
+-bash: xlogo: command not found
+maclab-123:~ huber021$ open -a TextEditor
+Unable to find application named 'TextEditor'
+maclab-123:~ huber021$ open -a TextEdit
+maclab-123:~ huber021$ 
+maclab-123:~ huber021$ open -a TextEdit
+maclab-123:~ huber021$ TextEdit
+maclab-123:~ huber021$ ps
+  PID TTY           TIME CMD
+78570 ttys000    0:00.03 -bash
+maclab-123:~ huber021$ open -a TextEdit
+maclab-123:~ huber021$ TextEdit &
+[1] 78712
+-bash: TextEdit: command not found
+[1]+  Exit 127                TextEdit
+maclab-123:~ huber021$ ps
+  PID TTY           TIME CMD
+78570 ttys000    0:00.03 -bash
+maclab-123:~ huber021$ jobs
+maclab-123:~ huber021$ open -a TextEdit &
+[1] 78714
+maclab-123:~ huber021$ ps
+  PID TTY           TIME CMD
+78570 ttys000    0:00.04 -bash
+[1]+  Done                    open -a TextEdit
+maclab-123:~ huber021$ ps aux
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver    50578   1.8  0.9  9742040 156532   ??  Ss   11Feb20  55:04.28 /System/Library/PrivateFrameworks/SkyLight.framework/Resou
+huber021         78568   0.4  0.7  5053512 122468   ??  R     2:09PM   0:19.18 /Applications/Utilities/Terminal.app/Contents/MacOS/Termin
+huber021         78437   0.2  0.8  4885344 132908   ??  S     2:08PM   0:06.48 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78382   0.1  0.4  4686840  61788   ??  S     2:08PM   0:04.51 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78325   0.1  0.2  4373964  32396   ??  S     2:08PM   0:00.32 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri 
+root               108   0.1  0.1  4363700  12712   ??  Ss    6Feb20   0:51.10 /System/Library/CoreServices/launchservicesd
+huber021         78608   0.0  0.1  4382336   9300   ??  S     2:13PM   0:00.30 /System/Library/Frameworks/ApplicationServices.framework/F
+huber021         78603   0.0  0.1  4837436  13880   ??  Ss    2:10PM   0:00.03 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         78602   0.0  0.1  4340260  14840   ??  S     2:10PM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78601   0.0  0.2 106091660  33284   ??  Ss    2:10PM   0:00.10 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+huber021         78600   0.0  0.1  4829320  15456   ??  Ss    2:10PM   0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+huber021         78599   0.0  0.1  4363164  21512   ??  S     2:10PM   0:00.33 /System/Library/PrivateFrameworks/AppStoreDaemon.framework
+huber021         78598   0.0  0.1  4319244   9628   ??  S     2:10PM   0:00.02 /System/Library/PrivateFrameworks/CoreFollowUp.framework/V
+huber021         78594   0.0  0.1  4357980  16048   ??  S     2:09PM   0:00.06 /usr/libexec/silhouette
+huber021         78593   0.0  0.1  4354804  12688   ??  S     2:09PM   0:00.05 /System/Library/PrivateFrameworks/UsageTracking.framework/
+huber021         78592   0.0  0.0  4357100   7744   ??  S     2:09PM   0:00.07 /System/Library/CoreServices/ScopedBookmarkAgent
+huber021         78591   0.0  0.1  4359176  14416   ??  S     2:09PM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78590   0.0  0.1  4361952  14832   ??  Ss    2:09PM   0:00.03 /System/Library/PrivateFrameworks/XprotectFramework.framew
+huber021         78589   0.0  0.6  5068532 108840   ??  S     2:09PM   0:05.88 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_96
+huber021         78588   0.0  0.1  4367368  14576   ??  S     2:09PM   0:00.10 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78587   0.0  0.0  4327764   6768   ??  S     2:09PM   0:00.01 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78586   0.0  0.2  4894424  33820   ??  Ss    2:09PM   0:00.09 /Applications/Safari.app/Contents/XPCServices/com.apple.Sa
+huber021         78583   0.0  0.1  4354724  19568   ??  S     2:09PM   0:00.06 /System/Library/PrivateFrameworks/IMDPersistence.framework
+huber021         78582   0.0  0.1  4367376  14644   ??  S     2:09PM   0:00.61 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78581   0.0  0.1  4333600  17200   ??  S     2:09PM   0:00.04 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78580   0.0  0.1  4341720  18592   ??  S     2:09PM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78579   0.0  0.2  4890940  31816   ??  Ss    2:09PM   0:00.14 /System/Library/CoreServices/Siri.app/Contents/XPCServices
+huber021         78577   0.0  0.2  4353856  28392   ??  S     2:09PM   0:00.06 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/
+huber021         78570   0.0  0.0  4314968   1664 s000  S     2:09PM   0:00.04 -bash
+root             78569   0.0  0.0  4327184   5944 s000  Ss    2:09PM   0:00.02 login -pf huber021
+huber021         78567   0.0  0.1  4362244  19076   ??  Ss    2:09PM   0:00.23 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78564   0.0  0.1  4368124  14096   ??  S     2:09PM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78562   0.0  0.1  4341728  20248   ??  S     2:09PM   0:00.11 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78561   0.0  0.1  4343344  19416   ??  S     2:09PM   0:00.07 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78560   0.0  0.1  4341932  19816   ??  S     2:09PM   0:00.14 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78559   0.0  0.2  4358520  30000   ??  S     2:09PM   0:00.07 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78557   0.0  0.1  4835956  15448   ??  Ss    2:09PM   0:00.05 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+huber021         78553   0.0  0.1  4362948  17552   ??  S     2:08PM   0:00.09 /usr/libexec/keyboardservicesd
+huber021         78552   0.0  0.3  4429592  50004   ??  S     2:08PM   0:00.57 /System/Library/Services/AppleSpell.service/Contents/MacOS
+bazze002         78550   0.0  0.1  4359988  10488   ??  S     2:08PM   0:00.13 /usr/libexec/trustd --agent
+hall0074         78549   0.0  0.1  4360512  11644   ??  S     2:08PM   0:00.13 /usr/libexec/trustd --agent
+might001         78548   0.0  0.1  4360448  11124   ??  S     2:08PM   0:00.13 /usr/libexec/trustd --agent
+luchs001         78547   0.0  0.1  4360252  10772   ??  S     2:08PM   0:00.11 /usr/libexec/trustd --agent
+bui00002         78546   0.0  0.1  4358008  10612   ??  S     2:08PM   0:00.12 /usr/libexec/trustd --agent
+huber021         78531   0.0  0.2  4318140  27144   ??  S     2:08PM   0:00.02 /System/Library/CoreServices/EscrowSecurityAlert.app/Conte
+huber021         78525   0.0  0.1  4354520  11804   ??  Ss    2:08PM   0:00.02 /System/Library/PrivateFrameworks/FMClient.framework/Versi
+huber021         78524   0.0  0.1  4354620  14336   ??  S     2:08PM   0:00.03 /usr/libexec/siriknowledged
+huber021         78520   0.0  0.1  4358672  11844   ??  Ss    2:08PM   0:00.03 /System/Library/Frameworks/iTunesLibrary.framework/Version
+huber021         78518   0.0  0.3  4370244  43388   ??  S     2:08PM   0:00.38 /System/Library/PrivateFrameworks/AssistantServices.framew
+huber021         78517   0.0  0.1  4318448   9236   ??  Ss    2:08PM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+huber021         78516   0.0  0.1  4333568  14776   ??  Ss    2:08PM   0:00.03 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78515   0.0  0.1  4377540  23356   ??  S     2:08PM   0:00.08 /System/Library/PrivateFrameworks/CommerceKit.framework/Re
+huber021         78514   0.0  0.1  4359708  18376   ??  S     2:08PM   0:00.05 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.fram
+huber021         78513   0.0  0.2  4386608  31580   ??  Ss    2:08PM   0:00.16 /System/Library/Frameworks/MediaLibrary.framework/Versions
+huber021         78511   0.0  0.1  4358220   9256   ??  S     2:08PM   0:00.08 /System/Library/Frameworks/AudioToolbox.framework/AudioCom
+huber021         78510   0.0  0.1  4358672  11840   ??  Ss    2:08PM   0:00.03 /System/Library/Frameworks/iTunesLibrary.framework/Version
+huber021         78509   0.0  0.1  4371492  24248   ??  S     2:08PM   0:00.24 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78507   0.0  0.1  4355028  17664   ??  S     2:08PM   0:00.04 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78504   0.0  0.1  4328468  12944   ??  S     2:08PM   0:00.02 /System/Library/CoreServices/Software Update.app/Contents/
+huber021         78503   0.0  0.1  4845160  16492   ??  Ss    2:08PM   0:00.14 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+huber021         78502   0.0  1.3 89775060 216544   ??  Ss    2:08PM   0:07.01 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+huber021         78501   0.0  0.1  4327384  15440   ??  Ss    2:08PM   0:00.03 /System/Library/PrivateFrameworks/AssistantServices.framew
+huber021         78494   0.0  0.0  4354076   7412   ??  S     2:08PM   0:00.02 /System/Library/PrivateFrameworks/QuickLookThumbnailing.fr
+huber021         78493   0.0  0.1  4359336  18124   ??  S     2:08PM   0:00.04 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78492   0.0  0.2  4405368  35044   ??  S     2:08PM   0:00.14 /System/Library/CoreServices/cloudphotosd.app/Contents/Mac
+huber021         78484   0.0  0.1  4358532   9444   ??  S     2:08PM   0:00.09 /System/Library/PrivateFrameworks/CacheDelete.framework/de
+huber021         78483   0.0  0.1  4374088  16500   ??  S     2:08PM   0:00.09 /System/Library/CoreServices/CoreLocationAgent.app/Content
+huber021         78480   0.0  0.3  4555352  57332   ??  S     2:08PM   0:00.31 /System/Library/Frameworks/CoreServices.framework/Framewor
+huber021         78444   0.0  0.1  4354904  10940   ??  S     2:08PM   0:00.72 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+huber021         78442   0.0  0.3  5009636  51156   ??  S     2:08PM   0:00.47 /Applications/Utilities/Adobe Creative Cloud Experience/CC
+huber021         78441   0.0  0.2  4959372  29212   ??  S     2:08PM   0:00.25 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+huber021         78422   0.0  0.0  4321728   6544   ??  S     2:08PM   0:00.02 /System/Library/Frameworks/ColorSync.framework/Support/col
+huber021         78400   0.0  0.4  5029068  58840   ??  S     2:08PM   0:00.61 /Library/Application Support/Adobe/Creative Cloud Librarie
+huber021         78397   0.0  0.1  4355428  10872   ??  S     2:08PM   0:00.59 /Library/Application Support/Adobe/Adobe Desktop Common/AD
+huber021         78393   0.0  0.5  4807656  80204   ??  S     2:08PM   0:00.43 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78390   0.0  0.1  4354904  10892   ??  S     2:08PM   0:00.61 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78388   0.0  1.0  5631996 162140   ??  S     2:08PM   0:03.33 /Library/Application Support/Adobe/Adobe Desktop Common/AD
+huber021         78386   0.0  0.0  4357708   8264   ??  Ss    2:08PM   0:00.04 /System/Library/Frameworks/VideoToolbox.framework/Versions
+huber021         78380   0.0  0.1  4845776  14992   ??  Ss    2:08PM   0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+huber021         78379   0.0  0.3 89418144  51100   ??  Ss    2:08PM   0:00.70 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+huber021         78367   0.0  0.1  4822288   9072   ??  S     2:08PM   0:00.01 SafeEjectGPUAgent
+huber021         78366   0.0  0.1  4377896  15704   ??  S     2:08PM   0:00.36 /Library/Application Support/Adobe/Adobe Desktop Common/IP
+huber021         78361   0.0  0.1  4356564  11060   ??  S     2:08PM   0:00.02 /System/Library/PrivateFrameworks/CallHistory.framework/Su
+huber021         78356   0.0  0.2  4886636  32180   ??  Ss    2:08PM   0:00.15 /System/Library/CoreServices/Dock.app/Contents/XPCServices
+huber021         78353   0.0  0.2  4380216  26244   ??  S     2:08PM   0:01.22 /System/Library/PrivateFrameworks/SafariSafeBrowsing.frame
+huber021         78351   0.0  0.0  4327796   6092   ??  S     2:08PM   0:00.05 /System/Library/Frameworks/ApplicationServices.framework/V
+huber021         78348   0.0  0.0  4360628   7968   ??  S     2:08PM   0:00.04 /System/Library/CoreServices/pbs
+huber021         78341   0.0  0.1  4320828  10700   ??  S     2:08PM   0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+huber021         78339   0.0  0.1  4328584  10896   ??  S     2:08PM   0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp
+huber021         78337   0.0  0.2  4410468  25948   ??  S     2:08PM   0:00.67 /Library/Application Support/Malwarebytes/Malwarebytes End
+huber021         78336   0.0  0.1  4364460  21728   ??  S     2:08PM   0:00.11 /usr/libexec/adprivacyd
+huber021         78335   0.0  0.1  4356832  17500   ??  S     2:08PM   0:00.05 /System/Library/CoreServices/diagnostics_agent
+huber021         78334   0.0  0.1  4376992  22784   ??  S     2:08PM   0:00.13 /System/Library/PrivateFrameworks/Noticeboard.framework/Ve
+huber021         78333   0.0  0.4  4720388  60516   ??  S     2:08PM   0:11.34 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+huber021         78332   0.0  0.1  4355444  21128   ??  S     2:08PM   0:00.05 /System/Library/CoreServices/cloudpaird
+huber021         78331   0.0  0.1  4359328  16456   ??  S     2:08PM   0:00.06 /usr/libexec/knowledge-agent
+huber021         78330   0.0  0.1  4882060  15336   ??  S     2:08PM   0:00.08 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/M
+huber021         78329   0.0  0.1  4390416  18080   ??  S     2:08PM   0:00.10 /Library/Application Support/Pharos/Notify.app/Contents/Ma
+huber021         78326   0.0  0.1  4357300  16904   ??  S     2:08PM   0:00.07 /System/Library/Image Capture/Support/icdd
+huber021         78324   0.0  0.1  4359684  12728   ??  S     2:08PM   0:00.15 /System/Library/Frameworks/InputMethodKit.framework/Resour
+huber021         78322   0.0  0.1  4357276  18068   ??  S     2:08PM   0:00.04 /usr/libexec/dmd
+huber021         78321   0.0  0.1  4357128  11748   ??  SN    2:08PM   0:00.10 /usr/local/jamf/bin/jamfAgent
+huber021         78319   0.0  0.1  4353896  13468   ??  S     2:08PM   0:00.02 /System/Library/CoreServices/SocialPushAgent.app/Contents/
+huber021         78314   0.0  0.1  4327368  17068   ??  S     2:08PM   0:00.02 /System/Library/PrivateFrameworks/CoreSpeech.framework/cor
+huber021         78310   0.0  0.1  4355940  11260   ??  S     2:08PM   0:00.06 /usr/libexec/videosubscriptionsd
+huber021         78303   0.0  0.2  4383276  31692   ??  Ss    2:08PM   0:01.05 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+huber021         78302   0.0  0.3 89448444  53960   ??  Ss    2:08PM   0:00.32 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+huber021         78301   0.0  0.1  4378052  19920   ??  S     2:08PM   0:00.14 /System/Library/CoreServices/CoreServicesUIAgent.app/Conte
+huber021         78300   0.0  0.0  4327636   5096   ??  Ss    2:08PM   0:00.01 /System/Library/PrivateFrameworks/login.framework/Versions
+huber021         78298   0.0  0.1  4354300  13420   ??  Ss    2:08PM   0:00.03 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Ve
+huber021         78295   0.0  0.3  4418756  50572   ??  Ss    2:08PM   0:00.18 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+huber021         78294   0.0  0.1  4396268  22020   ??  Ss    2:08PM   0:00.13 /System/Library/Frameworks/VideoToolbox.framework/Versions
+huber021         78292   0.0  0.5  5847028  88588   ??  S     2:08PM   0:01.72 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/
+huber021         78288   0.0  0.3  4954396  54880   ??  S     2:08PM   0:00.37 /System/Library/CoreServices/Finder.app/Contents/MacOS/Fin
+huber021         78287   0.0  0.3  4922592  45696   ??  S     2:08PM   0:00.35 /System/Library/CoreServices/SystemUIServer.app/Contents/M
+huber021         78286   0.0  1.0  5042288 169796   ??  S     2:08PM   0:01.19 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+huber021         78284   0.0  0.7  6216784 109812   ??  S     2:08PM   0:08.82 /Applications/Safari.app/Contents/MacOS/Safari -psn_0_9492
+huber021         78270   0.0  0.2  4377748  36116   ??  S     2:08PM   0:00.40 /System/Library/PrivateFrameworks/AssistantServices.framew
+huber021         78269   0.0  0.1  4355032  17652   ??  S     2:08PM   0:00.06 /System/Library/PrivateFrameworks/CloudDocsDaemon.framewor
+huber021         78268   0.0  0.1  4357856   9020   ??  S     2:08PM   0:00.04 /usr/libexec/swcd
+huber021         78267   0.0  0.2  4368932  25836   ??  S     2:08PM   0:01.38 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78264   0.0  0.0  4357388   8096   ??  S     2:08PM   0:00.03 /System/Library/CoreServices/backgroundtaskmanagementagent
+huber021         78262   0.0  0.2  4362956  31368   ??  S     2:08PM   0:00.24 /System/Library/CoreServices/SafariSupport.bundle/Contents
+huber021         78261   0.0  0.1  4357768  18480   ??  S     2:08PM   0:00.06 /System/Library/CoreServices/mapspushd
+huber021         78260   0.0  0.1  4369160  19556   ??  S     2:08PM   0:00.21 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+huber021         78259   0.0  0.3  4415668  42000   ??  S     2:08PM   0:00.32 /System/Library/PrivateFrameworks/CoreSuggestions.framewor
+huber021         78258   0.0  0.1  4357328  13052   ??  Ss    2:08PM   0:00.05 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+huber021         78256   0.0  0.1  4360064   9952   ??  S     2:08PM   0:00.07 /System/Library/PrivateFrameworks/AuthKit.framework/Versio
+huber021         78255   0.0  0.2  4362480  33584   ??  Ss    2:08PM   0:00.16 /System/Library/PrivateFrameworks/CalendarNotification.fra
+huber021         78254   0.0  0.1  4371096  14800   ??  S     2:08PM   0:00.07 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/
+huber021         78252   0.0  0.1  4354604  18240   ??  S     2:08PM   0:00.03 /System/Library/PrivateFrameworks/FamilyCircle.framework/V
+huber021         78251   0.0  0.0  4319588   5784   ??  S     2:08PM   0:00.01 /System/Library/CoreServices/APFSUserAgent
+huber021         78250   0.0  0.2  4368160  26488   ??  S     2:08PM   0:00.57 /System/Library/PrivateFrameworks/CoreParsec.framework/par
+huber021         78249   0.0  0.2  4364884  39716   ??  S     2:08PM   0:00.43 /System/Library/PrivateFrameworks/CalendarAgent.framework/
+huber021         78248   0.0  0.1  4357844  12032   ??  S     2:08PM   0:00.03 /usr/libexec/networkserviceproxy
+huber021         78247   0.0  0.1  4331596  18336   ??  S     2:08PM   0:00.09 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+huber021         78245   0.0  0.2  4390492  27452   ??  S     2:08PM   0:00.12 /System/Library/CoreServices/iconservicesagent
+huber021         78242   0.0  0.2  4364596  39352   ??  S     2:08PM   0:00.28 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+huber021         78239   0.0  0.0  4327160   5628   ??  Ss    2:08PM   0:00.01 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+huber021         78237   0.0  0.1  4358112   9664   ??  S     2:08PM   0:00.15 /System/Library/CoreServices/sharedfilelistd
+huber021         78236   0.0  0.1  4359852  13152   ??  S     2:08PM   0:00.72 /System/Library/Frameworks/ApplicationServices.framework/F
+huber021         78235   0.0  0.1  4381600  16296   ??  S     2:08PM   0:00.10 /System/Library/CoreServices/talagent
+huber021         78232   0.0  0.1  4357064  12776   ??  S     2:08PM   0:00.14 /System/Library/PrivateFrameworks/ViewBridge.framework/Ver
+huber021         78231   0.0  0.1  4356564  10872   ??  S     2:08PM   0:00.07 /System/Library/PrivateFrameworks/UserActivity.framework/A
+huber021         78230   0.0  0.1  4357328  12556   ??  Ss    2:08PM   0:00.04 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+huber021         78229   0.0  0.0  4328280   6448   ??  S     2:08PM   0:00.05 /usr/libexec/pboard
+huber021         78228   0.0  0.1  4355812  22952   ??  S     2:08PM   0:00.07 /usr/libexec/fmfd
+huber021         78226   0.0  0.2  4367408  34772   ??  S     2:08PM   0:00.26 /usr/libexec/sharingd
+huber021         78225   0.0  0.1  4364996  16488   ??  S     2:08PM   0:00.72 /usr/libexec/nsurlstoraged
+huber021         78224   0.0  0.2  4362040  34124   ??  S     2:08PM   0:00.14 /System/Library/PrivateFrameworks/MessagesKit.framework/Re
+huber021         78223   0.0  0.1  4357392  12768   ??  Ss    2:08PM   0:00.04 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+huber021         78222   0.0  0.4  4946560  72340   ??  S     2:08PM   0:00.60 /System/Library/CoreServices/NotificationCenter.app/Conten
+huber021         78219   0.0  0.1  4359360  17132   ??  S     2:08PM   0:00.18 /usr/sbin/usernoted
+huber021         78216   0.0  0.0  4327508   6308   ??  S     2:08PM   0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/R
+huber021         78214   0.0  0.1  4355452  19140   ??  S     2:08PM   0:00.06 /usr/libexec/rapportd
+huber021         78211   0.0  0.1  4327352  18268   ??  S     2:08PM   0:00.05 /System/Library/Frameworks/AddressBook.framework/Executabl
+huber021         78206   0.0  0.1  4357796  22928   ??  S     2:08PM   0:00.10 /System/Library/PrivateFrameworks/IMCore.framework/imagent
+huber021         78205   0.0  0.1  4360084  18648   ??  S     2:08PM   0:00.18 /usr/libexec/nsurlsessiond
+huber021         78203   0.0  0.1  4362244  10828   ??  S     2:08PM   0:00.15 /System/Library/PrivateFrameworks/TCC.framework/Resources/
+huber021         78196   0.0  0.1  4366628  19616   ??  S     2:08PM   0:00.16 /System/Library/PrivateFrameworks/IDS.framework/identityse
+huber021         78194   0.0  0.1  4358296   8916   ??  S     2:08PM   0:00.23 /System/Library/Frameworks/Accounts.framework/Versions/A/S
+huber021         78190   0.0  0.2  4373520  36140   ??  S     2:08PM   0:00.31 /System/Library/PrivateFrameworks/CloudKitDaemon.framework
+huber021         78189   0.0  0.2  4365204  32656   ??  S     2:08PM   0:00.17 /System/Library/PrivateFrameworks/TelephonyUtilities.frame
+huber021         78188   0.0  0.1  4358736  14928   ??  S     2:08PM   0:00.11 /usr/libexec/secd
+huber021         78176   0.0  0.2  4380248  28496   ??  S     2:08PM   0:01.14 /usr/libexec/trustd --agent
+huber021         78171   0.0  0.2  4368140  34268   ??  S     2:08PM   0:00.21 /System/Library/Frameworks/CoreTelephony.framework/Support
+huber021         78168   0.0  0.1  4370168  13512   ??  S     2:08PM   0:00.15 /usr/sbin/universalaccessd launchd -s
+huber021         78164   0.0  0.2  4359208  36316   ??  S     2:08PM   0:00.41 /usr/libexec/UserEventAgent (Aqua)
+_spotlight       77290   0.0  0.1  4340008  17140   ??  S    12:12PM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Framewor
+_spotlight       77249   0.0  0.1  4340008  17112   ??  S    12:12PM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Framewor
+_spotlight       77247   0.0  0.1  4340008  17248   ??  S    12:12PM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Framewor
+_spotlight       77246   0.0  0.1  4339936  19584   ??  S    12:12PM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Framewor
+root             77245   0.0  0.1  4355556  10864   ??  S    12:12PM   0:00.14 /System/Library/PrivateFrameworks/ViewBridge.framework/Ver
+root             77208   0.0  0.1  4355036  11240   ??  Ss   12:12PM   0:00.04 /System/Library/PrivateFrameworks/AmbientDisplay.framework
+huber021         77198   0.0  0.4  4444992  67228   ??  S    12:12PM   0:00.63 /System/Library/CoreServices/loginwindow.app/Contents/MacO
+carta006         75009   0.0  0.1  4369648  13960   ??  S     8:02AM   0:00.39 /System/Library/CoreServices/CoreServicesUIAgent.app/Conte
+hall0074         74578   0.0  0.1  4370340  12508   ??  S     8:00AM   0:00.51 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+carta006         67136   0.0  0.1  4845128  12968   ??  Ss    2:43PM   0:00.38 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         67135   0.0  0.2 89312420  29808   ??  Ss    2:43PM   0:00.66 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         67134   0.0  0.0  4846748   8128   ??  Ss    2:42PM   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         67133   0.0  1.6 107181516 263208   ??  Ss    2:42PM   0:46.76 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         66817   0.0  0.2  4454540  41440   ??  S    Wed02PM   0:02.13 /System/Library/PrivateFrameworks/CoreSuggestions.framewor
+carta006         66813   0.0  0.5 89776948  75908   ??  Ss   Wed02PM   0:02.69 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         66810   0.0  0.0  4837532   7876   ??  Ss   Wed02PM   0:00.06 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         66805   0.0  0.5 89740376  84024   ??  Ss   Wed02PM   0:02.26 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         66804   0.0  0.1  4300780   9112   ??  Ss   Wed02PM   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+root             66662   0.0  0.0  4301792   5136   ??  S    Wed02PM   0:00.01 /System/Library/CoreServices/loginwindow.app/Contents/Reso
+luchs001         65503   0.0  0.0  4327796   5840   ??  S    Wed12PM   0:00.15 /System/Library/Frameworks/ApplicationServices.framework/V
+luchs001         64128   0.0  0.1  4371156  17528   ??  S    Wed10AM   0:01.04 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+might001         62945   0.0  0.1  4329020   8908   ??  S    Wed09AM   0:00.05 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+might001         62902   0.0  0.0  4327796   5384   ??  S    Wed09AM   0:00.13 /System/Library/Frameworks/ApplicationServices.framework/V
+might001         62832   0.0  0.1  4371536  17164   ??  S    Wed09AM   0:00.98 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+carta006         56330   0.0  0.3  4881836  45016   ??  Ss   Tue07PM   0:03.01 /System/Library/CoreServices/Siri.app/Contents/XPCServices
+bui00002         56269   0.0  0.1  4355080   9608   ??  S    Tue06PM   0:00.07 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+bui00002         56236   0.0  0.1  4329020   8932   ??  S    Tue06PM   0:00.07 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+bui00002         56201   0.0  0.1  4319496  11644   ??  S    Tue06PM   0:00.08 /System/Library/PrivateFrameworks/CloudServices.framework/
+carta006         56200   0.0  0.3  4373652  44444   ??  S    Tue06PM   0:03.03 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri 
+bui00002         56195   0.0  0.1  4363864   9420   ??  S    Tue06PM   0:01.34 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+bui00002         56105   0.0  0.1  4354016  21584   ??  S    Tue06PM   0:00.12 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+bui00002         56060   0.0  0.1  4358304  12108   ??  S    Tue06PM   0:02.46 /usr/libexec/pkd
+bui00002         55934   0.0  0.0  4354528   5680   ??  S    Tue06PM   0:00.19 /System/Library/Frameworks/CoreServices.framework/Versions
+root             55904   0.0  0.1  4355256  16828   ??  Ss   Tue06PM   0:00.24 /usr/libexec/dmd
+carta006         55892   0.0  0.1  4369180  16172   ??  S    Tue06PM   0:01.34 /System/Library/PrivateFrameworks/GeoServices.framework/Ve
+carta006         55891   0.0  0.2  4367960  31964   ??  S    Tue06PM   0:07.93 /usr/libexec/sharingd
+carta006         55887   0.0  0.3  4953288  44196   ??  S    Tue06PM   0:02.04 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/
+bui00002         55872   0.0  0.1  4354680  16332   ??  S    Tue06PM   0:00.31 /System/Library/PrivateFrameworks/IMDPersistence.framework
+carta006         55867   0.0  0.1  4355032  15704   ??  S    Tue06PM   0:00.40 /System/Library/PrivateFrameworks/CloudDocsDaemon.framewor
+carta006         55854   0.0  0.1  4355228  15856   ??  S    Tue06PM   0:00.16 /usr/libexec/dmd
+carta006         55838   0.0  0.2  4396704  27476   ??  S    Tue06PM   0:02.50 /usr/libexec/studentd
+bui00002         55835   0.0  0.0  4363716   7956   ??  S    Tue06PM   0:05.53 /usr/libexec/secinitd
+bui00002         55834   0.0  0.0  4358996   7040   ??  S    Tue06PM   0:00.37 /usr/libexec/languageassetd --firstLogin
+bui00002         55819   0.0  0.1  4370180   9096   ??  S    Tue06PM   0:12.06 /usr/libexec/lsd
+bui00002         55815   0.0  0.0  4328420   1896   ??  S    Tue06PM   0:00.47 /usr/sbin/distnoted agent
+bui00002         55783   0.0  0.0  4327752   2704   ??  S    Tue06PM   0:01.34 /usr/sbin/cfprefsd agent
+bui00002         55782   0.0  0.1  4354008   9248   ??  S    Tue06PM   0:00.09 /System/Library/Frameworks/LocalAuthentication.framework/S
+huber021         53693   0.0  0.1  4365672  10032   ??  S    Tue02PM   0:00.34 /System/Library/Frameworks/ApplicationServices.framework/F
+huber021         53508   0.0  0.1  4456244  11140   ??  S    Tue02PM   0:00.16 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+huber021         53440   0.0  0.2  4356812  26108   ??  S    Tue02PM   0:00.21 /System/Library/PrivateFrameworks/SafariShared.framework/V
+huber021         53392   0.0  0.1  4355080   9840   ??  S    Tue02PM   0:00.09 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+huber021         53322   0.0  0.1  4319496  11668   ??  S    Tue02PM   0:00.10 /System/Library/PrivateFrameworks/CloudServices.framework/
+huber021         53296   0.0  0.1  4354016  22356   ??  S    Tue02PM   0:00.15 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+huber021         53245   0.0  0.1  4358992  14664   ??  S    Tue02PM   0:03.63 /usr/libexec/pkd
+huber021         53104   0.0  0.0  4354528   7360   ??  S    Tue02PM   0:00.26 /System/Library/Frameworks/CoreServices.framework/Versions
+huber021         53023   0.0  0.1  4354812  17472   ??  S    Tue02PM   0:00.36 /System/Library/PrivateFrameworks/IMDPersistence.framework
+huber021         53003   0.0  0.1  4363108  12788   ??  S    Tue02PM   0:06.13 /usr/libexec/secinitd
+huber021         53001   0.0  0.0  4358996   7028   ??  S    Tue02PM   0:00.37 /usr/libexec/languageassetd --firstLogin
+huber021         52988   0.0  0.1  4371876  12168   ??  S    Tue02PM   0:13.41 /usr/libexec/lsd
+huber021         52976   0.0  0.0  4328420   3640   ??  S    Tue02PM   0:01.06 /usr/sbin/distnoted agent
+huber021         52937   0.0  0.0  4327792   3548   ??  S    Tue02PM   0:02.58 /usr/sbin/cfprefsd agent
+huber021         52936   0.0  0.1  4354188  10388   ??  S    Tue02PM   0:00.12 /System/Library/Frameworks/LocalAuthentication.framework/S
+root             52611   0.0  0.2  4391200  36484   ??  Ss   Tue02PM   0:07.48 /usr/libexec/sandboxd
+might001         14780   0.0  0.1  4495676   9824   ??  S    Mon09AM   0:00.19 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+might001         14775   0.0  0.0  4327756   5072   ??  S    Mon09AM   0:00.11 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+might001         14746   0.0  0.1  4357676  24768   ??  S    Mon09AM   0:00.25 /System/Library/PrivateFrameworks/SafariShared.framework/V
+might001         14581   0.0  0.1  4355080   9600   ??  S    Mon09AM   0:00.13 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+might001         14456   0.0  0.1  4327688  11692   ??  S    Mon09AM   0:00.16 /System/Library/PrivateFrameworks/CloudServices.framework/
+might001         14453   0.0  0.1  4354252  21896   ??  S    Mon09AM   0:00.22 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+might001         14381   0.0  0.1  4359308  12308   ??  S    Mon09AM   0:06.02 /usr/libexec/pkd
+might001         14293   0.0  0.0  4354528   5688   ??  S    Mon09AM   0:00.24 /System/Library/Frameworks/CoreServices.framework/Versions
+carta006         14277   0.0  0.1  4327328  18624   ??  S    Mon09AM   0:02.01 /System/Library/PrivateFrameworks/ContactsAgent.framework/
+might001         14230   0.0  0.1  4354812  16344   ??  S    Mon09AM   0:00.52 /System/Library/PrivateFrameworks/IMDPersistence.framework
+might001         14210   0.0  0.0  4359300   7776   ??  S    Mon09AM   0:06.19 /usr/libexec/secinitd
+might001         14208   0.0  0.0  4357220   7068   ??  S    Mon09AM   0:00.42 /usr/libexec/languageassetd --firstLogin
+might001         14199   0.0  0.1  4370996   9532   ??  S    Mon09AM   0:14.49 /usr/libexec/lsd
+might001         14193   0.0  0.0  4328420   1964   ??  S    Mon09AM   0:01.38 /usr/sbin/distnoted agent
+might001         14136   0.0  0.0  4327780   2824   ??  S    Mon09AM   0:03.27 /usr/sbin/cfprefsd agent
+might001         14135   0.0  0.1  4354188   9896   ??  S    Mon09AM   0:00.16 /System/Library/Frameworks/LocalAuthentication.framework/S
+root             12851   0.0  0.0  4302476   4164   ??  Ss   Mon07AM   0:00.01 /usr/libexec/applessdstatistics
+root             12822   0.0  0.0  4294832    424   ??  SNs  Mon07AM   0:00.00 /usr/libexec/periodic-wrapper monthly
+_netbios         12134   0.0  0.0  4329852   1868   ??  SNs  Mon05AM   0:02.29 /usr/sbin/netbiosd
+hall0074         71476   0.0  0.0  4327796   1988   ??  S    13Feb20   0:00.58 /System/Library/Frameworks/ApplicationServices.framework/V
+carta006         71401   0.0  0.0  4327544    824   ??  S    13Feb20   0:00.03 /System/Library/PrivateFrameworks/CloudServices.framework/
+carta006         71396   0.0  0.0  4327200   1408   ??  S    13Feb20   0:00.36 /System/Library/PrivateFrameworks/MediaRemote.framework/Su
+carta006         71377   0.0  0.0  4367128   5124   ??  S    13Feb20   0:02.72 /System/Library/CoreServices/Keychain Circle Notification.
+carta006         71374   0.0  0.0  4327196   1212   ??  S    13Feb20   0:00.27 /System/Library/PrivateFrameworks/CoreCDP.framework/Versio
+carta006         71012   0.0  0.0  4327824   1636   ??  S    13Feb20   0:00.47 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/D
+carta006         70427   0.0  0.0  4356024   3692   ??  S    13Feb20   0:00.73 /System/Library/PrivateFrameworks/DistributedEvaluation.fr
+carta006         67389   0.0  0.0  4328276     72   ??  S    13Feb20   0:00.03 /usr/libexec/spindump_agent
+carta006         63848   0.0  0.0  4818504      8   ??  Ss   12Feb20   0:00.09 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63847   0.0  0.0  4837344      8   ??  Ss   12Feb20   0:00.04 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63838   0.0  0.0 106165592   6832   ??  Ss   12Feb20   0:03.58 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         63837   0.0  0.1 89835452  11024   ??  Ss   12Feb20   0:08.64 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         63833   0.0  3.5 107080776 589256   ??  Ss   12Feb20   4:33.26 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         63669   0.0  0.0  4364536   4492   ??  Ss   12Feb20   0:01.89 /System/Library/PrivateFrameworks/SafariShared.framework/V
+carta006         63550   0.0  0.0  4320640    384   ??  S    12Feb20   0:00.03 /usr/libexec/USBAgent
+root             63544   0.0  0.0  4829244   5668   ??  Ss   12Feb20   0:00.10 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63538   0.0  0.0  4319632    160   ??  S    12Feb20   0:00.02 /System/Library/CoreServices/ReportCrash agent
+carta006         63399   0.0  0.0  4355420   1728   ??  S    12Feb20   0:01.45 /System/Library/CoreServices/ScopedBookmarkAgent
+carta006         63398   0.0  0.0  4845216      8   ??  Ss   12Feb20   0:00.21 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63395   0.0  0.2  5036636  29864   ??  S    12Feb20   0:06.94 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_39
+carta006         63393   0.0  0.0  4327856    948   ??  S    12Feb20   0:00.38 /System/Library/Frameworks/CoreServices.framework/Framewor
+carta006         63392   0.0  0.0  4882680   3780   ??  Ss   12Feb20   0:02.42 /Applications/Safari.app/Contents/XPCServices/com.apple.Sa
+carta006         63389   0.0  0.0  4327756   1300   ??  S    12Feb20   0:00.48 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+carta006         63388   0.0  0.0  4300780      8   ??  Ss   12Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+carta006         63247   0.0  0.0  4360040   1368   ??  S    12Feb20   0:00.91 /System/Library/PrivateFrameworks/ContactsDonation.framewo
+carta006         63245   0.0  0.0  4845268      8   ??  Ss   12Feb20   0:00.21 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63244   0.0  1.3  5142404 210136   ??  S    12Feb20   0:25.61 /Applications/Mail.app/Contents/MacOS/Mail
+carta006         63237   0.0  0.0  4363096   6576   ??  S    12Feb20   0:05.84 /usr/libexec/keyboardservicesd
+carta006         63236   0.0  0.2  4586440  26784   ??  S    12Feb20   0:02.88 /System/Library/Services/AppleSpell.service/Contents/MacOS
+carta006         63234   0.0  0.0  4837208      8   ??  Ss   12Feb20   0:00.19 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         63225   0.0  0.0  4355220   1848   ??  Ss   12Feb20   0:00.64 /System/Library/PrivateFrameworks/AssistantServices.framew
+carta006         63221   0.0  0.0  4388480   1744   ??  S    12Feb20   0:02.11 /System/Library/Frameworks/ApplicationServices.framework/F
+carta006         63157   0.0  0.0  4327436    788   ??  S    12Feb20   0:00.05 /System/Library/PrivateFrameworks/CoreFollowUp.framework/V
+carta006         63156   0.0  0.0  4363860   4680   ??  S    12Feb20   0:05.29 /System/Library/PrivateFrameworks/AppStoreDaemon.framework
+carta006         63151   0.0  0.0  4355932   2036   ??  S    12Feb20   0:01.24 /usr/libexec/silhouette
+carta006         63150   0.0  0.0  4354804    984   ??  S    12Feb20   0:00.74 /System/Library/PrivateFrameworks/UsageTracking.framework/
+carta006         63143   0.0  0.0  4354768   3468   ??  S    12Feb20   0:01.15 /System/Library/PrivateFrameworks/IMDPersistence.framework
+carta006         63142   0.0  0.0  4353856   1348   ??  S    12Feb20   0:00.62 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/
+carta006         63141   0.0  0.0  4358040   1556   ??  Ss   12Feb20   0:00.57 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         63140   0.0  0.0  4370924   4452   ??  S    12Feb20   0:02.99 /System/Library/PrivateFrameworks/CommerceKit.framework/Re
+carta006         63139   0.0  0.0  4370540   7788   ??  S    12Feb20   0:05.12 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         63138   0.0  0.0  4355028   1480   ??  S    12Feb20   0:00.66 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         63135   0.0  0.0  4328468   3244   ??  S    12Feb20   0:00.54 /System/Library/CoreServices/Software Update.app/Contents/
+carta006         63123   0.0  0.0  4356188   4000   ??  S    12Feb20   1:12.25 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+carta006         63122   0.0  0.0  4327840    776   ??  S    12Feb20   0:00.54 /System/Library/Frameworks/ColorSync.framework/Support/col
+carta006         63120   0.0  0.1  5009372  12444   ??  S    12Feb20   0:11.68 /Applications/Utilities/Adobe Creative Cloud Experience/CC
+carta006         63119   0.0  0.0  4956388   5408   ??  S    12Feb20   0:14.32 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+carta006         63116   0.0  0.1  4867296  18248   ??  S    12Feb20   3:17.91 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63111   0.0  0.1  5031688  16928   ??  S    12Feb20   0:11.44 /Library/Application Support/Adobe/Creative Cloud Librarie
+carta006         63109   0.0  0.0  4355664   4076   ??  S    12Feb20   0:57.91 /Library/Application Support/Adobe/Adobe Desktop Common/AD
+carta006         63106   0.0  0.1  4812108  19016   ??  S    12Feb20   0:04.04 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63105   0.0  0.0  4356188   3684   ??  S    12Feb20   0:58.65 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63103   0.0  0.2  5670780  30136   ??  S    12Feb20   0:57.36 /Library/Application Support/Adobe/Adobe Desktop Common/AD
+carta006         63102   0.0  0.0  4355660    824   ??  Ss   12Feb20   0:00.63 /System/Library/Frameworks/VideoToolbox.framework/Versions
+carta006         63101   0.0  0.0  4663764   7628   ??  S    12Feb20   2:26.67 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63097   0.0  0.0  4373888   3916   ??  S    12Feb20   0:28.95 /Library/Application Support/Adobe/Adobe Desktop Common/IP
+carta006         63094   0.0  0.0  4329020   1080   ??  S    12Feb20   0:00.51 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+carta006         63093   0.0  0.0  4328584   1436   ??  S    12Feb20   0:00.58 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp
+carta006         63091   0.0  0.2  4403916  29332   ??  S    12Feb20   0:05.62 /Library/Application Support/Malwarebytes/Malwarebytes End
+carta006         63089   0.0  0.0  4376404   6728   ??  S    12Feb20   0:06.63 /System/Library/PrivateFrameworks/Noticeboard.framework/Ve
+carta006         63088   0.0  0.1  4735756  20472   ??  S    12Feb20   1:43.33 /Applications/Utilities/Adobe Creative Cloud/ACC/Creative 
+carta006         63087   0.0  0.0  4355488   2896   ??  S    12Feb20   0:04.15 /System/Library/CoreServices/cloudpaird
+carta006         63086   0.0  0.0  4360704   5144   ??  S    12Feb20   0:03.02 /usr/libexec/knowledge-agent
+carta006         63085   0.0  0.0  4879076   3680   ??  S    12Feb20   0:03.59 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/M
+carta006         63084   0.0  0.0  4381796   4604   ??  S    12Feb20   0:03.07 /Library/Application Support/Pharos/Notify.app/Contents/Ma
+carta006         63081   0.0  0.0  4355252   4416   ??  S    12Feb20   0:00.75 /System/Library/Image Capture/Support/icdd
+carta006         63079   0.0  0.0  4361324   4440   ??  S    12Feb20   0:03.77 /System/Library/Frameworks/InputMethodKit.framework/Resour
+carta006         63077   0.0  0.0  4355080   2812   ??  SN   12Feb20   0:00.49 /usr/local/jamf/bin/jamfAgent
+carta006         63075   0.0  0.0  4353896   1052   ??  S    12Feb20   0:00.61 /System/Library/CoreServices/SocialPushAgent.app/Contents/
+carta006         63070   0.0  0.0  4327400   2456   ??  S    12Feb20   0:00.19 /System/Library/PrivateFrameworks/CoreSpeech.framework/cor
+carta006         63054   0.0  0.0  4354824   3652   ??  S    12Feb20   0:02.33 /System/Library/PrivateFrameworks/ProtectedCloudStorage.fr
+carta006         63040   0.0  0.0  4327356   1464   ??  S    12Feb20   0:00.58 /System/Library/CoreServices/EscrowSecurityAlert.app/Conte
+carta006         63037   0.0  0.0  4354520   1848   ??  Ss   12Feb20   0:00.67 /System/Library/PrivateFrameworks/FMClient.framework/Versi
+carta006         63036   0.0  0.0  4354620   2552   ??  S    12Feb20   0:00.76 /usr/libexec/siriknowledged
+carta006         63033   0.0  0.0  4356616   2520   ??  Ss   12Feb20   0:01.35 /System/Library/Frameworks/iTunesLibrary.framework/Version
+carta006         63031   0.0  0.0  4310256      8   ??  Ss   12Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+carta006         63030   0.0  0.1  4370084  14236   ??  S    12Feb20   0:07.61 /System/Library/PrivateFrameworks/AssistantServices.framew
+carta006         63026   0.0  0.0  4359896   3888   ??  S    12Feb20   0:00.93 /System/Library/Frameworks/AudioToolbox.framework/AudioCom
+carta006         63018   0.0  0.0  4690708   4852   ??  S    12Feb20   0:02.01 /System/Library/Frameworks/CoreServices.framework/Framewor
+carta006         63017   0.0  0.1  4535108  11272   ??  S    12Feb20   0:00.90 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+carta006         63015   0.0  0.0  4373196   1432   ??  S    12Feb20   0:04.73 /System/Library/PrivateFrameworks/Tourist.framework/Versio
+carta006         63014   0.0  0.0  4366684   8240   ??  S    12Feb20   0:04.01 /usr/libexec/adprivacyd
+carta006         62990   0.0  0.0  4359708   2496   ??  S    12Feb20   0:00.86 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.fram
+carta006         62988   0.0  0.0  4404524   6320   ??  Ss   12Feb20   0:02.06 /System/Library/Frameworks/MediaLibrary.framework/Versions
+carta006         62972   0.0  0.0  4354252   2412   ??  S    12Feb20   0:00.72 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+carta006         62962   0.0  0.0  4356616   2132   ??  Ss   12Feb20   0:01.32 /System/Library/Frameworks/iTunesLibrary.framework/Version
+carta006         62953   0.0  0.0  4354076   1576   ??  S    12Feb20   0:00.68 /System/Library/PrivateFrameworks/QuickLookThumbnailing.fr
+carta006         62952   0.0  0.0  4327384   1660   ??  Ss   12Feb20   0:00.68 /System/Library/PrivateFrameworks/AssistantServices.framew
+carta006         62951   0.0  0.0  4360976   2612   ??  S    12Feb20   0:00.75 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         62950   0.0  0.0  4354972   3880   ??  S    12Feb20   0:01.07 /System/Library/CoreServices/diagnostics_agent
+carta006         62949   0.0  0.0  4396148   5896   ??  S    12Feb20   0:06.40 /System/Library/CoreServices/cloudphotosd.app/Contents/Mac
+carta006         62929   0.0  0.0  4356132   5744   ??  S    12Feb20   0:01.50 /usr/libexec/videosubscriptionsd
+carta006         62927   0.0  0.0  4355080   1336   ??  S    12Feb20   0:00.60 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+carta006         62926   0.0  0.0  4839696    892   ??  S    12Feb20   0:00.02 SafeEjectGPUAgent
+carta006         62925   0.0  0.0  4328440   1428   ??  Ss   12Feb20   0:00.59 /System/Library/PrivateFrameworks/SafariShared.framework/V
+carta006         62921   0.0  0.2 106849652  26344   ??  Ss   12Feb20   1:10.23 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         62911   0.0  0.0  4355496   2380   ??  Ss   12Feb20   0:02.35 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+carta006         62910   0.0  0.0  4354516    952   ??  S    12Feb20   0:00.69 /System/Library/PrivateFrameworks/CallHistory.framework/Su
+carta006         62907   0.0  0.1  4888152   8728   ??  Ss   12Feb20   0:04.25 /System/Library/CoreServices/Dock.app/Contents/XPCServices
+carta006         62905   0.0  0.1  4382748  18948   ??  S    12Feb20   1:11.07 /System/Library/PrivateFrameworks/SafariSafeBrowsing.frame
+carta006         62904   0.0  0.0  4360300   4652   ??  S    12Feb20   0:03.67 /System/Library/PrivateFrameworks/CacheDelete.framework/de
+carta006         62899   0.0  0.0  4327636    976   ??  Ss   12Feb20   0:00.04 /System/Library/PrivateFrameworks/login.framework/Versions
+carta006         62898   0.0  0.0  4358604   2844   ??  S    12Feb20   0:00.62 /System/Library/CoreServices/pbs
+carta006         62897   0.0  0.0  4354300   2808   ??  Ss   12Feb20   0:05.21 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Ve
+carta006         62896   0.0  0.0  4374824   5484   ??  S    12Feb20   0:04.65 /System/Library/CoreServices/CoreLocationAgent.app/Content
+carta006         62891   0.0  0.0  4327796   1388   ??  S    12Feb20   0:00.82 /System/Library/Frameworks/ApplicationServices.framework/V
+carta006         62887   0.0  0.0  4845700      8   ??  Ss   12Feb20   0:00.13 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+carta006         62876   0.0  0.2  4397640  27448   ??  Ss   12Feb20   1:37.71 /System/Library/Frameworks/WebKit.framework/Versions/A/XPC
+carta006         62874   0.0  0.0  4418320   3540   ??  Ss   12Feb20   0:04.27 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/
+carta006         62870   0.0  0.1  4389600  10504   ??  Ss   12Feb20   0:05.66 /System/Library/Frameworks/VideoToolbox.framework/Versions
+carta006         62867   0.0  0.0  4357964   3400   ??  S    12Feb20   0:00.91 /System/Library/PrivateFrameworks/SafariShared.framework/V
+carta006         62858   0.0  0.1  4949536  18528   ??  S    12Feb20   0:13.31 /System/Library/CoreServices/Finder.app/Contents/MacOS/Fin
+carta006         62857   0.0  0.2  4936968  37576   ??  S    12Feb20   0:42.97 /System/Library/CoreServices/SystemUIServer.app/Contents/M
+carta006         62856   0.0  0.8  5702880 130468   ??  S    12Feb20   0:59.42 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+carta006         62854   0.0  0.4  6510168  63884   ??  S    12Feb20   3:31.87 /Applications/Safari.app/Contents/MacOS/Safari -psn_0_3793
+carta006         62852   0.0  0.0  4369276   6624   ??  S    12Feb20   0:05.34 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         62835   0.0  0.0  4356832   8096   ??  S    12Feb20   0:02.35 /System/Library/CoreServices/mapspushd
+carta006         62834   0.0  0.0  4358012   2280   ??  S    12Feb20   0:02.52 /System/Library/PrivateFrameworks/AuthKit.framework/Versio
+carta006         62833   0.0  0.0  4360384   1644   ??  S    12Feb20   0:17.50 /System/Library/CoreServices/SafariSupport.bundle/Contents
+carta006         62831   0.0  0.0  4356548   2468   ??  S    12Feb20   0:01.45 /usr/libexec/swcd
+carta006         62827   0.0  0.1  4381624  12368   ??  S    12Feb20   0:06.65 /System/Library/PrivateFrameworks/AssistantServices.framew
+carta006         62824   0.0  0.0  4329024   2012   ??  S    12Feb20   0:00.71 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+carta006         62823   0.0  0.0  4359620   7808   ??  S    12Feb20   0:24.74 /usr/libexec/pkd
+carta006         62822   0.0  0.1  4369416  13292   ??  S    12Feb20   0:06.10 /System/Library/PrivateFrameworks/CoreParsec.framework/par
+carta006         62821   0.0  0.0  4367108   3844   ??  S    12Feb20   0:05.41 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/
+carta006         62819   0.0  0.1  4404088  12812   ??  S    12Feb20   0:02.06 /System/Library/CoreServices/iconservicesagent
+carta006         62817   0.0  0.0  4327780    880   ??  S    12Feb20   0:00.50 /System/Library/CoreServices/APFSUserAgent
+carta006         62816   0.0  0.0  4354604   1132   ??  S    12Feb20   0:00.63 /System/Library/PrivateFrameworks/FamilyCircle.framework/V
+carta006         62812   0.0  0.0  4360404   6188   ??  Ss   12Feb20   0:06.18 /System/Library/PrivateFrameworks/CalendarNotification.fra
+carta006         62810   0.0  0.0  4327160      8   ??  Ss   12Feb20   0:00.94 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+carta006         62809   0.0  0.0  4355496   5108   ??  Ss   12Feb20   0:02.31 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+carta006         62808   0.0  0.0  4361832   5316   ??  S    12Feb20   0:25.97 /usr/libexec/nsurlstoraged
+carta006         62807   0.0  0.0  4355856   2748   ??  S    12Feb20   0:01.41 /usr/libexec/fmfd
+carta006         62806   0.0  0.0  4356564   3404   ??  S    12Feb20   0:03.73 /System/Library/PrivateFrameworks/UserActivity.framework/A
+carta006         62804   0.0  0.0  4360036   5284   ??  S    12Feb20   0:01.58 /System/Library/PrivateFrameworks/MessagesKit.framework/Re
+carta006         62803   0.0  0.0  4355560   4988   ??  Ss   12Feb20   0:02.31 /System/Library/PrivateFrameworks/IMFoundation.framework/X
+carta006         62802   0.0  0.1  4364072   9160   ??  S    12Feb20   0:07.45 /System/Library/PrivateFrameworks/CalendarAgent.framework/
+carta006         62801   0.0  0.0  4355796   1532   ??  S    12Feb20   0:01.04 /usr/libexec/networkserviceproxy
+carta006         62800   0.0  0.0  4355296   3108   ??  S    12Feb20   0:02.40 /System/Library/CoreServices/backgroundtaskmanagementagent
+carta006         62796   0.0  0.0  4357828   6348   ??  S    12Feb20   0:26.19 /System/Library/Frameworks/ApplicationServices.framework/F
+carta006         62795   0.0  0.0  4375240   3448   ??  S    12Feb20   0:04.86 /System/Library/CoreServices/talagent
+carta006         62794   0.0  0.1  4362708  10152   ??  S    12Feb20   0:07.52 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+carta006         62792   0.0  0.0  4354976   2820   ??  S    12Feb20   0:04.07 /System/Library/PrivateFrameworks/ViewBridge.framework/Ver
+carta006         62791   0.0  0.0  4328280    676   ??  S    12Feb20   0:00.09 /usr/libexec/pboard
+carta006         62789   0.0  0.2  4945224  40452   ??  S    12Feb20   0:10.49 /System/Library/CoreServices/NotificationCenter.app/Conten
+carta006         62786   0.0  0.0  4357312   5800   ??  S    12Feb20   0:02.83 /usr/sbin/usernoted
+carta006         62784   0.0  0.0  4327508   1476   ??  S    12Feb20   0:00.38 /System/Library/Frameworks/Security.framework/Versions/A/R
+carta006         62780   0.0  0.0  4355488   4584   ??  S    12Feb20   0:08.94 /usr/libexec/rapportd
+carta006         62774   0.0  0.0  4327352   2200   ??  S    12Feb20   0:01.03 /System/Library/Frameworks/AddressBook.framework/Executabl
+carta006         62772   0.0  0.0  4355408   1652   ??  S    12Feb20   0:01.30 /System/Library/PrivateFrameworks/IMDPersistence.framework
+carta006         62770   0.0  0.0  4361292   5772   ??  S    12Feb20   0:03.86 /usr/libexec/nsurlsessiond
+carta006         62769   0.0  0.0  4360276   4616   ??  S    12Feb20   0:02.27 /System/Library/PrivateFrameworks/TCC.framework/Resources/
+carta006         62768   0.0  0.0  4355792   5676   ??  S    12Feb20   0:02.69 /System/Library/PrivateFrameworks/IMCore.framework/imagent
+carta006         62764   0.0  0.0  4368284   7132   ??  S    12Feb20   0:08.30 /System/Library/Frameworks/Accounts.framework/Versions/A/S
+carta006         62762   0.0  0.0  4357240   4640   ??  S    12Feb20   0:04.85 /usr/libexec/secinitd
+carta006         62760   0.0  0.0  4356152   4136   ??  S    12Feb20   0:01.46 /System/Library/CoreServices/sharedfilelistd
+carta006         62759   0.0  0.0  4364624   6936   ??  S    12Feb20   0:04.80 /System/Library/PrivateFrameworks/IDS.framework/identityse
+carta006         62754   0.0  0.0  4363184   6220   ??  S    12Feb20   0:02.99 /System/Library/PrivateFrameworks/TelephonyUtilities.frame
+carta006         62751   0.0  0.1  4373820  11840   ??  S    12Feb20   0:05.64 /System/Library/PrivateFrameworks/CloudKitDaemon.framework
+carta006         62748   0.0  0.0  4358800   5976   ??  S    12Feb20   0:01.93 /usr/libexec/secd
+carta006         62737   0.0  0.1  4366572  11508   ??  S    12Feb20   0:28.55 /usr/libexec/trustd --agent
+carta006         62736   0.0  0.0  4359808   5728   ??  S    12Feb20   0:03.15 /usr/libexec/lsd
+carta006         62734   0.0  0.0  4367660   6160   ??  S    12Feb20   0:11.85 /System/Library/Frameworks/CoreTelephony.framework/Support
+carta006         62731   0.0  0.0  4328420   3172   ??  S    12Feb20   0:12.94 /usr/sbin/distnoted agent
+carta006         62726   0.0  0.0  4357172   7628   ??  S    12Feb20   0:20.64 /usr/libexec/UserEventAgent (Aqua)
+carta006         62696   0.0  0.0  4327740   2952   ??  S    12Feb20   0:38.50 /usr/sbin/cfprefsd agent
+carta006         62695   0.0  0.0  4354188   2604   ??  S    12Feb20   0:00.65 /System/Library/Frameworks/LocalAuthentication.framework/S
+carta006         61626   0.0  0.2  4466860  27488   ??  S    12Feb20   0:09.63 /System/Library/CoreServices/loginwindow.app/Contents/MacO
+_windowserver    61249   0.0  0.1  4845408  10172   ??  Ss   12Feb20   0:00.34 /System/Library/Frameworks/Metal.framework/Versions/A/XPCS
+_gamecontrollerd 52339   0.0  0.0  4327912   1940   ??  Ss   11Feb20   0:06.35 /usr/libexec/gamecontrollerd
+hall0074         49712   0.0  0.0  4359136   5084   ??  S    11Feb20   0:02.78 /usr/libexec/secinitd
+luchs001         41476   0.0  0.0  4327756   1216   ??  S    10Feb20   0:00.56 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+luchs001         41475   0.0  0.0  4311280      8   ??  Ss   10Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+root             41087   0.0  0.0  4327772    928   ??  Ss   10Feb20   0:00.55 /usr/libexec/tailspind
+luchs001         40954   0.0  0.0  4442480   1524   ??  S    10Feb20   0:01.15 /System/Library/Frameworks/ApplicationServices.framework/F
+root             40764   0.0  0.0  4354864    872   ??  Ss   10Feb20   0:00.39 /Library/PrivilegedHelperTools/com.adobe.ARMDC.Communicato
+luchs001         40632   0.0  0.1  4536132  10132   ??  S    10Feb20   0:01.21 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+luchs001         40597   0.0  0.0  4354252   2196   ??  S    10Feb20   0:00.89 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+luchs001         40549   0.0  0.0  4329020   1400   ??  S    10Feb20   0:00.57 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+luchs001         40473   0.0  0.0  4355080   1848   ??  S    10Feb20   0:00.64 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+luchs001         40417   0.0  0.0  4357676   4708   ??  S    10Feb20   0:01.14 /System/Library/PrivateFrameworks/SafariShared.framework/V
+luchs001         40337   0.0  0.0  4358876   6264   ??  S    10Feb20   0:13.64 /usr/libexec/pkd
+luchs001         40301   0.0  0.0  4359764   6040   ??  S    10Feb20   0:05.37 /usr/libexec/secinitd
+luchs001         40296   0.0  0.0  4355364   3480   ??  S    10Feb20   0:01.68 /System/Library/PrivateFrameworks/IMDPersistence.framework
+luchs001         40278   0.0  0.0  4363452   6444   ??  S    10Feb20   0:03.69 /usr/libexec/lsd
+luchs001         40270   0.0  0.0  4328420   3432   ??  S    10Feb20   0:05.74 /usr/sbin/distnoted agent
+luchs001         40208   0.0  0.0  4328020   3328   ??  S    10Feb20   0:10.97 /usr/sbin/cfprefsd agent
+luchs001         40207   0.0  0.0  4354188   2760   ??  S    10Feb20   0:00.74 /System/Library/Frameworks/LocalAuthentication.framework/S
+root             25348   0.0  0.0  4330480   3856   ??  Ss    8Feb20   0:01.80 /usr/libexec/diskmanagementd
+root             25342   0.0  0.0  4357784   6620   ??  Ss    8Feb20   0:58.30 /System/Library/PrivateFrameworks/StorageKit.framework/Res
+root             18520   0.0  0.0  4318448      8   ??  Ss    8Feb20   0:00.01 /usr/sbin/aslmanager -s /var/log/eventmonitor
+root             15224   0.0  0.0  4365680   2416   ??  Ss    7Feb20   0:04.30 /Library/Application Support/Malwarebytes/Malwarebytes End
+root             10656   0.0  0.0  4294832      8   ??  SNs   7Feb20   0:00.01 /usr/libexec/periodic-wrapper weekly
+_usbmuxd          4922   0.0  0.0  4356976   1180   ??  Ss    6Feb20   0:01.01 /System/Library/PrivateFrameworks/MobileDevice.framework/V
+root              4795   0.0  0.0  4356172   3164   ??  Ss    6Feb20   0:02.04 /usr/libexec/secinitd
+root              4528   0.0  0.0  4303024    288   ??  SNs   6Feb20   0:00.02 /usr/libexec/periodic-wrapper daily
+bazze002          4215   0.0  0.0  4367720   1028   ??  S     6Feb20   0:01.92 /System/Library/Frameworks/ApplicationServices.framework/F
+bazze002          4170   0.0  0.0  4362720   1660   ??  S     6Feb20   0:04.54 /usr/libexec/secinitd
+admin             4086   0.0  0.0  4328396    568   ??  S     6Feb20   0:00.94 /usr/sbin/distnoted agent
+root              4012   0.0  0.0  4354928   1384   ??  Ss    6Feb20   0:02.00 /usr/libexec/xpcroleaccountd -launchd
+bazze002          3931   0.0  0.0  4327756    896   ??  S     6Feb20   0:00.75 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+bazze002          3620   0.0  0.0  4536132   3308   ??  S     6Feb20   0:01.40 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+bazze002          3578   0.0  0.0  4357676   1124   ??  S     6Feb20   0:01.33 /System/Library/PrivateFrameworks/SafariShared.framework/V
+bazze002          3525   0.0  0.0  4355080   1024   ??  S     6Feb20   0:00.83 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+bazze002          3494   0.0  0.0  4329020   1096   ??  S     6Feb20   0:00.74 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+bazze002          3461   0.0  0.0  4327688    884   ??  S     6Feb20   0:00.79 /System/Library/PrivateFrameworks/CloudServices.framework/
+bazze002          3460   0.0  0.0  4355744    960   ??  S     6Feb20   0:00.77 /System/Library/PrivateFrameworks/DistributedEvaluation.fr
+_fpsd             3455   0.0  0.0  4329060   1320   ??  Ss    6Feb20   0:02.00 /System/Library/PrivateFrameworks/CoreFP.framework/Version
+bazze002          3432   0.0  0.0  4354252    836   ??  S     6Feb20   0:00.98 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+root              3421   0.0  0.1  4387872  13952   ??  Ss    6Feb20   0:08.54 /System/Library/PrivateFrameworks/PackageKit.framework/Res
+bazze002          3341   0.0  0.0  4358480   3448   ??  S     6Feb20   0:08.91 /usr/libexec/pkd
+bazze002          3210   0.0  0.0  4354528    936   ??  S     6Feb20   0:01.02 /System/Library/Frameworks/CoreServices.framework/Versions
+bazze002          3145   0.0  0.0  4354856   1660   ??  S     6Feb20   0:02.14 /System/Library/PrivateFrameworks/IMDPersistence.framework
+bazze002          3127   0.0  0.0  4357220   1016   ??  S     6Feb20   0:01.09 /usr/libexec/languageassetd --firstLogin
+bazze002          3104   0.0  0.0  4368804   3376   ??  S     6Feb20   0:12.64 /usr/libexec/lsd
+bazze002          3098   0.0  0.0  4328420    808   ??  S     6Feb20   0:05.12 /usr/sbin/distnoted agent
+bazze002          3061   0.0  0.0  4327776   1808   ??  S     6Feb20   0:12.99 /usr/sbin/cfprefsd agent
+bazze002          3060   0.0  0.0  4354188    680   ??  S     6Feb20   0:00.92 /System/Library/Frameworks/LocalAuthentication.framework/S
+root              1698   0.0  0.0  4357632   1792   ??  Ss    6Feb20   0:03.06 /System/Library/PrivateFrameworks/AuthKit.framework/Versio
+root              1697   0.0  0.0  4357932   3592   ??  Ss    6Feb20   0:04.68 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1696   0.0  0.0  4357232   1580   ??  Ss    6Feb20   0:00.88 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1603   0.0  0.0  4365808   5196   ??  Ss    6Feb20   0:05.55 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1602   0.0  0.0  4329008   1412   ??  Ss    6Feb20   0:00.88 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1388   0.0  0.0  4354704    612   ??  Ss    6Feb20   0:00.84 /usr/libexec/tzd
+_applepay         1262   0.0  0.0  4355092   2160   ??  Ss    6Feb20   0:00.84 /usr/libexec/nfcd
+admin             1166   0.0  0.0  4358068   5284   ??  S     6Feb20   0:05.18 /usr/libexec/trustd --agent
+admin             1162   0.0  0.0  4362156   2376   ??  S     6Feb20   0:01.97 /usr/libexec/lsd
+admin             1161   0.0  0.0  4327640    908   ??  S     6Feb20   0:01.55 /usr/sbin/cfprefsd agent
+admin             1160   0.0  0.0  4355988   1152   ??  S     6Feb20   0:18.46 /System/Library/Frameworks/CoreServices.framework/Framewor
+_spotlight        1159   0.0  0.0  4356228   1140   ??  S     6Feb20   1:45.32 /System/Library/Frameworks/CoreServices.framework/Framewor
+root              1122   0.0  0.0  4355836   2672   ??  Ss    6Feb20   0:00.77 /usr/bin/sysdiagnose
+root              1086   0.0  0.0  4327824      8   ??  Ss    6Feb20   0:00.03 /System/Library/CoreServices/ReportCrash daemon
+root              1085   0.0  0.0  4301804      8   ??  Ss    6Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+root              1084   0.0  0.0  4435388    768   ??  Ss    6Feb20   0:01.05 /System/Library/Frameworks/ApplicationServices.framework/F
+root              1079   0.0  0.0  4360044   4792   ??  Ss    6Feb20   0:04.52 /usr/libexec/rtcreportingd
+root              1064   0.0  0.0  4353788   1340   ??  Ss    6Feb20   0:00.79 /System/Library/PrivateFrameworks/CommerceKit.framework/Ve
+root              1057   0.0  0.0  4377080   2588   ??  Ss    6Feb20   0:08.37 /System/Library/PrivateFrameworks/PackageKit.framework/Res
+_softwareupdate   1053   0.0  0.0  4355496   1060   ??  Ss    6Feb20   0:01.04 /System/Library/CoreServices/Software Update.app/Contents/
+_softwareupdate   1043   0.0  0.0  4328420    392   ??  S     6Feb20   0:01.14 /usr/sbin/distnoted agent
+_softwareupdate   1042   0.0  0.0  4294872    436   ??  S     6Feb20   0:01.52 /usr/sbin/cfprefsd agent
+_atsserver        1039   0.0  0.0  4356108   2724   ??  Ss    6Feb20   0:01.17 /System/Library/Frameworks/ApplicationServices.framework/F
+hall0074          1016   0.0  0.0  4354252   1740   ??  S     6Feb20   0:00.97 /System/Library/PrivateFrameworks/CloudPhotoServices.frame
+root               997   0.0  0.0  4329052    316   ??  Ss    6Feb20   0:00.08 /usr/libexec/mobileactivationd
+root               976   0.0  0.0  4502288   6004   ??  Ss    6Feb20   0:02.72 /usr/sbin/spindump
+hall0074           972   0.0  0.1  4575564   9036   ??  S     6Feb20   0:01.42 /System/Library/PrivateFrameworks/ContextKit.framework/Ver
+root               971   0.0  0.0  4360848   3948   ??  Ss    6Feb20   0:06.43 /usr/libexec/dprivacyd
+_spotlight         966   0.0  0.0  4328420    980   ??  S     6Feb20   0:01.40 /usr/sbin/distnoted agent
+hall0074           948   0.0  0.0  4327756   1052   ??  S     6Feb20   0:00.77 /System/Library/Frameworks/MediaAccessibility.framework/Ve
+_assetcache        946   0.0  0.0  4357684   1816   ??  Ss    6Feb20   0:01.10 /usr/libexec/AssetCache/AssetCache
+_assetcache        945   0.0  0.0  4359332   1288   ??  Ss    6Feb20   0:04.94 /System/Library/PrivateFrameworks/AssetCacheServices.frame
+_spotlight         939   0.0  0.0  4358116   5904   ??  S     6Feb20   0:05.45 /usr/libexec/trustd --agent
+root               912   0.0  0.0  4362832   2236   ??  Ss    6Feb20   0:02.09 /System/Library/CoreServices/Software Update.app/Contents/
+_softwareupdate    910   0.0  0.4  4546456  69424   ??  Ss    6Feb20   3:58.14 /System/Library/CoreServices/Software Update.app/Contents/
+root               905   0.0  0.0  4355428   4700   ??  Ss    6Feb20   0:02.55 /Library/PrivilegedHelperTools/com.adobe.acc.installer.v2
+root               904   0.0  0.0  4400412   4648   ??  Ss    6Feb20   0:03.09 /System/Library/CoreServices/iconservicesagent runAsRoot
+hall0074           823   0.0  0.0  4355080   1548   ??  S     6Feb20   0:00.84 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra
+root               793   0.0  0.0  4363596   6732   ??  Ss    6Feb20   0:18.49 /System/Library/CoreServices/SubmitDiagInfo server-init
+hall0074           780   0.0  0.0  4329020   1088   ??  S     6Feb20   0:00.78 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+root               744   0.0  0.0  4332712   4120   ??  Ss    6Feb20   0:00.88 /usr/sbin/filecoordinationd
+hall0074           736   0.0  0.0  4357676   4700   ??  S     6Feb20   0:01.15 /System/Library/PrivateFrameworks/SafariShared.framework/V
+_datadetectors     716   0.0  0.1  4335280  11812   ??  Ss    6Feb20   0:06.26 /usr/libexec/DataDetectorsSourceAccess
+_fpsd              681   0.0  0.0  4331476   4828   ??  Ss    6Feb20   0:01.38 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+hall0074           676   0.0  0.0  4358964   6060   ??  S     6Feb20   0:07.10 /usr/libexec/pkd
+root               656   0.0  0.0  4327220   1980   ??  Ss    6Feb20   0:00.84 /System/Library/CoreServices/CrashReporterSupportHelper se
+hall0074           641   0.0  0.0  4355364   3004   ??  S     6Feb20   0:02.23 /System/Library/PrivateFrameworks/IMDPersistence.framework
+root               635   0.0  0.0  4355276   3240   ??  Ss    6Feb20   0:06.00 /usr/sbin/wirelessproxd
+root               633   0.0  0.0  4355160   3152   ??  Ss    6Feb20   0:19.89 /usr/sbin/WirelessRadioManagerd
+hall0074           600   0.0  0.0  4364396   5544   ??  S     6Feb20   0:03.60 /usr/libexec/lsd
+hall0074           591   0.0  0.0  4328420   3268   ??  S     6Feb20   0:03.83 /usr/sbin/distnoted agent
+root               571   0.0  0.0  4328852   1204   ??  Ss    6Feb20   0:00.51 /usr/libexec/securityd_service
+hall0074           548   0.0  0.0  4327776   2612   ??  S     6Feb20   0:08.11 /usr/sbin/cfprefsd agent
+hall0074           547   0.0  0.0  4354188   2708   ??  S     6Feb20   0:00.92 /System/Library/Frameworks/LocalAuthentication.framework/S
+root               536   0.0  0.0  4311592    528   ??  Ss    6Feb20   0:00.50 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+root               522   0.0  0.0  4327752   1884   ??  Ss    6Feb20   0:00.04 /System/Library/PrivateFrameworks/SystemAdministration.fra
+root               418   0.0  3.1  4958928 522780   ??  S<s   6Feb20   7:16.80 /Library/Application Support/Malwarebytes/Malwarebytes End
+root               407   0.0  0.0  4327744    584   ??  Ss    6Feb20   0:00.68 /System/Library/Frameworks/CoreMediaIO.framework/Versions/
+_analyticsd        406   0.0  0.0  4356388   3676   ??  Ss    6Feb20   0:08.59 /System/Library/PrivateFrameworks/CoreAnalytics.framework/
+root               402   0.0  0.0  4355716   1008   ??  S     6Feb20   0:01.17 /usr/sbin/systemstats --logger-helper /private/var/db/syst
+_captiveagent      382   0.0  0.0  4356136   2252   ??  Ss    6Feb20   0:03.35 /usr/libexec/captiveagent
+root               363   0.0  0.0  4328164   1540   ??  Ss    6Feb20   0:18.51 /usr/libexec/sysmond
+root               362   0.0  0.0  4294608    336   ??  Ss    6Feb20   0:00.04 /usr/libexec/smd
+root               337   0.0  0.0  4357140   3052   ??  Ss    6Feb20   0:02.19 /System/Library/CoreServices/sharedfilelistd
+root               318   0.0  0.0  4355172   1940   ??  Ss    6Feb20   0:02.04 /usr/libexec/findmydeviced
+root               315   0.0  0.0  4328420    808   ??  S     6Feb20   0:01.21 /usr/sbin/distnoted agent
+root               313   0.0  0.0  4358584   2608   ??  Ss    6Feb20   0:01.66 /usr/sbin/systemsoundserverd
+root               311   0.0  0.0  4327676      8   ??  Ss    6Feb20   0:00.02 /System/Library/PrivateFrameworks/AccountPolicy.framework/
+root               308   0.0  0.0  4327636   2288   ??  Ss    6Feb20   0:00.91 /System/Library/Frameworks/LocalAuthentication.framework/S
+root               307   0.0  0.0  4328464   1196   ??  Ss    6Feb20   0:00.06 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp
+root               306   0.0  0.0  4333980   4488   ??  Ss    6Feb20   0:03.22 /System/Library/PrivateFrameworks/PerformanceAnalysis.fram
+root               294   0.0  0.0  4319880      8   ??  Ss    6Feb20   0:00.02 /usr/libexec/bootinstalld
+root               287   0.0  0.0  4328012    400   ??  Ss    6Feb20   0:00.07 /usr/libexec/colorsyncd
+root               286   0.0  0.1  4368632  16956   ??  Ss    6Feb20   0:29.13 /System/Library/PrivateFrameworks/TCC.framework/Resources/
+root               285   0.0  0.0  4327244   1896   ??  Ss    6Feb20   0:00.87 /usr/libexec/colorsync.displayservices
+_coreaudiod        284   0.0  0.0  4319212      8   ??  Ss    6Feb20   0:00.01 /System/Library/Frameworks/AudioToolbox.framework/XPCServi
+root               283   0.0  0.0  4484656   1864   ??  Ss    6Feb20   0:00.69 /System/Library/Frameworks/OpenGL.framework/Versions/A/Lib
+root               282   0.0  0.0  4329128    652   ??  Ss    6Feb20   0:00.85 /System/Library/Frameworks/AudioToolbox.framework/AudioCom
+root               281   0.0  0.0  4329888   1328   ??  Ss    6Feb20   0:01.23 /System/Library/PrivateFrameworks/CoreSymbolication.framew
+_nsurlstoraged     279   0.0  0.0  4327884   1716   ??  Ss    6Feb20   0:02.61 /usr/libexec/nsurlstoraged --privileged
+root               254   0.0  0.7  5218072 120420   ??  Ss    6Feb20   3:06.61 /System/Library/Frameworks/CoreServices.framework/Framewor
+root               247   0.0  0.0  4302620    140   ??  Ss    6Feb20   0:00.25 /usr/libexec/thermald
+root               246   0.0  0.0  4303576    404   ??  Ss    6Feb20   0:01.26 /usr/libexec/watchdogd
+_cmiodalassistants   244   0.0  0.0  4385092   1632   ??  Ss    6Feb20   0:03.84 /System/Library/Frameworks/CoreMediaIO.framework/Resources
+root               243   0.0  0.0  4319540      8   ??  Ss    6Feb20   0:00.09 /usr/libexec/firmwarecheckers/ethcheck/ethcheck --integrit
+root               242   0.0  0.0  4354976    964   ??  Ss    6Feb20   0:06.40 /usr/libexec/usbd
+root               240   0.0  0.1  4369528  14692   ??  Ss    6Feb20  10:46.73 /usr/libexec/airportd
+root               239   0.0  0.0  4327196   1048   ??  Ss    6Feb20   0:00.64 /usr/libexec/apfsd
+root               238   0.0  0.0  4302664    476   ??  Ss    6Feb20   0:00.51 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/C
+root               237   0.0  0.0  4358416   1892   ??  Ss    6Feb20   0:02.67 /usr/sbin/cupsd -l
+root               235   0.0  0.0  4358756   6980   ??  Ss    6Feb20   0:31.44 /System/Library/PrivateFrameworks/WirelessDiagnostics.fram
+root               234   0.0  0.1  4401168  18876   ??  Ss    6Feb20  14:18.38 /usr/libexec/syspolicyd
+root               233   0.0  0.0  4330956   4392   ??  Ss    6Feb20   0:02.30 /System/Library/Frameworks/Security.framework/Versions/A/X
+root               231   0.0  0.0  4354984   1280   ??  Ss    6Feb20   0:08.45 /usr/sbin/mDNSResponderHelper
+_mdnsresponder     230   0.0  0.0  4358156   5180   ??  Ss    6Feb20   2:24.20 /usr/sbin/mDNSResponder
+root               228   0.0  0.0  4364892   6620   ??  Ss    6Feb20   0:04.12 /usr/libexec/lsd runAsRoot
+_networkd          224   0.0  0.0  4365408   7104   ??  Ss    6Feb20   1:24.91 /usr/libexec/symptomsd
+_nsurlsessiond     221   0.0  0.0  4366072   7616   ??  Ss    6Feb20   0:17.36 /usr/libexec/nsurlsessiond --privileged
+_coreaudiod        215   0.0  0.0  4354556   1096   ??  Ss    6Feb20   0:01.82 /System/Library/Frameworks/CoreAudio.framework/Versions/A/
+root               214   0.0  0.1  4366904  20292   ??  Ss    6Feb20   0:31.40 /usr/libexec/mobileassetd
+root               211   0.0  0.0  4360368   4124   ??  Ss    6Feb20   0:01.86 /usr/libexec/nehelper
+root               209   0.0  0.0  4361800   8120   ??  Ss    6Feb20   0:52.65 /System/Library/PrivateFrameworks/CoreDuetContext.framewor
+_coreaudiod        208   0.0  0.0  4336488   3744   ??  Ss    6Feb20   0:18.59 /usr/sbin/coreaudiod
+root               205   0.0  0.1  4368120  12912   ??  Ss    6Feb20   2:08.87 /usr/libexec/trustd
+root               203   0.0  0.0  4328016   1920   ??  Ss    6Feb20   0:00.64 aslmanager
+_ctkd              198   0.0  0.0  4328912    876   ??  Ss    6Feb20   0:00.04 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -
+root               190   0.0  0.0  4310300      8   ??  Ss    6Feb20   0:00.01 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCSe
+root               161   0.0  0.0  4417160   7976   ??  Ss    6Feb20   0:29.48 /System/Library/CoreServices/coreservicesd
+root               142   0.0  0.0  4358208   6412   ??  Ss    6Feb20   0:08.82 /System/Library/Frameworks/Security.framework/Versions/A/X
+root               135   0.0  0.0  4361440   6268   ??  Ss    6Feb20   0:07.93 /usr/libexec/amfid
+root               134   0.0  0.0  4329124   6908   ??  Ss    6Feb20   1:29.20 /usr/sbin/cfprefsd daemon
+_distnote          133   0.0  0.0  4328420   1856   ??  Ss    6Feb20   0:12.31 /usr/sbin/distnoted daemon
+root               132   0.0  0.0  4303348   2440   ??  Ss    6Feb20   2:27.81 /usr/sbin/notifyd
+root               131   0.0  0.0  4355524   3424   ??  Ss    6Feb20   0:11.50 /usr/libexec/AirPlayXPCHelper
+root               130   0.0  0.0  4355244   3364   ??  Ss    6Feb20   0:02.08 /usr/libexec/corebrightnessd --launchd
+_hidd              128   0.0  0.0  4330500   3148   ??  Ss    6Feb20   6:24.91 /usr/libexec/hidd
+root               127   0.0  0.0  4359364   4416   ??  Ss    6Feb20   0:29.02 /usr/sbin/bluetoothd
+root               125   0.0  0.0  4319436    276   ??  Ss    6Feb20   0:00.05 /usr/sbin/KernelEventAgent
+root               124   0.0  0.0  4361692   3104   ??  Ss    6Feb20   0:01.30 /System/Library/PrivateFrameworks/GenerationalStorage.fram
+root               123   0.0  0.0  4327312   2812   ??  Ss    6Feb20   0:00.91 /System/Library/CoreServices/logind
+root               119   0.0  0.0  4355860    944   ??  Ss    6Feb20   0:02.00 /System/Library/PrivateFrameworks/Heimdal.framework/Helper
+root               118   0.0  0.0  4360216   6176   ??  Ss    6Feb20   0:59.89 /usr/libexec/dasd
+_displaypolicyd    116   0.0  0.0  4330384    860   ??  Ss    6Feb20   0:00.74 /usr/libexec/displaypolicyd -k 1
+root               115   0.0  0.0  4327756    496   ??  Ss    6Feb20   0:01.49 autofsd
+_locationd         113   0.0  0.1  4362344   9880   ??  Ss    6Feb20   2:12.75 /usr/libexec/locationd
+root               110   0.0  0.1  4359264  12132   ??  Ss    6Feb20   1:32.23 /usr/sbin/securityd -i
+_timed             109   0.0  0.0  4354108   2904   ??  Ss    6Feb20   0:06.37 /usr/libexec/timed
+root               107   0.0  0.0  4355348   2180   ??  Ss    6Feb20   0:02.02 /System/Library/PrivateFrameworks/Noticeboard.framework/Ve
+root               105   0.0  0.1  4360072  10912   ??  Ss    6Feb20   0:34.65 /System/Library/PrivateFrameworks/ApplePushService.framewo
+root               104   0.0  0.1  4427572  17564   ??  Ss    6Feb20  13:48.99 /usr/libexec/opendirectoryd
+root               100   0.0  0.0  4360852   7852   ??  Ss    6Feb20   0:13.55 /usr/libexec/coreduetd
+root                99   0.0  0.0  4328732   3284   ??  Ss    6Feb20   0:01.26 /System/Library/CoreServices/backupd.bundle/Contents/Resou
+root                95   0.0  0.0  4353924   3576   ??  Ss    6Feb20   0:12.05 /usr/libexec/diskarbitrationd
+_iconservices       94   0.0  0.0  4355952   4672   ??  Ss    6Feb20   0:00.28 /System/Library/CoreServices/iconservicesd
+root                93   0.0  0.5  4593724  80680   ??  Ss    6Feb20   4:45.20 /System/Library/Frameworks/CoreServices.framework/Framewor
+root                87   0.0  0.0  4327344   1312   ??  Ss    6Feb20   0:00.06 /usr/libexec/keybagd -t 15
+root                86   0.0  0.3  4503196  54544   ??  Ss    6Feb20   2:00.83 /usr/libexec/logd
+root                83   0.0  0.0  4359228   2944   ??  Ss    6Feb20   0:07.30 /Library/Application Support/JAMF/Jamf.app/Contents/MacOS/
+root                82   0.0  0.0  4354908   3828   ??  Ss    6Feb20   0:47.65 /System/Library/CoreServices/powerd.bundle/powerd
+root                81   0.0  0.1  4368908  18416   ??  Ss    6Feb20   3:55.14 /usr/libexec/configd
+root                79   0.0  0.0  4361780   7244   ??  Ss    6Feb20   0:36.35 /usr/sbin/systemstats --daemon
+_appleevents        78   0.0  0.0  4357232   4076   ??  Ss    6Feb20   0:03.68 /System/Library/CoreServices/appleeventsd --server
+psnotify            77   0.0  0.0  4328644   1624   ??  Ss    6Feb20   0:00.57 /Library/Application Support/Pharos/Notify.app/Contents/Ma
+root                74   0.0  0.0  4359632   3972   ??  Ss    6Feb20   0:03.33 /System/Library/PrivateFrameworks/MediaRemote.framework/Su
+root                73   0.0  0.0  4368896   8176   ??  SNs   6Feb20   0:10.25 /usr/local/jamf/bin/jamf launchDaemon -monitorUsage
+root                71   0.0  0.1  4907500   8520   ??  Ss    6Feb20   1:17.79 /System/Library/Frameworks/CoreServices.framework/Versions
+root                70   0.0  0.1  4369864  18196   ??  Ss    6Feb20   0:31.24 /usr/libexec/kextd
+root                69   0.0  0.0  4310476    428   ??  Ss    6Feb20   0:04.96 /System/Library/PrivateFrameworks/Uninstall.framework/Reso
+root                66   0.0  0.0  4356768   5244   ??  Ss    6Feb20   0:16.84 /usr/libexec/UserEventAgent (System)
+root                65   0.0  0.0  4328340    912   ??  Ss    6Feb20   0:16.60 /usr/sbin/syslogd
+root             78717   0.0  0.0  4268756   1212 s000  R+    2:28PM   0:00.00 ps aux
+root                 1   0.0  0.2  4356928  31180   ??  Ss    6Feb20  13:20.21 /sbin/launchd
+root             78716   0.0  0.1  4324072  16200   ??  Ss    2:28PM   0:00.02 /usr/local/jamf/bin/jamf policy -randomDelaySeconds 300
+huber021         78711   0.0  0.3  4987424  53564   ??  S     2:24PM   0:00.55 /Applications/TextEdit.app/Contents/MacOS/TextEdit
+root             78706   0.0  0.0  4354092   7088   ??  Ss    2:24PM   0:00.02 /usr/sbin/ocspd
+root             78701   0.0  0.1  4329996  10020   ??  Ss    2:24PM   0:00.01 automountd
+huber021         78698   0.0  0.1  4311492   9536   ??  S     2:24PM   0:00.01 /System/Library/Frameworks/ApplicationServices.framework/F
+maclab-123:~ huber021$ jobs
+maclab-123:~ huber021$ x
+xar              xattr-2.7        xcscontrol       xgettext5.18.pl  xml2man          xpath5.18        xsltproc         
+xargs            xcode-select     xcsdiagnose      xip              xmlcatalog       xsanctl          xsubpp           
+xartutil         xcodebuild       xed              xjc              xmllint          xscertadmin      xsubpp5.18       
+xattr            xcrun            xgettext.pl      xml2-config      xpath            xslt-config      xxd              
+maclab-123:~ huber021$ x
+xar              xattr-2.7        xcscontrol       xgettext5.18.pl  xml2man          xpath5.18        xsltproc         
+xargs            xcode-select     xcsdiagnose      xip              xmlcatalog       xsanctl          xsubpp           
+xartutil         xcodebuild       xed              xjc              xmllint          xscertadmin      xsubpp5.18       
+xattr            xcrun            xgettext.pl      xml2-config      xpath            xslt-config      xxd              
+maclab-123:~ huber021$ man xed
+maclab-123:~ huber021$ xed
+^Z
+[1]+  Stopped                 xed
+maclab-123:~ huber021$ bg
+[1]+ xed &
+
+[1]+  Stopped                 xed
+maclab-123:~ huber021$ jobs
+[1]+  Stopped                 xed
+maclab-123:~ huber021$ fg %1
+xed
+^Z
+[1]+  Stopped                 xed
+maclab-123:~ huber021$ xed &
+[2] 78815
+maclab-123:~ huber021$ kill -1 13546
+-bash: kill: (13546) - No such process
+
+[2]+  Stopped                 xed
+maclab-123:~ huber021$ xed &
+[3] 78816
+maclab-123:~ huber021$ kill -INT 13601
+-bash: kill: (13601) - No such process
+
+[3]+  Stopped                 xed
+maclab-123:~ huber021$ xed &
+[4] 78817
+maclab-123:~ huber021$ kill _SIGINT 13608
+-bash: kill: _SIGINT: arguments must be process or job IDs
+-bash: kill: (13608) - No such process
+
+[4]+  Stopped                 xed
+maclab-123:~ huber021$ xed &
+[5] 78818
+maclab-123:~ huber021$ xed &
+[6] 78819
+
+[5]+  Stopped                 xed
+maclab-123:~ huber021$ killall xed
+[1]   Terminated: 15          xed
+[2]   Terminated: 15          xed
+[3]   Terminated: 15          xed
+[4]   Terminated: 15          xed
+[5]-  Terminated: 15          xed
+[6]+  Terminated: 15          xed
+maclab-123:~ huber021$ 
